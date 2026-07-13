@@ -1,0 +1,24 @@
+# Datos originales del congreso: no versionar.
+datos_congreso.xlsx
+congreso_varios/
+resumenes_definitivos/
+excepciones.docx
+
+# Archivos del sistema y salidas locales.
+.DS_Store
+outputs/
+work/
+sample-data/private/
+
+# Estado local de desarrollo.
+*.log
+*.tmp
+coverage/
+node_modules/
+dist/
+.cache/
+
+# Backups/exportaciones generadas por la app.
+backups/
+exports/
+*.sidll-backup.json
