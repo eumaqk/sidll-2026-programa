@@ -150,8 +150,13 @@ let meta = {};
 const dias = ['Miércoles 25','Jueves 26','Viernes 27'];
 const state = { q:'', dia:'', horario:'', aula:'', eje:'', tipo:'', tab:'programa' };
 
+// Etiquetas de uso interno de Notion (no oficiales del congreso) que no deben
+// llegar al público: ni como anotación en el título ni como opción del filtro de ejes.
+const EJES_NO_PUBLICOS = new Set(['ELCIS_INTERPANEL', 'INTERPANEL']);
+
 function norm(s){ return (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''); }
 function uniq(arr){ return [...new Set(arr.filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es')); }
+function tituloPublico(s){ return (s||'').replace(/\s*\(recomposici[oó]n\)/i, '').trim(); }
 
 // El "horario" de una comunicación es el bloque real de la sesión a la que
 // pertenece (mismo día + aula + hora dentro de [inicio,fin)), no un intervalo
@@ -253,6 +258,7 @@ function computeOptions(field, dataset, matchFn){
   const set = [...new Set(raw)];
   if(field === 'dia') return dias.filter(d => set.includes(d));
   if(field === 'horario') return sortHorarios(set);
+  if(field === 'eje') return set.filter(v => !EJES_NO_PUBLICOS.has(v)).sort((a,b) => a.localeCompare(b,'es'));
   return set.sort((a,b) => a.localeCompare(b,'es'));
 }
 
@@ -290,7 +296,7 @@ function renderPrograma(){
       card.innerHTML = `
         <div class="time">${t.inicio || '—'}<small>${t.fin ? '– '+t.fin : ''}</small></div>
         <div class="body">
-          <p class="title">${t.titulo}</p>
+          <p class="title">${tituloPublico(t.titulo)}</p>
           <div class="meta">
             <span>${t.autor || ''}</span>
           </div>
@@ -328,9 +334,8 @@ function renderSesiones(){
       const card = document.createElement('div');
       card.className = 'sesion-card';
       card.innerHTML = `
-        <p class="title">${s.inicio}–${s.fin} · ${s.sesion}</p>
+        <p class="title">${s.inicio}–${s.fin} · ${tituloPublico(s.sesion)}</p>
         <div class="meta">
-          <span class="code">${s.codigo}</span>
           <span>${s.aula}</span>
           <span>${s.tipo}</span>
         </div>`;

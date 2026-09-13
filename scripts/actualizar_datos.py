@@ -135,9 +135,7 @@ def join_names(names):
     names = [n for n in names if n]
     if not names:
         return None
-    if len(names) == 1:
-        return names[0]
-    return ", ".join(names[:-1]) + " y " + names[-1]
+    return " · ".join(names)
 
 
 def build_trabajos(personas_map):
