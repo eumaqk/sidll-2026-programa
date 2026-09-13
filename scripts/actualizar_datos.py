@@ -205,13 +205,20 @@ def build_trabajos(personas_map):
     return out
 
 
-def build_sesiones():
+def build_sesiones(personas_map):
     pages = query_data_source(SESIONES_DS_ID)
     out = []
     for pg in pages:
         codigo = prop(pg, "Código")
         if not codigo:
             continue
+        moderacion_ids = extract_relation_ids((pg.get("properties") or {}).get("Moderación / coordinación"))
+        moderacion = join_names([personas_map.get(pid) for pid in moderacion_ids])
+        participantes_bruto = prop(pg, "Participantes")
+        participantes = sorted(
+            (linea.strip() for linea in (participantes_bruto or "").splitlines() if linea.strip()),
+            key=str.casefold,
+        )
         out.append({
             "codigo": codigo,
             "sesion": prop(pg, "Sesión"),
@@ -222,6 +229,9 @@ def build_sesiones():
             "tipo": prop(pg, "Tipo"),
             "eje": prop(pg, "Panel / eje"),
             "estado": prop(pg, "Estado"),
+            "moderacion": moderacion,
+            "ponente": prop(pg, "Ponente"),
+            "participantes": participantes,
         })
     out.sort(key=lambda s: (
         DAY_ORDER.get(s.get("dia"), 99),
@@ -239,7 +249,7 @@ def main():
     personas_map = build_personas_map()
     data = {
         "trabajos": build_trabajos(personas_map),
-        "sesiones": build_sesiones(),
+        "sesiones": build_sesiones(personas_map),
         "generado": datetime.datetime.now(datetime.timezone.utc).isoformat(),
     }
 

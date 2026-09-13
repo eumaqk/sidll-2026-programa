@@ -100,6 +100,8 @@
   }
   .sesion-card .title{font-weight:650; font-size:.88rem; margin:0 0 4px; color:var(--text);}
   .sesion-card .meta{font-size:.76rem; color:var(--text-dim); display:flex; flex-wrap:wrap; gap:6px 10px;}
+  .sesion-card .roles{font-size:.8rem; color:var(--text); margin:6px 0 0;}
+  .sesion-card .roles:first-of-type{margin-top:8px;}
 
   .empty{padding:40px 0; text-align:center; color:var(--text-dim); font-size:.85rem;}
 </style>
@@ -333,12 +335,24 @@ function renderSesiones(){
     items.forEach(s=>{
       const card = document.createElement('div');
       card.className = 'sesion-card';
+      let rolesHtml = '';
+      if(s.tipo === 'Plenaria'){
+        if(s.ponente) rolesHtml += `<p class="roles"><b>Ponente:</b> ${s.ponente}</p>`;
+        if(s.moderacion) rolesHtml += `<p class="roles"><b>Presenta:</b> ${s.moderacion}</p>`;
+      } else {
+        if(s.moderacion) rolesHtml += `<p class="roles"><b>Modera:</b> ${s.moderacion}</p>`;
+        if(s.participantes && s.participantes.length){
+          rolesHtml += `<p class="roles"><b>Intervienen:</b></p>`;
+          rolesHtml += s.participantes.map(p => `<p class="roles">${p}</p>`).join('');
+        }
+      }
       card.innerHTML = `
         <p class="title">${s.inicio}–${s.fin} · ${tituloPublico(s.sesion)}</p>
         <div class="meta">
           <span>${s.aula}</span>
           <span>${s.tipo}</span>
-        </div>`;
+        </div>
+        ${rolesHtml}`;
       group.appendChild(card);
     });
     el.appendChild(group);

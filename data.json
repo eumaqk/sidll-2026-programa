@@ -2507,7 +2507,10 @@
 "aula": "Salón de actos",
 "tipo": "Plenaria",
 "eje": null,
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Eugenio Maqueda Cuenca (Universidad de Málaga)",
+"ponente": "Alberto Fernández Costales (Universidad de Oviedo)",
+"participantes": []
 },
 {
 "codigo": "SES-026",
@@ -2518,7 +2521,10 @@
 "aula": "Aula 0.07",
 "tipo": "Mesa",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Luisa Carrió Pastor (Universitat Politècnica de València)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-002",
@@ -2529,7 +2535,10 @@
 "aula": "Aula 0.10",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Xaquín Núñez Sabarís (Universidade do Minho)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-001",
@@ -2540,7 +2549,10 @@
 "aula": "Aula 0.16",
 "tipo": "Mesa",
 "eje": "Inteligencia artificial y tecnologías emergentes",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-036",
@@ -2551,7 +2563,10 @@
 "aula": "Aula 2.25",
 "tipo": "Simposio",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Yolanda Romero-Vallejo (Universidad de Cádiz)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-005",
@@ -2562,7 +2577,10 @@
 "aula": "Sala de grados",
 "tipo": "Simposio",
 "eje": "Inteligencia artificial y tecnologías emergentes",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Jeroni Méndez Cabrera (Universidad de Valencia)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-040",
@@ -2573,7 +2591,10 @@
 "aula": "Salón de actos",
 "tipo": "Mesa",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Cristina Navas Romero (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-015",
@@ -2584,7 +2605,10 @@
 "aula": "Aula 0.07",
 "tipo": "Mesa",
 "eje": "Educación bilingüe",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Remedios Fernández Ruiz (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-009",
@@ -2595,7 +2619,10 @@
 "aula": "Aula 0.10",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Alejandro J. Rodríguez Ayllón (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-047",
@@ -2606,7 +2633,10 @@
 "aula": "Aula 0.12",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-017",
@@ -2617,7 +2647,10 @@
 "aula": "Aula 0.16",
 "tipo": "Simposio",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Xaquín Núñez Sabarís (Universidade do Minho)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-007",
@@ -2628,7 +2661,10 @@
 "aula": "Aula 2.25",
 "tipo": "Mesa",
 "eje": "Objetivos de Desarrollo Sostenible",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Andrea Felipe Morales (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-012",
@@ -2639,7 +2675,10 @@
 "aula": "Sala de grados",
 "tipo": "Simposio",
 "eje": "Multimodalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Margarida Castellano-Sanz (Universitat de València)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-013",
@@ -2650,7 +2689,10 @@
 "aula": "Salón de actos",
 "tipo": "Simposio",
 "eje": "Multimodalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Ester Trigo Ibáñez (Universidad de Cádiz)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-043",
@@ -2661,7 +2703,10 @@
 "aula": "Aula 0.01",
 "tipo": "Simposio",
 "eje": "Educación bilingüe",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Dolores García-Pastor (Universidad de Valencia)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-016",
@@ -2672,7 +2717,10 @@
 "aula": "Aula 0.04",
 "tipo": "Mesa",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Cristina Navas Romero (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-019",
@@ -2683,7 +2731,10 @@
 "aula": "Aula 0.08",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Nieves Muriel García (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-044",
@@ -2694,7 +2745,10 @@
 "aula": "Aula 0.12",
 "tipo": "Mesa",
 "eje": "Objetivos de Desarrollo Sostenible",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-010",
@@ -2705,7 +2759,10 @@
 "aula": "Sala de grados",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-018",
@@ -2716,7 +2773,10 @@
 "aula": "Salón de actos",
 "tipo": "Simposio",
 "eje": "Objetivos de Desarrollo Sostenible",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Alejandro J. Rodríguez Ayllón (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-037",
@@ -2727,7 +2787,10 @@
 "aula": "Aula 0.01",
 "tipo": "Simposio",
 "eje": "Multimodalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Alícia Martí-Climent (Universitat de València)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-035",
@@ -2738,7 +2801,10 @@
 "aula": "Aula 0.04",
 "tipo": "Mesa",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Cristina Navas Romero (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-024",
@@ -2749,7 +2815,10 @@
 "aula": "Aula 0.08",
 "tipo": "Simposio",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Rocío Díaz Bravo (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-023",
@@ -2760,7 +2829,10 @@
 "aula": "Aula 0.12",
 "tipo": "Simposio",
 "eje": "Multimodalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Leonor Alejandra Silva Lomelí (Universidad Nacional Autónoma de México) · Maribel Carmona Herrera (Universidad Nacional Autónoma de México)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-020",
@@ -2771,7 +2843,10 @@
 "aula": "Sala de grados",
 "tipo": "Mesa",
 "eje": "Educación bilingüe",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Remedios Fernández Ruiz (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-045",
@@ -2782,7 +2857,10 @@
 "aula": "Salón de actos",
 "tipo": "Mesa",
 "eje": "Inteligencia artificial y tecnologías emergentes",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Cristina Vereda Alonso (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-025",
@@ -2793,7 +2871,10 @@
 "aula": "Aula 0.01",
 "tipo": "Mesa",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Andrea Felipe Morales (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-027",
@@ -2804,7 +2885,10 @@
 "aula": "Aula 0.04",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-028",
@@ -2815,7 +2899,10 @@
 "aula": "Aula 1.17",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Ángela Garrido Berlanga (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-029",
@@ -2826,7 +2913,10 @@
 "aula": "Aula 2.05",
 "tipo": "Mesa",
 "eje": "Multimodalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-030",
@@ -2837,7 +2927,10 @@
 "aula": "Sala de grados",
 "tipo": "Mesa",
 "eje": "Inteligencia artificial y tecnologías emergentes",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-006",
@@ -2848,7 +2941,10 @@
 "aula": "Salón de actos",
 "tipo": "Simposio",
 "eje": "Inteligencia artificial y tecnologías emergentes",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María del Rocío González Torres (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-050",
@@ -2859,7 +2955,14 @@
 "aula": "Salón de actos",
 "tipo": "Mesa",
 "eje": null,
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Noelia Ibarra Rius (Universitat de València | Universidad de Valencia)",
+"ponente": null,
+"participantes": [
+"Ester Trigo Ibáñez (Universidad de Cádiz)",
+"Gabriel Núñez Ruiz (Universidad de Almería)",
+"José Luis Ortega Martín (Universidad de Granada)"
+]
 },
 {
 "codigo": "SES-051",
@@ -2870,7 +2973,14 @@
 "aula": "Salón de actos",
 "tipo": "Mesa",
 "eje": null,
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María del Carmen Quiles Cabrera (Universidad de Almería)",
+"ponente": null,
+"participantes": [
+"Aurora Martínez Ezquerro (Universidad de La Rioja)",
+"Eloy Martos Núñez (Universidad de Extremadura)",
+"Mariona Masgrau Juanola (Universitat de Girona)"
+]
 },
 {
 "codigo": "SES-041",
@@ -2881,7 +2991,10 @@
 "aula": "Aula 0.01",
 "tipo": "Mesa",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María Ángela Garrido Berlanga (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-046",
@@ -2892,7 +3005,10 @@
 "aula": "Aula 0.09",
 "tipo": "Mesa",
 "eje": "Multimodalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Alícia Martí-Climent (Universitat de València)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-032",
@@ -2903,7 +3019,10 @@
 "aula": "Aula 0.16",
 "tipo": "Mesa",
 "eje": "Interpanel · IA, lenguas e interculturalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-039",
@@ -2914,7 +3033,10 @@
 "aula": "Aula 1.05",
 "tipo": "Mesa",
 "eje": "Interculturalidad",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "María del Rocío González Torres (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-042",
@@ -2925,7 +3047,10 @@
 "aula": "Sala de grados",
 "tipo": "Mesa",
 "eje": "Inteligencia artificial y tecnologías emergentes",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Cristina Navas Romero (Universidad de Málaga)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-031",
@@ -2936,7 +3061,10 @@
 "aula": "Salón de actos",
 "tipo": "Simposio",
 "eje": "Educación literaria",
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Marta Larragueta Arribas (Universidad Complutense de Madrid)",
+"ponente": null,
+"participantes": []
 },
 {
 "codigo": "SES-049",
@@ -2947,8 +3075,11 @@
 "aula": "Salón de actos",
 "tipo": "Plenaria",
 "eje": null,
-"estado": "Confirmada"
+"estado": "Confirmada",
+"moderacion": "Inmaculada Clotilde Santos Díaz (Universidad de Málaga)",
+"ponente": "Susana Sánchez Rodríguez (Universidad de Cádiz)",
+"participantes": []
 }
 ],
-"generado": "2026-09-13T19:51:05.789740+00:00"
+"generado": "2026-09-13T20:08:10.837928+00:00"
 }
