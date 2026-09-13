@@ -121,13 +121,20 @@ def prop(page, name):
 
 
 def build_personas_map():
-    """id de página de PERSONAS -> nombre completo."""
+    """id de página de PERSONAS -> "Nombre completo (Institución)".
+
+    Si la persona no tiene "Institución" rellena en Notion (6 de 301,
+    comprobado 2026-09-13), se usa solo el nombre, sin paréntesis vacíos.
+    """
     pages = query_data_source(PERSONAS_DS_ID)
     out = {}
     for pg in pages:
         name = prop(pg, "Nombre completo")
-        if name:
-            out[pg["id"]] = name.split(" (DUPLICADO")[0]
+        if not name:
+            continue
+        name = name.split(" (DUPLICADO")[0]
+        institucion = prop(pg, "Institución")
+        out[pg["id"]] = f"{name} ({institucion})" if institucion else name
     return out
 
 
