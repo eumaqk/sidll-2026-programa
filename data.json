@@ -2483,11 +2483,22 @@
 "estado": "Confirmada"
 },
 {
+"codigo": "SES-047",
+"sesion": "Mesa complementaria — Educación literaria, género y formación docente",
+"dia": "Miércoles 25",
+"inicio": "13:00",
+"fin": "14:30",
+"aula": "Aula 0.12",
+"tipo": "Mesa",
+"eje": "INTERPANEL",
+"estado": "Confirmada"
+},
+{
 "codigo": "SES-017",
 "sesion": "SIMPOSIO · Didáctica de la lengua y la literatura en contextos universitarios",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:00",
+"fin": "14:30",
 "aula": "Aula 0.16",
 "tipo": "Simposio",
 "eje": "ELCIS_INTERPANEL",
@@ -2524,17 +2535,6 @@
 "aula": "Salón de actos",
 "tipo": "Simposio",
 "eje": "Multimodalidad",
-"estado": "Confirmada"
-},
-{
-"codigo": "SES-047",
-"sesion": "Mesa complementaria — Educación literaria, género y formación docente",
-"dia": "Miércoles 25",
-"inicio": "13:24",
-"fin": "14:30",
-"aula": "Aula 0.12",
-"tipo": "Mesa",
-"eje": "INTERPANEL",
 "estado": "Confirmada"
 },
 {
@@ -2718,7 +2718,7 @@
 "sesion": "Mesa P1 — Inteligencia artificial y tecnologías emergentes",
 "dia": "Jueves 26",
 "inicio": "09:00",
-"fin": "10:27",
+"fin": "10:30",
 "aula": "Sala de grados",
 "tipo": "Mesa",
 "eje": "Inteligencia artificial y tecnologías emergentes",
@@ -2802,5 +2802,5 @@
 "estado": "Confirmada"
 }
 ],
-"generado": "2026-09-13T14:14:41.444988+00:00"
+"generado": "2026-09-13T15:19:11.658158+00:00"
 }
