@@ -17,6 +17,7 @@ clásico en su lugar (API 2022-06-28) — ver comentario en `query_data_source`.
 """
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.error
@@ -30,6 +31,29 @@ SESIONES_DS_ID = "122f8770-c65c-4d3b-b6a2-39d294d3025d"
 PERSONAS_DS_ID = "f641f884-26d8-4f70-8818-57b1e519a766"
 
 DAY_ORDER = {"Miércoles 25": 0, "Jueves 26": 1, "Viernes 27": 2, None: 99}
+
+# Nombres de país que aparecen, de forma inconsistente, entre paréntesis
+# dentro del valor real de "Institución" en Notion (p. ej. "Universidad de
+# Málaga (España)" junto a "Universidad de Zaragoza" sin nada parecido; o,
+# en casos más enrevesados, en medio de la cadena: "Universitat de
+# València (España) | Universidad de Valencia"). Lista CERRADA verificada
+# contra los 301 valores reales (2026-09-13, mismo criterio que
+# SIDLL_GENERADOR/src/sidll/models/person.py): NO es un strip genérico de
+# paréntesis, porque eso borraría paréntesis con información real que
+# también aparecen ahí, como "(adscrito a UPSA)" o nombres de ciudad
+# ("(Cuenca)", "(Riba-roja de Túria)").
+SUFIJOS_PAIS = {
+    "Alemania", "Argelia", "Brasil", "Brasil/ Chile", "Chile", "Colombia",
+    "Ecuador", "España", "Espanya", "México", "Portugal", "Spain",
+}
+PARENTESIS_PAIS_RE = re.compile(
+    r"\s*\((?:" + "|".join(re.escape(p) for p in SUFIJOS_PAIS) + r")\)"
+)
+
+
+def quitar_sufijo_pais(institucion):
+    limpio = PARENTESIS_PAIS_RE.sub("", institucion)
+    return re.sub(r"\s{2,}", " ", limpio).strip()
 
 
 def notion_request(path, body):
@@ -134,6 +158,7 @@ def build_personas_map():
             continue
         name = name.split(" (DUPLICADO")[0]
         institucion = prop(pg, "Institución")
+        institucion = quitar_sufijo_pais(institucion) if institucion else institucion
         out[pg["id"]] = f"{name} ({institucion})" if institucion else name
     return out
 
