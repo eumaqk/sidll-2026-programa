@@ -298,7 +298,7 @@ function renderPrograma(){
       card.innerHTML = `
         <div class="time">${t.inicio || '—'}<small>${t.fin ? '– '+t.fin : ''}</small></div>
         <div class="body">
-          <p class="title">${tituloPublico(t.titulo)}</p>
+          <p class="title">${t.tituloHtml || tituloPublico(t.titulo)}</p>
           <div class="meta">
             <span>${t.autor || ''}</span>
           </div>

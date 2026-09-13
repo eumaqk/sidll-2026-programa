@@ -15,6 +15,7 @@ multi-fuente. Si Notion devuelve error 404/400 en la primera ejecución,
 lo más probable es que tu integración necesite consultar por database_id
 clásico en su lugar (API 2022-06-28) — ver comentario en `query_data_source`.
 """
+import html
 import json
 import os
 import re
@@ -170,6 +171,40 @@ def join_names(names):
     return " · ".join(names)
 
 
+def titulo_con_cursiva_html(titulo, cursiva_bruto):
+    """HTML del título con los fragmentos de "Cursiva" (uno por línea,
+    subcadenas EXACTAS de titulo) envueltos en <i>. None si no hay
+    fragmentos -- en ese caso el JS usa el título plano tal cual, sin
+    tocar el flujo existente. Mismo criterio que
+    SIDLL_GENERADOR/src/sidll/renderers/program_renderer.py::_titulo_con_cursiva:
+    un fragmento que no aparece literalmente en el título se ignora en
+    vez de romper nada.
+    """
+    fragmentos = [linea.strip() for linea in (cursiva_bruto or "").splitlines() if linea.strip()]
+    if not fragmentos or not titulo:
+        return None
+    posiciones = []
+    for frag in fragmentos:
+        i = titulo.find(frag)
+        if i != -1:
+            posiciones.append((i, i + len(frag)))
+    if not posiciones:
+        return None
+    posiciones.sort()
+    partes = []
+    cursor = 0
+    for inicio, fin in posiciones:
+        if inicio < cursor:
+            continue
+        if inicio > cursor:
+            partes.append(html.escape(titulo[cursor:inicio]))
+        partes.append("<i>" + html.escape(titulo[inicio:fin]) + "</i>")
+        cursor = fin
+    if cursor < len(titulo):
+        partes.append(html.escape(titulo[cursor:]))
+    return "".join(partes)
+
+
 def build_trabajos(personas_map):
     pages = query_data_source(TRABAJOS_DS_ID)
     out = []
@@ -182,9 +217,11 @@ def build_trabajos(personas_map):
             continue
         autor_ids = extract_relation_ids((pg.get("properties") or {}).get("Autores"))
         autores = join_names([personas_map.get(pid) for pid in autor_ids])
+        titulo = prop(pg, "Título")
         item = {
             "codigo": codigo,
-            "titulo": prop(pg, "Título"),
+            "titulo": titulo,
+            "tituloHtml": titulo_con_cursiva_html(titulo, prop(pg, "Cursiva")),
             "autor": autores or prop(pg, "Primera autoría"),
             "dia": prop(pg, "Día (real)"),
             "inicio": prop(pg, "Hora intervención"),

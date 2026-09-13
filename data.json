@@ -2,7 +2,8 @@
 "trabajos": [
 {
 "codigo": "COM-51",
-"titulo": "BREAKING OUT WITH MR PANDA: UNA PROPUESTA DE BREAKOUT EDUCATIVO PARA FUTUROS DOCENTES DE EDUCACIÓN PRIMARIA",
+"titulo": "Breaking Out with Mr Panda: una propuesta de breakout educativo para futuros docentes de educación primaria",
+"tituloHtml": "<i>Breaking Out with Mr Panda</i>: una propuesta de <i>breakout</i> educativo para futuros docentes de educación primaria",
 "autor": "Fátima M. Faya Cerqueiro (Universidad de Santiago de Compostela) · Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
@@ -15,7 +16,8 @@
 },
 {
 "codigo": "COM-159",
-"titulo": "MATERIALIDADES POSTDIGITALES EN LA LIJ: LECTORES ACTIVOS Y PENSAMIENTO COMPUTACIONAL",
+"titulo": "Materialidades postdigitales en la LIJ: lectores activos y pensamiento computacional",
+"tituloHtml": null,
 "autor": "Laura Sánchez Gómez (Universidad Complutense de Madrid)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
@@ -28,7 +30,8 @@
 },
 {
 "codigo": "COM-13",
-"titulo": "SINTAXIS DE LA INTELIGENCIA ARTIFICIAL GENERATIVA EN EL AULA DE ELE: ANÁLISIS COMPARATIVO DE CHATGPT, GEMINI, COPILOT Y DEEPSEEK",
+"titulo": "Sintaxis de la inteligencia artificial generativa en el aula de ELE: análisis comparativo de ChatGPT, Gemini, Copilot y DeepSeek",
+"tituloHtml": null,
 "autor": "Ignacio Ballester Pardo (Universidad de Alicante)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
@@ -41,7 +44,8 @@
 },
 {
 "codigo": "COM-151",
-"titulo": "DISEÑO Y VALIDACIÓN DE CONTENIDO DE DOS CUESTIONARIOS DIAGNÓSTICOS SOBRE PERFILES LECTORES DEL ALUMNADO Y BIBLIOTECAS ESCOLARES EN EDUCACIÓN PRIMARIA",
+"titulo": "Diseño y validación de contenido de dos cuestionarios diagnósticos sobre perfiles lectores del alumnado y bibliotecas escolares en educación primaria",
+"tituloHtml": null,
 "autor": "Yolanda Romero-Vallejo (Universidad de Cádiz) · Ester Trigo Ibáñez (Universidad de Cádiz) · Noelia Ibarra Rius (Universitat de València | Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
@@ -54,7 +58,8 @@
 },
 {
 "codigo": "COM-111",
-"titulo": "EDUCACIÓN LITERARIA, IA Y FORMACIÓN DEL PROFESORADO: UN PROYECTO DE COLABORACIÓN ENTRE LA UNIVERSIDAD Y LA ESCUELA",
+"titulo": "Educación literaria, IA y formación del profesorado: un proyecto de colaboración entre la universidad y la escuela",
+"tituloHtml": null,
 "autor": "Jeroni Méndez Cabrera (Universidad de Valencia) · Dominika Fajkišová (Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
@@ -67,7 +72,8 @@
 },
 {
 "codigo": "COM-42",
-"titulo": "DISEÑO Y VALIDACIÓN DE UNA RÚBRICA PARA LA EVALUACIÓN DE TRABAJOS FIN DE MÁSTER DE INVESTIGACIONES APLICADAS A ENSEÑANZA DE LENGUAS EXTRANJERAS",
+"titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
+"tituloHtml": null,
 "autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
@@ -80,7 +86,8 @@
 },
 {
 "codigo": "COM-140",
-"titulo": "LA COMPETENCIA PRAGMÁTICA EN LA FORMACIÓN DOCENTE: CONOCIMIENTO Y AUTOPERCEPCIÓN EN ESTUDIANTES DE EDUCACIÓN INFANTIL",
+"titulo": "La competencia pragmática en la formación docente: conocimiento y autopercepción en estudiantes de educación infantil",
+"tituloHtml": null,
 "autor": "Clara Macarena Ponce Romero (Universidade de Santiago de Compostela) · Marta Peláez Torres (Universidade de Vigo)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
@@ -93,7 +100,8 @@
 },
 {
 "codigo": "COM-98",
-"titulo": "EL ESTADO TRANSICIONAL EN LA FORMACIÓN DE PRIMEROS LECTORES DESDE LA MIRADA DE LA MEDIACIÓN ESCOLAR",
+"titulo": "El estado transicional en la formación de primeros lectores desde la mirada de la mediación escolar",
+"tituloHtml": null,
 "autor": "Noemí Manrique Gil (Universidad de Zaragoza)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
@@ -106,7 +114,8 @@
 },
 {
 "codigo": "COM-185",
-"titulo": "PROMPTINGLAB: EVALUACIÓN DE LARGE LANGUAGE MODELS PARA LA RETROALIMENTACIÓN DE ESCRITURA ACADÉMICA",
+"titulo": "PromptingLab: evaluación de large language models para la retroalimentación de escritura académica",
+"tituloHtml": "PromptingLab: evaluación de <i>large language models</i> para la retroalimentación de escritura académica",
 "autor": "René Venegas (Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
@@ -119,7 +128,8 @@
 },
 {
 "codigo": "COM-58",
-"titulo": "NARRAR SENSE PARAULES, EDUCAR PER AL FUTUR: EL POTENCIAL ECOSOCIAL DE L’ÀLBUM IL·LUSTRAT",
+"titulo": "Narrar sense paraules, educar per al futur: el potencial ecosocial de l’àlbum il·lustrat",
+"tituloHtml": null,
 "autor": "Maria Elora Flordelís Esteve (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
@@ -132,7 +142,8 @@
 },
 {
 "codigo": "COM-89",
-"titulo": "USO DE IA EN LA ADAPTACIÓN DE TEXTOS LITERARIOS A LECTURA FÁCIL. LA IA FRENTE AL ESPECIALISTA EN UNA ADAPTACIÓN A LF DE CAPERUCITA ROJA",
+"titulo": "Uso de IA en la adaptación de textos literarios a lectura fácil. La IA frente al especialista en una adaptación a LF de Caperucita Roja",
+"tituloHtml": null,
 "autor": "Elisa Larrañaga (Universidad de Castilla-La Mancha) · Santiago Yubero (Universidad de Castilla-La Mancha) · Paloma Jover (Universidad Pontificia Comillas) · David Martínez Ayllón (Biblioteca Solidaria (Cuenca))",
 "dia": "Miércoles 25",
 "inicio": "11:42",
@@ -145,7 +156,8 @@
 },
 {
 "codigo": "COM-12",
-"titulo": "FORMACIÓN INICIAL DEL PROFESORÁU D’EDUCACIÓN PRIMARIA PAL AULA D’ASTURIANU N’EDUCACIÓN INFANTIL: EVALUACIÓN D’UN PROYEUTU D’ANOVACIÓN DOCENTE",
+"titulo": "Formación inicial del profesoráu d’educación primaria pal aula d’asturianu n’educación infantil: evaluación d’un proyeutu d’anovación docente",
+"tituloHtml": null,
 "autor": "Roberto Avello Rodríguez (Universidá d’Uviéu) · Xosé Antón González Riaño (Universidad de Oviedo) · Alberto Fernández Costales (Universidad de Oviedo) · Lucía García Díez (Universidá d’Uviéu)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
@@ -158,7 +170,8 @@
 },
 {
 "codigo": "COM-95",
-"titulo": "LECTURAS GRADUADAS, EDUCACIÓN LITERARIA E INTERCULTURALIDAD: UN ANÁLISIS DE LAS ADAPTACIONES DE THE ADVENTURES OF HUCKLEBERRY FINN EN EL AULA DE INGLÉS",
+"titulo": "Lecturas graduadas, educación literaria e interculturalidad: un análisis de las adaptaciones de The Adventures of Huckleberry Finn en el aula de inglés",
+"tituloHtml": "Lecturas graduadas, educación literaria e interculturalidad: un análisis de las adaptaciones de <i>The Adventures of Huckleberry Finn</i> en el aula de inglés",
 "autor": "María López Sández (Universidad de Santiago de Compostela) · Manuel Anxo Cabañas López (investigador sin filiación institucional)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
@@ -171,7 +184,8 @@
 },
 {
 "codigo": "COM-170",
-"titulo": "LA NARRATIVA DOCENTE COMO DISPOSITIVO DE REFLEXIÓN PEDAGÓGICA EN MAESTROS RURALES DE 7.º, 8.º Y 9.º GRADO",
+"titulo": "La narrativa docente como dispositivo de reflexión pedagógica en maestros rurales de 7.º, 8.º y 9.º grado",
+"tituloHtml": null,
 "autor": "Mariela Inés Silva González (CODICEN/ANEP) · Ana María Sosa Cedrani (CODICEN/ANEP | CFE/IINN)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
@@ -184,7 +198,8 @@
 },
 {
 "codigo": "COM-161",
-"titulo": "PLANIFICAR CON IA SIN DELEGAR LA ESCRITURA: EL PROMPT COMO ANALIZADOR COGNITIVO EN ELE",
+"titulo": "Planificar con IA sin delegar la escritura: el prompt como analizador cognitivo en ELE",
+"tituloHtml": "Planificar con IA sin delegar la escritura: el <i>prompt</i> como analizador cognitivo en ELE",
 "autor": "Lorena Sánchez Troussel (Ludwig-Maximilians-Universität München)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
@@ -197,7 +212,8 @@
 },
 {
 "codigo": "COM-100",
-"titulo": "COMPETENCIA LITERARIA Y PRUEBAS EBAU EN LA COMUNIDAD VALENCIANA",
+"titulo": "Competencia literaria y pruebas EBAU en la Comunidad Valenciana",
+"tituloHtml": null,
 "autor": "Fernando Marín Martí (IES Sucro)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
@@ -210,7 +226,8 @@
 },
 {
 "codigo": "COM-150",
-"titulo": "USO DE LA INTELIGENCIA ARTIFICIAL EN LA FORMACIÓN UNIVERSITARIA: UN ESTUDIO COMPARATIVO ENTRE ESTUDIANTES DE INGENIERÍA Y DE MAGISTERIO",
+"titulo": "Uso de la inteligencia artificial en la formación universitaria: un estudio comparativo entre estudiantes de ingeniería y de magisterio",
+"tituloHtml": null,
 "autor": "Francesca Romero Forteza (Universitat Politècnica de València) · Rosa Pardo Coy (Universitat de València) · Miquel A. Oltra Albiach (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
@@ -223,7 +240,8 @@
 },
 {
 "codigo": "COM-60",
-"titulo": "EL ÁLBUM ILUSTRADO COMO PUENTE HACIA EL PLURILINGÜISMO: UN ANÁLISIS COMPARATIVO DE INTERVENCIONES MULTISENSORIALES EN EDUCACIÓN INFANTIL",
+"titulo": "El álbum ilustrado como puente hacia el plurilingüismo: un análisis comparativo de intervenciones multisensoriales en educación infantil",
+"tituloHtml": null,
 "autor": "Paula Fraga Rey (Universidad de Santiago de Compostela) · Paola Filomena Gagliano (Universidad de Santiago de Compostela)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
@@ -236,7 +254,8 @@
 },
 {
 "codigo": "COM-177",
-"titulo": "LA ORTOGRAFÍA EN LOS/AS FUTUROS/AS DOCENTES: PERCEPCIONES, ACTITUDES Y PRÁCTICAS EN LA ERA DIGITAL",
+"titulo": "La ortografía en los/as futuros/as docentes: percepciones, actitudes y prácticas en la era digital",
+"tituloHtml": null,
 "autor": "Natalia María Suárez Rubio (Universidad de La Laguna) · Desirée González Martín (Universidad de La Laguna)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
@@ -249,7 +268,8 @@
 },
 {
 "codigo": "COM-126",
-"titulo": "LA GENERACIÓN DEL 27 EN LOS MANUALES ESCOLARES DURANTE LA EDUCACIÓN GENERAL BÁSICA (1970-1990): DEL FRANQUISMO A LA SENDA DEMOCRÁTICA",
+"titulo": "La generación del 27 en los manuales escolares durante la Educación General Básica (1970-1990): del franquismo a la senda democrática",
+"tituloHtml": null,
 "autor": "Fernando Oteo Fernández (Universidad Complutense de Madrid)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
@@ -262,7 +282,8 @@
 },
 {
 "codigo": "COM-186",
-"titulo": "PRÁCTICAS DIALÓGICAS E INTELIGENCIA ARTIFICIAL EN LA FORMACIÓN INICIAL DEL PROFESORADO: ANÁLISIS DE UNA EXPERIENCIA DE DISEÑO DE SECUENCIAS DIDÁCTICAS EN EL ÁREA DE LENGUAS",
+"titulo": "Prácticas dialógicas e inteligencia artificial en la formación inicial del profesorado: análisis de una experiencia de diseño de secuencias didácticas en el área de lenguas",
+"tituloHtml": null,
 "autor": "Katherine Villalobos Muñoz (Universidad de Barcelona)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
@@ -275,7 +296,8 @@
 },
 {
 "codigo": "COM-127",
-"titulo": "DES-VERSANDO EL AULA: UNA PROPUESTA MULTIMODAL DE INVESTIGACIÓN-ACCIÓN PARA RECONECTAR CON LA POESÍA",
+"titulo": "Des-versando el aula: una propuesta multimodal de investigación-acción para reconectar con la poesía",
+"tituloHtml": null,
 "autor": "Coral Palomero Seijas (Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
@@ -288,7 +310,8 @@
 },
 {
 "codigo": "COM-147",
-"titulo": "CRITERIOS PEDAGÓGICOS PARA EL DISEÑO DE SITUACIONES DE APRENDIZAJE DE LENGUA Y LITERATURA EN EDUCACIÓN SECUNDARIA MEDIANTE LA INTELIGENCIA ARTIFICIAL",
+"titulo": "Criterios pedagógicos para el diseño de situaciones de aprendizaje de lengua y literatura en educación secundaria mediante la inteligencia artificial",
+"tituloHtml": null,
 "autor": "Francesc Rodrigo Segura (Universitat de València) · Vicent Gimeno Bosh (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
@@ -301,7 +324,8 @@
 },
 {
 "codigo": "COM-35",
-"titulo": "PROPUESTA DIDÁCTICA Y RECURSOS DE MEDIACIÓN PARA DESARROLLAR PRÁCTICAS LITERARIAS DE LECTURA Y ESCRITURA PARA JÓVENES CON DISCAPACIDAD INTELECTUAL",
+"titulo": "Propuesta didáctica y recursos de mediación para desarrollar prácticas literarias de lectura y escritura para jóvenes con discapacidad intelectual",
+"tituloHtml": null,
 "autor": "Sandra Loreto Catalán Henríquez (Universidad Católica de Valparaíso) · Carolina Marla González (Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
@@ -314,7 +338,8 @@
 },
 {
 "codigo": "COM-5",
-"titulo": "“SEVILLANAS EN WEST VIRGINIA”: LAS NARRATIVAS AUDIOVISUALES COMO RECURSO DIDÁCTICO EN ELE PARA FOMENTAR EL INTERCAMBIO CULTURAL",
+"titulo": "“Sevillanas en West Virginia”: las narrativas audiovisuales como recurso didáctico en ELE para fomentar el intercambio cultural",
+"tituloHtml": null,
 "autor": "Antonio Acosta Sánchez (Universidad de Granada)",
 "dia": "Miércoles 25",
 "inicio": "12:18",
@@ -327,7 +352,8 @@
 },
 {
 "codigo": "COM-26",
-"titulo": "MOTIVACIÓN LECTORA EN LA ADOLESCENCIA: ENTRE LOS INTERESES DEL ALUMNADO Y LAS CREENCIAS DEL PROFESORADO",
+"titulo": "Motivación lectora en la adolescencia: entre los intereses del alumnado y las creencias del profesorado",
+"tituloHtml": null,
 "autor": "Vicente José Calvo Fernández (Universidad Rey Juan Carlos)",
 "dia": "Miércoles 25",
 "inicio": "12:18",
@@ -340,7 +366,8 @@
 },
 {
 "codigo": "COM-64",
-"titulo": "EXÁMENES DE LENGUAS DE ACCESO A LA UNIVERSIDAD EN EL MUNDO",
+"titulo": "Exámenes de lenguas de acceso a la universidad en el mundo",
+"tituloHtml": null,
 "autor": "Jesús García Laborda (Universidad de Alcalá)",
 "dia": "Miércoles 25",
 "inicio": "12:18",
@@ -353,7 +380,8 @@
 },
 {
 "codigo": "COM-146",
-"titulo": "DE LA MEMORIZACIÓN AL PENSAMIENTO AUMENTADO: REDEFINIR LA LITERATURA EN TIEMPO DE INTELIGENCIA ARTIFICIAL (IA)",
+"titulo": "De la memorización al pensamiento aumentado: redefinir la literatura en tiempo de inteligencia artificial (IA)",
+"tituloHtml": null,
 "autor": "Jordi Rodrigo Pons (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "12:18",
@@ -366,7 +394,8 @@
 },
 {
 "codigo": "COM-9",
-"titulo": "CREER PARA APRENDER: AUTOEFICACIA Y LÉXICO EN LA FORMACIÓN DOCENTE",
+"titulo": "Creer para aprender: autoeficacia y léxico en la formación docente",
+"tituloHtml": null,
 "autor": "Gema Alcaraz Mármol (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "12:18",
@@ -379,7 +408,8 @@
 },
 {
 "codigo": "COM-152",
-"titulo": "LA COMPRENSIÓN LECTORA EN EL AULA DE ESPAÑOL COMO LENGUA DE HERENCIA: UNA PERSPECTIVA DE PEDAGOGÍA CRÍTICA DE LA EDUCACIÓN SECUNDARIA EN NUEVA YORK",
+"titulo": "La comprensión lectora en el aula de español como lengua de herencia: una perspectiva de pedagogía crítica de la educación secundaria en Nueva York",
+"tituloHtml": null,
 "autor": "Francisco Salgado Robles (City College of New York)",
 "dia": "Miércoles 25",
 "inicio": "12:30",
@@ -392,7 +422,8 @@
 },
 {
 "codigo": "COM-72",
-"titulo": "REPRESENTAR PARA APRENDER: EL TEATRO CLÁSICO ESPAÑOL EN LA FORMACIÓN MULTICOMPETENCIAL DE LOS FUTUROS MAESTROS DE EDUCACIÓN PRIMARIA",
+"titulo": "Representar para aprender: el teatro clásico español en la formación multicompetencial de los futuros maestros de educación primaria",
+"tituloHtml": null,
 "autor": "Alberto Gutiérrez Gil (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "12:30",
@@ -405,7 +436,8 @@
 },
 {
 "codigo": "COM-71",
-"titulo": "VULNERABILIDAD COMO COMPETENCIA EN LA FORMACIÓN INICIAL DEL PROFESORADO DE LENGUAS EXTRANJERAS: REFLEXIONES TEÓRICAS EN TORNO A LA CREACIÓN DE MATERIALES CON IA GENERATIVA",
+"titulo": "Vulnerabilidad como competencia en la formación inicial del profesorado de lenguas extranjeras: reflexiones teóricas en torno a la creación de materiales con IA generativa",
+"tituloHtml": null,
 "autor": "María del Rocío González Torres (Universidad de Málaga) · Cristina Castillo Rodríguez (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "12:30",
@@ -418,7 +450,8 @@
 },
 {
 "codigo": "COM-62",
-"titulo": "OBSERVAR LO LINGÜÍSTICO EN LA FORMACIÓN DE PROFESORADO: UNA EXPERIENCIA DIALÓGICA PARA CONECTAR TEORÍA Y PRÁCTICA",
+"titulo": "Observar lo lingüístico en la formación de profesorado: una experiencia dialógica para conectar teoría y práctica",
+"tituloHtml": null,
 "autor": "María José Galé Moyano (Universidad de Zaragoza) · Cristina Bartolomé Porcar (Universidad de Zaragoza)",
 "dia": "Miércoles 25",
 "inicio": "12:30",
@@ -431,7 +464,8 @@
 },
 {
 "codigo": "COM-30",
-"titulo": "LITERATURA EN LENGUA INGLESA Y ODS: UNA APROXIMACIÓN CONTEMPORÁNEA",
+"titulo": "Literatura en lengua inglesa y ODS: una aproximación contemporánea",
+"tituloHtml": null,
 "autor": "Blasina Cantizano Márquez (Universidad de Almería)",
 "dia": "Miércoles 25",
 "inicio": "12:33",
@@ -444,7 +478,8 @@
 },
 {
 "codigo": "COM-87",
-"titulo": "INCIDENCIA DE DOS MÉTODOS DE ENSEÑANZA DE ESCRITURA ACADÉMICA EN LA CALIDAD TEXTUAL DEL ENSAYO ARGUMENTATIVO: UN ESTUDIO PARA APOYAR LA FORMACIÓN INICIAL DOCENTE",
+"titulo": "Incidencia de dos métodos de enseñanza de escritura académica en la calidad textual del ensayo argumentativo: un estudio para apoyar la formación inicial docente",
+"tituloHtml": null,
 "autor": "Steffanie Kloss (Universidad Andrés Bello)",
 "dia": "Miércoles 25",
 "inicio": "12:45",
@@ -457,7 +492,8 @@
 },
 {
 "codigo": "COM-2",
-"titulo": "LECTURA CRÍTICA Y PENSAMIENTO HISTÓRICO ANTE LA DESINFORMACIÓN: UN ENFOQUE INTERDISCIPLINAR EN LA FORMACIÓN DE MAESTROS",
+"titulo": "Lectura crítica y pensamiento histórico ante la desinformación: un enfoque interdisciplinar en la formación de maestros",
+"tituloHtml": null,
 "autor": "Leonel Abarzúa (Universitat de Barcelona) · Concha Fuentes-Moreno (Universitat de Barcelona)",
 "dia": "Miércoles 25",
 "inicio": "12:45",
@@ -470,7 +506,8 @@
 },
 {
 "codigo": "COM-33",
-"titulo": "LAS LENGUAS MINORIZADAS EN LA EDUCACIÓN SUPERIOR ESPAÑOLA Y SU IMPACTO EN LA IDENTIDAD",
+"titulo": "Las lenguas minorizadas en la educación superior española y su impacto en la identidad",
+"tituloHtml": null,
 "autor": "María Luisa Carrió Pastor (Universitat Politècnica de València) · Francesca Romero Forteza (Universitat Politècnica de València)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
@@ -483,7 +520,8 @@
 },
 {
 "codigo": "COM-6",
-"titulo": "CONTRANARRATIVAS CONTRA EL ODIO EN LA FORMACIÓN INICIAL DE MAESTRAS Y MAESTROS",
+"titulo": "Contranarrativas contra el odio en la formación inicial de maestras y maestros",
+"tituloHtml": null,
 "autor": "Consol Aguilar Ródenas (Universitat Jaume I)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
@@ -496,7 +534,8 @@
 },
 {
 "codigo": "COM-124",
-"titulo": "NARRAR LATAM. CONTENIDOS FLEXIBLES Y EVALUACIÓN FORMATIVA EN LA LITERATURA HISPANOAMERICANA EN LA EDUCACIÓN SUPERIOR",
+"titulo": "Narrar Latam. Contenidos flexibles y evaluación formativa en la literatura hispanoamericana en la educación superior",
+"tituloHtml": null,
 "autor": "Xaquín Núñez Sabarís (Universidade do Minho)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
@@ -509,7 +548,8 @@
 },
 {
 "codigo": "COM-90",
-"titulo": "DEL TRAZO AL COMPROMISO DE LOS CÓMICS DE ARLINDO FAGUNDES: MEDIACIÓN LINGÜÍSTICO-CULTURAL Y AGENDA 2030 EN ELE",
+"titulo": "Del trazo al compromiso de los cómics de Arlindo Fagundes: mediación lingüístico-cultural y Agenda 2030 en ELE",
+"tituloHtml": null,
 "autor": "María Dolores Lerma Sanchís (Universidade do Minho)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
@@ -522,7 +562,8 @@
 },
 {
 "codigo": "COM-34",
-"titulo": "MATERNIDADES ENTRE TERRITORIOS: ÁLBUM ILUSTRADO, MIGRACIÓN Y ALFABETIZACIÓN CRÍTICA EN LA FORMACIÓN INICIAL DEL PROFESORADO",
+"titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
+"tituloHtml": null,
 "autor": "Margarida Castellano-Sanz (Universitat de València) · Rocío Domene-Benito (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
@@ -535,7 +576,8 @@
 },
 {
 "codigo": "COM-120",
-"titulo": "EL CONCEPTO DE EDUCACIÓN EN FUTUROS DOCENTES DE EDUCACIÓN PRIMARIA Y SECUNDARIA EN CONTEXTOS BILINGÜES: UN ANÁLISIS A TRAVÉS DEL LÉXICO DISPONIBLE",
+"titulo": "El concepto de educación en futuros docentes de educación primaria y secundaria en contextos bilingües: un análisis a través del léxico disponible",
+"tituloHtml": null,
 "autor": "María del Carmen Navarro Rubio (Universidad de Cádiz) · Inmaculada Clotilde Santos Díaz (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
@@ -548,7 +590,8 @@
 },
 {
 "codigo": "COM-107",
-"titulo": "EMOCIONES ACADÉMICAS EN LA ENSEÑANZA UNIVERSITARIA EN INGLÉS: ANÁLISIS DE LOS PERFILES EMOCIONALES Y SU RELACIÓN CON LA SATISFACCIÓN DEL ESTUDIANTE",
+"titulo": "Emociones académicas en la enseñanza universitaria en inglés: análisis de los perfiles emocionales y su relación con la satisfacción del estudiante",
+"tituloHtml": null,
 "autor": "Guadalupe de la Maya Retamar (Universidad de Extremadura) · Magdalena López-Pérez (Universidad de Extremadura)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
@@ -561,7 +604,8 @@
 },
 {
 "codigo": "COM-141",
-"titulo": "LA GENERACIÓN DE LA AMISTAD SAHARAUI Y SU POTENCIALIDAD PEDAGÓGICA EN EL SISTEMA EDUCATIVO ESPAÑOL",
+"titulo": "La generación de la amistad saharaui y su potencialidad pedagógica en el sistema educativo español",
+"tituloHtml": null,
 "autor": "Jaime Puig Guisado (Universidad de Sevilla)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
@@ -574,7 +618,8 @@
 },
 {
 "codigo": "COM-38",
-"titulo": "ENTRE LOS HERMANOS GRIMM Y ANNE SEXTON. UNA PROPUESTA DE LECTURA COMPARADA CON PERSPECTIVA DE GÉNERO, PARA LA FORMACIÓN LITERARIA DEL PROFESORADO DE MAGISTERIO",
+"titulo": "Entre los hermanos Grimm y Anne Sexton. Una propuesta de lectura comparada con perspectiva de género, para la formación literaria del profesorado de magisterio",
+"tituloHtml": null,
 "autor": "Anna M. Chover Lafarga (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
@@ -587,7 +632,8 @@
 },
 {
 "codigo": "COM-116",
-"titulo": "EL APRENDIZAJE DE LA ORTOGRAFÍA Y LA ESCRITURA AL TECLADO EN EDUCACIÓN PRIMARIA: IMPLICACIONES DIDÁCTICAS",
+"titulo": "El aprendizaje de la ortografía y la escritura al teclado en educación primaria: implicaciones didácticas",
+"tituloHtml": null,
 "autor": "Celia Morales Rando (Universidad de La Laguna)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
@@ -600,7 +646,8 @@
 },
 {
 "codigo": "COM-82",
-"titulo": "NARRATIVAS PARA LA EMERGENCIA CLIMÁTICA EN EL CÓMIC ESPAÑOL",
+"titulo": "Narrativas para la emergencia climática en el cómic español",
+"tituloHtml": null,
 "autor": "Noelia Ibarra Rius (Universitat de València | Universidad de Valencia) · Álvaro M. Pons Moreno (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
@@ -613,7 +660,8 @@
 },
 {
 "codigo": "COM-156",
-"titulo": "EL LIBRO ILUSTRADO DE NO FICCIÓN EN LAS POLÍTICAS EDUCATIVAS Y CULTURALES DE LA CIUDAD DE CÁDIZ",
+"titulo": "El libro ilustrado de no ficción en las políticas educativas y culturales de la ciudad de Cádiz",
+"tituloHtml": null,
 "autor": "Eva Sánchez Arjona (Universidad de Cádiz) · Roberto Saiz Pantoja (Universidad de Cádiz)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
@@ -626,7 +674,8 @@
 },
 {
 "codigo": "COM-94",
-"titulo": "FORMACIÓN INICIAL DOCENTE Y REVITALIZACIÓN LINGÜÍSTICA: UNA PROPUESTA DESDE LA EDUCACIÓN INFANTIL EN GALICIA",
+"titulo": "Formación inicial docente y revitalización lingüística: una propuesta desde la educación infantil en Galicia",
+"tituloHtml": null,
 "autor": "María López Sández (Universidad de Santiago de Compostela) · Lara Lorenzo Herrera (Universidad de Cantabria)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
@@ -639,7 +688,8 @@
 },
 {
 "codigo": "COM-70",
-"titulo": "TENSIONES Y DESAFÍOS EN LA CONFIGURACIÓN DE PLANES DE LECTURA DOMICILIARIA PARA EDUCACIÓN SECUNDARIA",
+"titulo": "Tensiones y desafíos en la configuración de planes de lectura domiciliaria para educación secundaria",
+"tituloHtml": null,
 "autor": "Carolina Marla González (Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
@@ -652,7 +702,8 @@
 },
 {
 "codigo": "COM-187",
-"titulo": "SELECCIÓN Y MEDIACIÓN DE LITERATURA INFANTIL EN LA ESCUELA: TENSIONES ENTRE DEMANDAS CURRICULARES, EXPERIENCIA LITERARIA E INTERCULTURALIDAD",
+"titulo": "Selección y mediación de literatura infantil en la escuela: tensiones entre demandas curriculares, experiencia literaria e interculturalidad",
+"tituloHtml": null,
 "autor": "Melina Borges Omitto (U. de San Pablo/ Pontificia Universidad Católica de Chile)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
@@ -665,7 +716,8 @@
 },
 {
 "codigo": "COM-153",
-"titulo": "EL PÓDCAST LITERARIO COMO HERRAMIENTA PARA LA PROMOCIÓN DE LA LECTURA EN EL GRADO EN MAESTRO/A EN EDUCACIÓN PRIMARIA",
+"titulo": "El pódcast literario como herramienta para la promoción de la lectura en el grado en maestro/a en educación primaria",
+"tituloHtml": null,
 "autor": "José Vicente Salido López (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
@@ -678,7 +730,8 @@
 },
 {
 "codigo": "COM-154",
-"titulo": "ALFABETIZACIÓN MULTIMODAL: UN PROYECTO PARA LA VINCULACIÓN UNIVERSITARIA CON LA COMUNIDAD",
+"titulo": "Alfabetización multimodal: un proyecto para la vinculación universitaria con la comunidad",
+"tituloHtml": null,
 "autor": "Virginia Sánchez Andrade (Universidad Bolivariana del Ecuador | Universidad Bolivariana del Ecuador)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
@@ -691,7 +744,8 @@
 },
 {
 "codigo": "COM-142",
-"titulo": "LITERATURA MULTIMODAL Y CONFLICTO EN EDUCACIÓN PRIMARIA: CLAVES PARA LA FORMACIÓN DOCENTE",
+"titulo": "Literatura multimodal y conflicto en educación primaria: claves para la formación docente",
+"tituloHtml": null,
 "autor": "María Querol Bataller (Universitat de València) · Francesc Rodrigo Segura (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
@@ -704,7 +758,8 @@
 },
 {
 "codigo": "COM-99",
-"titulo": "ENSEÑAR A ESCRIBIR MEDIANTE LA RETROALIMENTACIÓN: COMPARACIÓN DE LAS PRÁCTICAS DOCENTES EN CHILE Y ESPAÑA",
+"titulo": "Enseñar a escribir mediante la retroalimentación: comparación de las prácticas docentes en Chile y España",
+"tituloHtml": null,
 "autor": "Rocío Maraver Landero (Universidad de Cádiz) · Marcela Jarpa Azagra (Pontificia Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
@@ -717,7 +772,8 @@
 },
 {
 "codigo": "COM-55",
-"titulo": "ENTRE ACCIONES Y EMOCIONES: EL DESARROLLO DEL VERBO EN EDUCACIÓN INFANTIL DESDE EL CORPUS KOINÉ",
+"titulo": "Entre acciones y emociones: el desarrollo del verbo en educación infantil desde el corpus Koiné",
+"tituloHtml": null,
 "autor": "Isabel Fernández López (Universidade de Santiago de Compostela) · Pablo Cano López (Universidade da Coruña)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
@@ -730,7 +786,8 @@
 },
 {
 "codigo": "COM-106",
-"titulo": "ALUMNADO EN FORMACIÓN DOCENTE Y CREACIÓN DE ÁLBUMES ILUSTRADOS: UN ESTUDIO CUASI-EXPERIMENTAL",
+"titulo": "Alumnado en formación docente y creación de álbumes ilustrados: un estudio cuasi-experimental",
+"tituloHtml": null,
 "autor": "Delfina Mas Mas (Universidad de Alicante) · Francisco Antonio Martínez-Carratalá (Universidad de Alicante) · José Rovira-Collado (Universidad de Alicante)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
@@ -743,7 +800,8 @@
 },
 {
 "codigo": "COM-188",
-"titulo": "POESÍA Y LA LIBERTAD FEMENINA EN EL HORIZONTE EUROPEO DE LA MIGRACIÓN. UNA PROPUESTA DE LECTURA PARA LA FORMACIÓN DEL FUTURO PROFESORADO DE EDUCACIÓN PRIMARIA",
+"titulo": "Poesía y la libertad femenina en el horizonte europeo de la migración. Una propuesta de lectura para la formación del futuro profesorado de educación primaria",
+"tituloHtml": null,
 "autor": "Nieves Muriel García (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
@@ -756,7 +814,8 @@
 },
 {
 "codigo": "COM-149",
-"titulo": "PROCESO DE ESCRITURA Y CREATIVIDAD EN EDUCACIÓN PRIMARIA",
+"titulo": "Proceso de escritura y creatividad en educación primaria",
+"tituloHtml": null,
 "autor": "Marcos Rodríguez Iraola (Universidad de Oviedo)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
@@ -769,7 +828,8 @@
 },
 {
 "codigo": "COM-104",
-"titulo": "TEATRO INFANTIL EN LA FORMACIÓN DE MAESTROS DE PRIMARIA: COMPRENSIÓN, CREACIÓN Y DISEÑO DE PROPUESTAS DIDÁCTICAS",
+"titulo": "Teatro infantil en la formación de maestros de primaria: comprensión, creación y diseño de propuestas didácticas",
+"tituloHtml": null,
 "autor": "Patricia Martínez León (Universitat de València) · Josep Ballester Roca (Universitat de València | Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
@@ -782,7 +842,8 @@
 },
 {
 "codigo": "COM-163",
-"titulo": "FORMACIÓN PARA EL FOMENTO DE LA LECTURA LITERARIA EN LA COMUNIDAD ESCOLAR, MEDIANTE LA CREACIÓN DE EPITEXTOS AUDIOVISUALES SOBRE CLÁSICOS INFANTILES",
+"titulo": "Formación para el fomento de la lectura literaria en la comunidad escolar, mediante la creación de epitextos audiovisuales sobre clásicos infantiles",
+"tituloHtml": null,
 "autor": "Michel Santiago del Pino (Universidad de Cádiz) · Paula Rivera Jurado (Universidad de Cádiz)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
@@ -795,7 +856,8 @@
 },
 {
 "codigo": "COM-52",
-"titulo": "EL ROL DOCENTE EN LA PERCEPCIÓN DE LA ASIGNATURA DE LENGUA INGLESA: ANÁLISIS DE REFLEXIONES DE PROFESORADO EN FORMACIÓN DESDE UN ENFOQUE ASISTIDO POR CORPUS",
+"titulo": "El rol docente en la percepción de la asignatura de lengua inglesa: análisis de reflexiones de profesorado en formación desde un enfoque asistido por corpus",
+"tituloHtml": null,
 "autor": "Fátima M. Faya Cerqueiro (Universidad de Santiago de Compostela) · Gema Alcaraz Mármol (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
@@ -808,7 +870,8 @@
 },
 {
 "codigo": "COM-75",
-"titulo": "NARA (MÓNICA RODRÍGUEZ, 2026): LA GUERRA CIVIL A TRAVÉS DE LA MIRADA DE UNA NIÑA",
+"titulo": "Nara (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
+"tituloHtml": "<i>Nara</i> (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
 "autor": "Jesús Guzmán Mora (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
@@ -821,7 +884,8 @@
 },
 {
 "codigo": "COM-148",
-"titulo": "REESCRIBIENDO LOS DISCURSOS DE LA DESIGUALDAD: SITUACIONES DE APRENDIZAJE GAMIFICADAS PARA LA PREVENCIÓN DE LA VIOLENCIA MACHISTA EN EDUCACIÓN INFANTIL Y PRIMARIA",
+"titulo": "Reescribiendo los discursos de la desigualdad: situaciones de aprendizaje gamificadas para la prevención de la violencia machista en educación infantil y primaria",
+"tituloHtml": null,
 "autor": "Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
@@ -834,7 +898,8 @@
 },
 {
 "codigo": "COM-178",
-"titulo": "DEL COMENTARIO A LA ACCIÓN: CÓMO LOS ESTUDIANTES INTERPRETAN Y UTILIZAN LA RETROALIMENTACIÓN ESCRITA EN LA UNIVERSIDAD",
+"titulo": "Del comentario a la acción: cómo los estudiantes interpretan y utilizan la retroalimentación escrita en la universidad",
+"tituloHtml": null,
 "autor": "Mónica Tapia Ladino (Universidad Católica de la Santísima Concepción)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
@@ -847,7 +912,8 @@
 },
 {
 "codigo": "COM-172",
-"titulo": "LOS CLÁSICOS A TRAVÉS DEL ENTRETENIMIENTO INTERACTIVO. UNA APROXIMACIÓN DIDÁCTICA",
+"titulo": "Los clásicos a través del entretenimiento interactivo. Una aproximación didáctica",
+"tituloHtml": null,
 "autor": "Matheus Gabriel Silveira Martins (Universitat de València) · Josep Ballester Roca (Universitat de València | Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
@@ -860,7 +926,8 @@
 },
 {
 "codigo": "COM-8",
-"titulo": "HACIA UNA COMUNIDAD LECTORA INCLUSIVA: DIAGNÓSTICO Y REACTIVACIÓN DE LA BIBLIOTECA DE UNA ENTIDAD ASOCIATIVA DE PERSONAS CON SÍNDROME DE DOWN",
+"titulo": "Hacia una comunidad lectora inclusiva: diagnóstico y reactivación de la biblioteca de una entidad asociativa de personas con síndrome de Down",
+"tituloHtml": null,
 "autor": "Lucía Alcántara López (Universidad de Cádiz)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
@@ -873,7 +940,8 @@
 },
 {
 "codigo": "COM-165",
-"titulo": "LECTURA COMPARTIDA EN LA FORMACIÓN INICIAL DEL PROFESORADO DE LENGUAS: DIALOGANDO SOBRE LA MULTICULTURALIDAD E INTERCULTURALIDAD PARA LA SOSTENIBILIDAD SOCIAL",
+"titulo": "Lectura compartida en la formación inicial del profesorado de lenguas: dialogando sobre la multiculturalidad e interculturalidad para la sostenibilidad social",
+"tituloHtml": null,
 "autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
 "dia": "Miércoles 25",
 "inicio": "14:00",
@@ -886,7 +954,8 @@
 },
 {
 "codigo": "COM-76",
-"titulo": "UN TEATRO QUE HACE “TEATREROS”: INTERTEXTUALIDAD Y METATEATRALIDAD EN LA DRAMATURGIA JUVENIL CONTEMPORÁNEA",
+"titulo": "Un teatro que hace “teatreros”: intertextualidad y metateatralidad en la dramaturgia juvenil contemporánea",
+"tituloHtml": null,
 "autor": "Laura Hernández González (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "14:00",
@@ -899,7 +968,8 @@
 },
 {
 "codigo": "COM-103",
-"titulo": "LA EDUCACIÓN LITERARIA COMO HERRAMIENTA DE CONSTRUCCIÓN IDENTITARIA Y REINSERCIÓN SOCIAL EN UN CENTRO DE REEDUCACIÓN DE MENORES",
+"titulo": "La educación literaria como herramienta de construcción identitaria y reinserción social en un centro de reeducación de menores",
+"tituloHtml": null,
 "autor": "Olivia Martínez Giménez de León (Universidad de Alicante)",
 "dia": "Miércoles 25",
 "inicio": "14:00",
@@ -912,7 +982,8 @@
 },
 {
 "codigo": "COM-7",
-"titulo": "FEMICUENTOS COMO MEDIACIÓN LECTORA CRÍTICA: IDENTIDAD LECTORA, LITERACIDAD DE GÉNERO Y AGENCIA COMUNICATIVA EN DIVERSIFICACIÓN CURRICULAR",
+"titulo": "Femicuentos como mediación lectora crítica: identidad lectora, literacidad de género y agencia comunicativa en diversificación curricular",
+"tituloHtml": null,
 "autor": "María Esther Aguilera Pérez (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "14:00",
@@ -925,7 +996,8 @@
 },
 {
 "codigo": "COM-121",
-"titulo": "INTELIGENCIA ARTIFICIAL GENERATIVA EN LA PRODUCCIÓN Y REVISIÓN DE TEXTOS EN INGLÉS EN LA FORMACIÓN INICIAL DOCENTE",
+"titulo": "Inteligencia artificial generativa en la producción y revisión de textos en inglés en la formación inicial docente",
+"tituloHtml": null,
 "autor": "Cristina Navas Romero (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "14:00",
@@ -938,7 +1010,8 @@
 },
 {
 "codigo": "COM-167",
-"titulo": "LA EDUCACIÓN POÉTICA EN LA ETAPA PRELECTORA: ANÁLISIS DE LAS COLECCIONES LA CEREZA Y DE LA CUNA A LA LUNA",
+"titulo": "La educación poética en la etapa prelectora: análisis de las colecciones La cereza y De la cuna a la luna",
+"tituloHtml": "La educación poética en la etapa prelectora: análisis de las colecciones <i>La cereza</i> y <i>De la cuna a la luna</i>",
 "autor": "Moisés Selfa Sastre (Universitat de Lleida)",
 "dia": "Miércoles 25",
 "inicio": "14:15",
@@ -951,7 +1024,8 @@
 },
 {
 "codigo": "COM-46",
-"titulo": "MÁS ALLÁ DEL IMPERATIVO: LAS FORMAS VERBALES DE OBLIGACIÓN EN LOS DECÁLOGOS ESCOLARES DEL CORP-EGRAMINT",
+"titulo": "Más allá del imperativo: las formas verbales de obligación en los decálogos escolares del Corp-Egramint",
+"tituloHtml": null,
 "autor": "Carme Durán Rivas (Universitat Autònoma de Barcelona) · Alícia Martí-Climent (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
@@ -964,7 +1038,8 @@
 },
 {
 "codigo": "COM-36",
-"titulo": "CUANDO LA LITERATURA ENTRETIENE, INQUIETA Y ABRE PUERTAS: PROYECTO DE MICROTEATRO EN EL AULA DESDE EL UNIVERSO FEMENINO LORQUIANO",
+"titulo": "Cuando la literatura entretiene, inquieta y abre puertas: proyecto de microteatro en el aula desde el universo femenino lorquiano",
+"tituloHtml": null,
 "autor": "María Teresa Catti (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
@@ -977,7 +1052,8 @@
 },
 {
 "codigo": "COM-49",
-"titulo": "EDUCACIÓN LITERARIA COMUNITARIA, MEDIACIÓN LECTORA Y MEMORIA CULTURAL EN LOS PROYECTOS DE PROMOCIÓN LECTORA DE VELIA VIDAL",
+"titulo": "Educación literaria comunitaria, mediación lectora y memoria cultural en los proyectos de promoción lectora de Velia Vidal",
+"tituloHtml": null,
 "autor": "Janneth Español Casallas (Universidad de Jaén)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
@@ -990,7 +1066,8 @@
 },
 {
 "codigo": "COM-164",
-"titulo": "ESPACIOS PARA LA COMUNICACIÓN ORAL EN LAS AULAS UNIVERSITARIAS: RETOS Y OPORTUNIDADES EN LA FORMACIÓN INICIAL DEL PROFESORADO",
+"titulo": "Espacios para la comunicación oral en las aulas universitarias: retos y oportunidades en la formación inicial del profesorado",
+"tituloHtml": null,
 "autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
 "dia": "Miércoles 25",
 "inicio": "16:00",
@@ -1003,7 +1080,8 @@
 },
 {
 "codigo": "COM-39",
-"titulo": "MEMORIA DEMOCRÁTICA Y LITERATURA JUVENIL: LA GUERRA CIVIL Y EL FRANQUISMO EN LA NARRATIVA ESPAÑOLA CONTEMPORÁNEA PARA ADOLESCENTES",
+"titulo": "Memoria democrática y literatura juvenil: la guerra civil y el franquismo en la narrativa española contemporánea para adolescentes",
+"tituloHtml": null,
 "autor": "Amal Conesa Erragbaoui (Universidad de Murcia)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
@@ -1016,7 +1094,8 @@
 },
 {
 "codigo": "COM-20",
-"titulo": "ACOMPAÑAMIENTO PEDAGÓGICO PARA LA ENSEÑANZA DE LA ESCRITURA EN UN AULA DE EDUCACIÓN INFANTIL DE UNA ESCUELA RURAL",
+"titulo": "Acompañamiento pedagógico para la enseñanza de la escritura en un aula de educación infantil de una escuela rural",
+"tituloHtml": null,
 "autor": "María Benéitez Bayón (Universidad de León) · María Dolores Alonso-Cortés Fradejas (Universidad de León) · Gloria Navas Fernández (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
@@ -1029,7 +1108,8 @@
 },
 {
 "codigo": "COM-65",
-"titulo": "LA INFLUENCIA DE VARIABLES PEDAGÓGICAS EN LA ESCRITURA ESCOLAR: EL USO DE LOS ADJETIVOS EN INGLÉS EN CORP-EGRAMINT",
+"titulo": "La influencia de variables pedagógicas en la escritura escolar: el uso de los adjetivos en inglés en Corp-Egramint",
+"tituloHtml": null,
 "autor": "María Dolores García-Pastor (Universidad de Valencia) · Mar Martínez Celda (Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
@@ -1042,7 +1122,8 @@
 },
 {
 "codigo": "COM-169",
-"titulo": "LOS FENÓMENOS DE HOMONIMIA Y PARONIMIA EN UN CORPUS DE TRANSCRIPCIONES AUTOMÁTICAS EN FRANCÉS",
+"titulo": "Los fenómenos de homonimia y paronimia en un corpus de transcripciones automáticas en francés",
+"tituloHtml": null,
 "autor": "Olga Rocío Serrano Carranza (Universidad Nacional de Colombia)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
@@ -1055,7 +1136,8 @@
 },
 {
 "codigo": "COM-1",
-"titulo": "DE LA EXPLICACIÓN A LA INTERPRETACIÓN: EXPANSIÓN NARRATIVA Y COMPETENCIA LECTOLITERARIA EN LA ENSEÑANZA DE LA POESÍA",
+"titulo": "De la explicación a la interpretación: expansión narrativa y competencia lectoliteraria en la enseñanza de la poesía",
+"tituloHtml": null,
 "autor": "Leonel Abarzúa (Universitat de Barcelona) · Alba Ambrós-Pallarés (Universitat de Barcelona)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
@@ -1068,7 +1150,8 @@
 },
 {
 "codigo": "COM-53",
-"titulo": "ECOCRÍTICA Y DIDÁCTICA LITERARIA: HACIA UNA PEDAGOGÍA DE LA CONCIENCIA ECOLÓGICA",
+"titulo": "Ecocrítica y didáctica literaria: hacia una pedagogía de la conciencia ecológica",
+"tituloHtml": null,
 "autor": "Andrea Felipe Morales (Universidad de Málaga) · María Aurora García Ruiz (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
@@ -1081,7 +1164,8 @@
 },
 {
 "codigo": "COM-101",
-"titulo": "LECTURA CRÍTICA Y EDUCACIÓN LITERARIA EN LA ERA DE LA INTELIGENCIA ARTIFICIAL GENERATIVA: COSMICISMO LOVECRAFTIANO Y ALFABETIZACIÓN INTERPRETATIVA EN ENTORNOS MEDIADOS POR IA",
+"titulo": "Lectura crítica y educación literaria en la era de la inteligencia artificial generativa: cosmicismo lovecraftiano y alfabetización interpretativa en entornos mediados por IA",
+"tituloHtml": null,
 "autor": "Manuel Jesús Martín González (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
@@ -1094,7 +1178,8 @@
 },
 {
 "codigo": "COM-68",
-"titulo": "DOCUMENTACIÓN DE ACTIVIDADES PARA EL APRENDIZAJE DE LA LENGUA EN LAS REDES SOCIALES DE LOS CENTROS EDUCATIVOS RURALES DE LEÓN",
+"titulo": "Documentación de actividades para el aprendizaje de la lengua en las redes sociales de los centros educativos rurales de León",
+"tituloHtml": null,
 "autor": "María Inmaculada González Alonso (Universidad de León) · María Benéitez Bayón (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
@@ -1107,7 +1192,8 @@
 },
 {
 "codigo": "COM-135",
-"titulo": "LAS RECETAS DISPARATADAS PRODUCIDAS POR ALUMNADO DE SECUNDARIA: USO DE FORMAS VERBALES, CONECTORES Y OTROS RECURSOS DISCURSIVOS",
+"titulo": "Las recetas disparatadas producidas por alumnado de secundaria: uso de formas verbales, conectores y otros recursos discursivos",
+"tituloHtml": null,
 "autor": "Montserrat Pérez-Giménez (Universitat de València - GIEL | Universidad de Valencia) · Raquel Sanz-Moreno (Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
@@ -1120,7 +1206,8 @@
 },
 {
 "codigo": "COM-180",
-"titulo": "GAMIFICACIÓN Y IAGEN EN LA ENSEÑANZA DEL TEATRO DE CALDERÓN DE LA BARCA EN ELE Y EL/2 MEDIANTE UNA GINCANA DE CHATBOTS ESPECIALIZADOS",
+"titulo": "Gamificación e IAGen en la enseñanza del teatro de Calderón de la Barca en ELE y EL/2 mediante una gincana de chatbots especializados",
+"tituloHtml": null,
 "autor": "Jorge Torrellas Alonso (Universidade Estadual Paulista)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
@@ -1133,7 +1220,8 @@
 },
 {
 "codigo": "COM-155",
-"titulo": "SUBJETIVIDAD FEMENINA, MEMORIA POLÍTICA Y DISCURSO NACIONAL EN PÁGINAS DEL ECUADOR DE MARIETA DE VEINTEMILLA",
+"titulo": "Subjetividad femenina, memoria política y discurso nacional en Páginas del Ecuador de Marieta de Veintemilla",
+"tituloHtml": "Subjetividad femenina, memoria política y discurso nacional en <i>Páginas del Ecuador</i> de Marieta de Veintemilla",
 "autor": "Virginia Sánchez Andrade (Universidad Bolivariana del Ecuador | Universidad Bolivariana del Ecuador)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
@@ -1146,7 +1234,8 @@
 },
 {
 "codigo": "COM-132",
-"titulo": "EL IMPACTO DEL DESASTRE DEL PRESTIGE EN LA LIJ: UNA APROXIMACIÓN DESDE LA PERSPECTIVA ECOCRÍTICA",
+"titulo": "El impacto del desastre del Prestige en la LIJ: una aproximación desde la perspectiva ecocrítica",
+"tituloHtml": null,
 "autor": "Montse Pena Presas (Universidade de Santiago de Compostela) · María J. Caamaño Rojo (Universidade de Santiago de Compostela)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
@@ -1159,7 +1248,8 @@
 },
 {
 "codigo": "COM-175",
-"titulo": "CUANDO LOS CLÁSICOS SALEN A LA CALLE",
+"titulo": "Cuando los clásicos salen a la calle",
+"tituloHtml": null,
 "autor": "Ana María Sosa Cedrani (CODICEN/ANEP | CFE/IINN) · Mariela Inés Silva González (CODICEN/ANEP)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
@@ -1172,7 +1262,8 @@
 },
 {
 "codigo": "COM-91",
-"titulo": "DOCUMENTACIÓN DE UNA PRÁCTICA DE DICTADO INTERACTIVO EN UN AULA RURAL DE EDUCACIÓN PRIMARIA",
+"titulo": "Documentación de una práctica de dictado interactivo en un aula rural de educación primaria",
+"tituloHtml": null,
 "autor": "María Teresa Llamazares Prieto (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
@@ -1185,7 +1276,8 @@
 },
 {
 "codigo": "COM-22",
-"titulo": "ENSEÑANZA-APRENDIZAJE DE VARIEDADES DEL ESPAÑOL: MATERIALES DIDÁCTICOS DIGITALES BASADOS EN UNA PELÍCULA DE ANIMACIÓN",
+"titulo": "Enseñanza-aprendizaje de variedades del español: materiales didácticos digitales basados en una película de animación",
+"tituloHtml": null,
 "autor": "Miriam Bertos Salas (Universidad de Málaga) · Rocío Díaz Bravo (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "16:36",
@@ -1198,7 +1290,8 @@
 },
 {
 "codigo": "COM-29",
-"titulo": "LEER DESDE EL CONFLICTO SOCIAL: RECURSOS TECNOLÓGICOS, MOTIVACIÓN LECTORA Y REVISIÓN DEL CANON EN EDUCACIÓN SECUNDARIA A TRAVÉS DE HUELGA EN EL PUERTO",
+"titulo": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de Huelga en el puerto",
+"tituloHtml": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de <i>Huelga en el puerto</i>",
 "autor": "M. Almudena Cantero Sandoval",
 "dia": "Miércoles 25",
 "inicio": "16:36",
@@ -1211,7 +1304,8 @@
 },
 {
 "codigo": "COM-16",
-"titulo": "EL TEATRO COMO HERRAMIENTA PARA LA MEJORA DE COMPETENCIAS LINGÜÍSTICAS Y SOCIALES EN EL MARCO DE LOS ODS",
+"titulo": "El teatro como herramienta para la mejora de competencias lingüísticas y sociales en el marco de los ODS",
+"tituloHtml": null,
 "autor": "Óscar Barros González (Universidad de Cantabria) · María Adelina Calvo Salvador (Universidad de Cantabria)",
 "dia": "Miércoles 25",
 "inicio": "16:36",
@@ -1224,7 +1318,8 @@
 },
 {
 "codigo": "COM-157",
-"titulo": "LEER PARA CALMAR. DISEÑO DE UN RINCÓN DE LA CALMA LITERARIO EN EDUCACIÓN INFANTIL",
+"titulo": "Leer para calmar. Diseño de un rincón de la calma literario en educación infantil",
+"tituloHtml": null,
 "autor": "María Sánchez Carvajal (Centro Universitario de Antequera María Inmaculada, adscrito a la Universidad de Málaga) · María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
 "dia": "Miércoles 25",
 "inicio": "16:36",
@@ -1237,7 +1332,8 @@
 },
 {
 "codigo": "COM-44",
-"titulo": "LA OCA DEL TIEMPO. UN ESTUDIO EXPLORATORIO SOBRE LA UTILIZACIÓN DEL PODCAST COMO HERRAMIENTA DE EVALUACIÓN AUTÉNTICA DEL APRENDIZAJE DE LA LENGUA Y DE LAS CIENCIAS SOCIALES EN EDUCACIÓN PRIMARIA",
+"titulo": "La oca del tiempo. Un estudio exploratorio sobre la utilización del pódcast como herramienta de evaluación auténtica del aprendizaje de la lengua y de las ciencias sociales en educación primaria",
+"tituloHtml": null,
 "autor": "Raquel Domínguez Fernández (Universidad de León) · María Teresa Llamazares Prieto (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "16:36",
@@ -1250,7 +1346,8 @@
 },
 {
 "codigo": "COM-47",
-"titulo": "MIRARSE PARA APRENDER A ENSEÑAR: EL VÍDEO COMO MEDIADOR DE LA REFLEXIÓN DOCENTE EN LA FORMACIÓN INICIAL DEL PROFESORADO DE LENGUA",
+"titulo": "Mirarse para aprender a enseñar: el vídeo como mediador de la reflexión docente en la formación inicial del profesorado de lengua",
+"tituloHtml": null,
 "autor": "Carme Durán Rivas (Universitat Autònoma de Barcelona) · Mireia Manresa Potrony (Universitat Autònoma de Barcelona)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
@@ -1263,7 +1360,8 @@
 },
 {
 "codigo": "COM-67",
-"titulo": "EL DIARIO DE CAMPO COMO GÉNERO DISCURSIVO ESCOLAR: DISEÑO Y VALIDACIÓN DE UNA RÚBRICA ANALÍTICA PARA PRIMER CICLO DE EDUCACIÓN SECUNDARIA OBLIGATORIA",
+"titulo": "El diario de campo como género discursivo escolar: diseño y validación de una rúbrica analítica para primer ciclo de educación secundaria obligatoria",
+"tituloHtml": null,
 "autor": "Teresa Gómez Sáenz de Miera (Universidad Complutense de Madrid) · María Teresa Mateo-Girona (Universidad Complutense de Madrid)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
@@ -1276,7 +1374,8 @@
 },
 {
 "codigo": "COM-137",
-"titulo": "DE LA FORMACIÓN A LA ACCIÓN LINGÜÍSTICA Y DIDÁCTICA EN INGLÉS COMO LENGUA EXTRANJERA",
+"titulo": "De la formación a la acción lingüística y didáctica en inglés como lengua extranjera",
+"tituloHtml": null,
 "autor": "Paula Pérez Lucas (Universidad de Valladolid)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
@@ -1289,7 +1388,8 @@
 },
 {
 "codigo": "COM-118",
-"titulo": "REPRESENTACIONES DE MALINCHE EN LA LITERATURA MEXICANA DEL SIGLO XX. ALGUNOS EJEMPLOS",
+"titulo": "Representaciones de Malinche en la literatura mexicana del siglo XX. Algunos ejemplos",
+"tituloHtml": null,
 "autor": "Jorge Antonio Muñoz Figueroa (Universidad Nacional Autónoma de México)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
@@ -1302,7 +1402,8 @@
 },
 {
 "codigo": "COM-183",
-"titulo": "LA AUTOBIOGRAFÍA LINGÜÍSTICA COMO HERRAMIENTA PARA COMPRENDER LAS PERCEPCIONES Y COMPETENCIAS LINGÜÍSTICAS DE LOS DOCENTES PLURILINGÜES EN FORMACIÓN",
+"titulo": "La autobiografía lingüística como herramienta para comprender las percepciones y competencias lingüísticas de los docentes plurilingües en formación",
+"tituloHtml": null,
 "autor": "Itxaso Vazquez Villa (Universidad de Deusto) · Inés Garcia-Azkoaga (Universidad del País Vasco)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
@@ -1315,7 +1416,8 @@
 },
 {
 "codigo": "COM-54",
-"titulo": "LA IA COMO HERRAMIENTA DIDÁCTICA EN LA ENSEÑANZA DE LA TRADUCCIÓN",
+"titulo": "La IA como herramienta didáctica en la enseñanza de la traducción",
+"tituloHtml": null,
 "autor": "Ramsés Fernández García (Universidad de Oviedo)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
@@ -1328,7 +1430,8 @@
 },
 {
 "codigo": "COM-74",
-"titulo": "EXPLORANDO EL CAMBIO DE CREENCIAS HACIA EL MULTILINGÜISMO EN LA FORMACIÓN INICIAL DOCENTE: LA REFLEXIÓN MEDIADA POR VÍDEO COMO EJE DE LA INTERVENCIÓN",
+"titulo": "Explorando el cambio de creencias hacia el multilingüismo en la formación inicial docente: la reflexión mediada por vídeo como eje de la intervención",
+"tituloHtml": null,
 "autor": "Irene Guzmán-Alcón (Universitat de València) · Alícia Martí-Climent (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
@@ -1341,7 +1444,8 @@
 },
 {
 "codigo": "COM-125",
-"titulo": "LA LECTURA EXPRESIVA COMO PREDICTOR DE LA COMPRENSIÓN LECTORA: PROPUESTA DE UNA INVESTIGACIÓN LONGITUDINAL EN EDUCACIÓN PRIMARIA",
+"titulo": "La lectura expresiva como predictor de la comprensión lectora: propuesta de una investigación longitudinal en educación primaria",
+"tituloHtml": null,
 "autor": "Daniela Ester Oliveros Díaz (Universidad de Jaén) · Nicolás Gutiérrez Palma (Universidad de Jaén)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
@@ -1354,7 +1458,8 @@
 },
 {
 "codigo": "COM-14",
-"titulo": "LA FORMACIÓN PARA LA EDUCACIÓN BILINGÜE Y LITERARIA. INVESTIGACIONES Y COLABORACIÓN INTERDISCIPLINAR",
+"titulo": "La formación para la educación bilingüe y literaria. Investigaciones y colaboración interdisciplinar",
+"tituloHtml": null,
 "autor": "Natalia Barranco Izquierdo (Universidad de Valladolid) · María Teresa Calderón Quindós (Universidad de Valladolid)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
@@ -1367,7 +1472,8 @@
 },
 {
 "codigo": "COM-32",
-"titulo": "AMBIENTE VIRTUAL DE APRENDIZAJE EN LA CULTURA: DISEÑO E IMPLEMENTACIÓN DE UNA PLATAFORMA INMERSIVA PARA LA ENSEÑANZA DE LA CULTURA MEXICANA A ESTUDIANTES EXTRANJEROS",
+"titulo": "Ambiente virtual de aprendizaje en la cultura: diseño e implementación de una plataforma inmersiva para la enseñanza de la cultura mexicana a estudiantes extranjeros",
+"tituloHtml": null,
 "autor": "Maribel Carmona Herrera (Universidad Nacional Autónoma de México)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
@@ -1380,7 +1486,8 @@
 },
 {
 "codigo": "COM-27",
-"titulo": "LA ENSEÑANZA DE LA GRAMÁTICA EN PRIMARIA: DEL CURRÍCULO A LOS LIBROS DE TEXTO",
+"titulo": "La enseñanza de la gramática en primaria: del currículo a los libros de texto",
+"tituloHtml": null,
 "autor": "Àngels Campos González (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
@@ -1393,7 +1500,8 @@
 },
 {
 "codigo": "COM-85",
-"titulo": "CREACIÓN COLABORATIVA DE PÓDCAST CON APOYO DE INTELIGENCIA ARTIFICIAL EN LA ENSEÑANZA DE LITERATURA DRAMÁTICA EN EDUCACIÓN SUPERIOR ARTÍSTICA",
+"titulo": "Creación colaborativa de pódcast con apoyo de inteligencia artificial en la enseñanza de literatura dramática en educación superior artística",
+"tituloHtml": null,
 "autor": "Nílofer Khan (Universidad de Málaga) · Eugenio Maqueda Cuenca (Universidad de Málaga) · Juan Zagalaz (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
@@ -1406,7 +1514,8 @@
 },
 {
 "codigo": "COM-134",
-"titulo": "HABLAMOS PARA REFLEXIONAR Y APRENDER CON FUTUROS DOCENTES DE PRIMARIA: BIOGRAFÍAS LINGÜÍSTICAS Y EDUCATIVAS GRABADAS EN VÍDEO PARA SU POSTERIOR CONFRONTACIÓN",
+"titulo": "Hablamos para reflexionar y aprender con futuros docentes de primaria: biografías lingüísticas y educativas grabadas en vídeo para su posterior confrontación",
+"tituloHtml": null,
 "autor": "Montserrat Pérez-Giménez (Universitat de València - GIEL | Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "17:24",
@@ -1419,7 +1528,8 @@
 },
 {
 "codigo": "COM-24",
-"titulo": "COMPETENCIA COMUNICATIVA INICIAL, PROFUNDIDAD DEL CONOCIMIENTO LÉXICO Y EMOCIÓN: EVIDENCIAS DESDE EL APRENDIZAJE DE VOCABULARIO EN ESPAÑOL COMO LENGUA EXTRANJERA",
+"titulo": "Competencia comunicativa inicial, profundidad del conocimiento léxico y emoción: evidencias desde el aprendizaje de vocabulario en español como lengua extranjera",
+"tituloHtml": null,
 "autor": "Ana Blanco Canales (Universidad de Alcalá de Henares) · Aránzazu Bernardo Jiménez (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "17:24",
@@ -1432,7 +1542,8 @@
 },
 {
 "codigo": "COM-166",
-"titulo": "PRÁCTICUM Y TRABAJOS FIN DE GRADO EN LA MENCIÓN DE INGLÉS: UN VALOR COMPARTIDO",
+"titulo": "Prácticum y trabajos fin de grado en la mención de inglés: un valor compartido",
+"tituloHtml": null,
 "autor": "Francisco Javier Sanz Trigueros (Universidad de Valladolid) · Ana Isabel Alario Trigueros (Universidad de Valladolid)",
 "dia": "Miércoles 25",
 "inicio": "17:24",
@@ -1445,7 +1556,8 @@
 },
 {
 "codigo": "COM-171",
-"titulo": "CULTURAS MEXICANAS EN CONTEXTO Y EN CONTACTO. PROPUESTA METODOLÓGICA DE ENSEÑANZA-APRENDIZAJE DE CONTENIDOS CULTURALES PARA ESTUDIANTES DE ELE",
+"titulo": "Culturas mexicanas en contexto y en contacto. Propuesta metodológica de enseñanza-aprendizaje de contenidos culturales para estudiantes de ELE",
+"tituloHtml": null,
 "autor": "Leonor Alejandra Silva Lomelí (Universidad Nacional Autónoma de México)",
 "dia": "Miércoles 25",
 "inicio": "17:24",
@@ -1458,7 +1570,8 @@
 },
 {
 "codigo": "COM-40",
-"titulo": "CONCIENCIA SOCIOLINGÜÍSTICA Y AUTOPERCEPCIÓN DOCENTE DE LOS FUTUROS/AS MAESTROS/AS FRENTE A LA DIVERSIDAD LINGÜÍSTICA: UN ESTUDIO DIAGNÓSTICO DE INVESTIGACIÓN-ACCIÓN",
+"titulo": "Conciencia sociolingüística y autopercepción docente de los futuros/as maestros/as frente a la diversidad lingüística: un estudio diagnóstico de investigación-acción",
+"tituloHtml": null,
 "autor": "Natalia Contreras-de la Llave (Universidad de Alicante) · Marta de Vega Díez (Universidad de Alicante) · Ignacio Ballester Pardo (Universidad de Alicante)",
 "dia": "Miércoles 25",
 "inicio": "17:24",
@@ -1471,7 +1584,8 @@
 },
 {
 "codigo": "COM-168",
-"titulo": "ARTIFICIAL INTELLIGENCE IN EFL PRE-SERVICE TEACHERS’ DEVELOPMENT OF HIGHER-ORDER THINKING SKILLS IN AI-ASSISTED LEARNING TASKS",
+"titulo": "Artificial intelligence in EFL pre-service teachers’ development of higher-order thinking skills in AI-assisted learning tasks",
+"tituloHtml": "<i>Artificial intelligence in EFL pre-service teachers’ development of higher-order thinking skills in AI-assisted learning tasks</i>",
 "autor": "Ariadna Serón Navas (Universidad de Málaga) · Cristina Vereda Alonso (Universidad de Málaga) · Anna Grazyna Szczesniak (Universidad de Málaga) · Cristina Castillo Rodríguez (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "17:24",
@@ -1484,7 +1598,8 @@
 },
 {
 "codigo": "COM-48",
-"titulo": "LA INFLUENCIA DE LA VARIABLE SEXO EN LA DISPONIBILIDAD LÉXICA DEL ALUMNADO DE EDUCACIÓN PRIMARIA",
+"titulo": "La influencia de la variable sexo en la disponibilidad léxica del alumnado de educación primaria",
+"tituloHtml": null,
 "autor": "Rocío Escudero Sánchez (Universidad de Málaga) · Inmaculada Clotilde Santos Díaz (Universidad de Málaga) · Ester Trigo Ibáñez (Universidad de Cádiz)",
 "dia": "Miércoles 25",
 "inicio": "17:36",
@@ -1497,7 +1612,8 @@
 },
 {
 "codigo": "COM-79",
-"titulo": "WHEN ENGLISH BECOMES A BRIDGE: A MULTIPLE CASE STUDY OF NEWLY ARRIVED REFUGEES' EXPERIENCES OF SERVICE-LEARNING AND SOCIAL INCLUSION IN SPAIN",
+"titulo": "When English becomes a bridge: a multiple case study of newly arrived refugees' experiences of service-learning and social inclusion in Spain",
+"tituloHtml": "<i>When English becomes a bridge: a multiple case study of newly arrived refugees&#x27; experiences of service-learning and social inclusion in Spain</i>",
 "autor": "Eeva-Maria Hooli (University of Granada) · Silvia Corral-Robles (University of Granada) · José Luis Ortega Martín (Universidad de Granada)",
 "dia": "Miércoles 25",
 "inicio": "17:36",
@@ -1510,7 +1626,8 @@
 },
 {
 "codigo": "COM-83",
-"titulo": "UN MODELO DE RETROALIMENTACIÓN FORMATIVA ASISTIDA POR GPT PARA ENSAYOS ACADÉMICOS: APOYO A DOCENTES Y ESTUDIANTES DEL PROGRAMA LEAFID",
+"titulo": "Un modelo de retroalimentación formativa asistida por GPT para ensayos académicos: apoyo a docentes y estudiantes del programa LEAFID",
+"tituloHtml": null,
 "autor": "Marcela Jarpa Azagra (Pontificia Universidad Católica de Valparaíso) · Mónica Tapia Ladino (Universidad Católica de la Santísima Concepción) · Florencia Alcaino Muñoz (Pontificia Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "17:36",
@@ -1523,7 +1640,8 @@
 },
 {
 "codigo": "COM-174",
-"titulo": "SITUACIÓN ACTUAL DEL CONOCIMIENTO DE LENGUAS EXTRANJERAS DEL ALUMNADO DE GRADO EN EDUCACIÓN PRIMARIA",
+"titulo": "Situación actual del conocimiento de lenguas extranjeras del alumnado de grado en educación primaria",
+"tituloHtml": null,
 "autor": "Juan Antonio Solís Becerra (Universidad de Murcia) · Carmen Belén Macías Corredera (Universidad de Murcia)",
 "dia": "Jueves 26",
 "inicio": "09:00",
@@ -1536,7 +1654,8 @@
 },
 {
 "codigo": "COM-3",
-"titulo": "LA BIBLIOTECA ESCOLAR COMO ESPACIO DE FORMACIÓN. UNA EXPERIENCIA DE APRENDIZAJE-SERVICIO EN 4.º DE GRADO DE EDUCACIÓN PRIMARIA",
+"titulo": "La biblioteca escolar como espacio de formación. Una experiencia de aprendizaje-servicio en 4.º de grado de educación primaria",
+"tituloHtml": null,
 "autor": "María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
 "dia": "Jueves 26",
 "inicio": "09:00",
@@ -1549,7 +1668,8 @@
 },
 {
 "codigo": "COM-113",
-"titulo": "HÁBITOS LECTORES EN LOS GRADOS DE INFANTIL Y PRIMARIA: PERFIL LECTOR DEL FUTURO PROFESORADO",
+"titulo": "Hábitos lectores en los grados de infantil y primaria: perfil lector del futuro profesorado",
+"tituloHtml": null,
 "autor": "Carla Míguez-Álvarez (Universidad de Vigo | Universidad de Vigo) · Isabel Mociño-González (Universidad de Vigo | Universidad de Vigo) · Eulalia Agrelo-Costas (Universidad de Vigo)",
 "dia": "Jueves 26",
 "inicio": "09:00",
@@ -1562,7 +1682,8 @@
 },
 {
 "codigo": "COM-123",
-"titulo": "LA EDUCACIÓN LITERARIA MULTIMODAL: UN ESTUDIO DE CASO EN ESO",
+"titulo": "La educación literaria multimodal: un estudio de caso en ESO",
+"tituloHtml": null,
 "autor": "Gabriel Núñez Molina (Universidad de Extremadura)",
 "dia": "Jueves 26",
 "inicio": "09:00",
@@ -1575,7 +1696,8 @@
 },
 {
 "codigo": "COM-17",
-"titulo": "¿MEDIADORES O USUARIOS ACRÍTICOS? ALFABETIZACIÓN ALGORÍTMICA DE FUTUROS DOCENTES Y USO DE GEMS EN MEDIACIÓN LECTORA",
+"titulo": "¿Mediadores o usuarios acríticos? Alfabetización algorítmica de futuros docentes y uso de Gems en mediación lectora",
+"tituloHtml": null,
 "autor": "Cristina Bartolomé Porcar (Universidad de Zaragoza) · Isabel Aparicio García (Universidad de Zaragoza)",
 "dia": "Jueves 26",
 "inicio": "09:00",
@@ -1588,7 +1710,8 @@
 },
 {
 "codigo": "COM-128",
-"titulo": "CUANDO LA IA YA ESTÁ DENTRO: EVENTOS LETRADOS, AUTORÍA Y RESPONSABILIDAD DOCENTE DESDE UNA MIRADA INSIDER",
+"titulo": "Cuando la IA ya está dentro: eventos letrados, autoría y responsabilidad docente desde una mirada insider",
+"tituloHtml": "Cuando la IA ya está dentro: eventos letrados, autoría y responsabilidad docente desde una mirada <i>insider</i>",
 "autor": "Ivette Pardillo Hernández (Universidad de Sevilla)",
 "dia": "Jueves 26",
 "inicio": "09:00",
@@ -1601,7 +1724,8 @@
 },
 {
 "codigo": "COM-97",
-"titulo": "ESTRATEGIAS DE COMPRENSIÓN LECTORA DE FUTURO PROFESORADO DE INGLÉS DE ESO, BACHILLERATO Y ESCUELAS OFICIALES DE IDIOMAS",
+"titulo": "Estrategias de comprensión lectora de futuro profesorado de inglés de ESO, bachillerato y escuelas oficiales de idiomas",
+"tituloHtml": null,
 "autor": "Carmen Belén Macías Corredera (Universidad de Murcia) · Juan Antonio Solís Becerra (Universidad de Murcia)",
 "dia": "Jueves 26",
 "inicio": "09:12",
@@ -1614,7 +1738,8 @@
 },
 {
 "codigo": "COM-181",
-"titulo": "NEUROEDUCACIÓN Y FORMACIÓN DOCENTE: IMPLICACIONES DIDÁCTICAS Y METODOLÓGICAS DE LA DISCIPLINA EN LA ENSEÑANZA DE LA LITERATURA",
+"titulo": "Neuroeducación y formación docente: implicaciones didácticas y metodológicas de la disciplina en la enseñanza de la literatura",
+"tituloHtml": null,
 "autor": "Belén Valdés Villalobos (Universidad Autónoma de Chile)",
 "dia": "Jueves 26",
 "inicio": "09:12",
@@ -1627,7 +1752,8 @@
 },
 {
 "codigo": "COM-66",
-"titulo": "LA VOZ DE CELIA Y LA FORMACIÓN DE LECTORES CRÍTICOS: POSIBILIDADES DIDÁCTICAS DE LA OBRA DE ELENA FORTÚN EN LA EDUCACIÓN LITERARIA CONTEMPORÁNEA",
+"titulo": "La voz de Celia y la formación de lectores críticos: posibilidades didácticas de la obra de Elena Fortún en la educación literaria contemporánea",
+"tituloHtml": null,
 "autor": "María Ángela Garrido Berlanga (Universidad de Málaga)",
 "dia": "Jueves 26",
 "inicio": "09:12",
@@ -1640,7 +1766,8 @@
 },
 {
 "codigo": "COM-105",
-"titulo": "LA EXPRESIÓN ESCRITA EN LOS LIBROS DE TEXTO DE EDUCACIÓN PRIMARIA",
+"titulo": "La expresión escrita en los libros de texto de educación primaria",
+"tituloHtml": null,
 "autor": "Helena Martínez Zuazua (Universidad de Oviedo)",
 "dia": "Jueves 26",
 "inicio": "09:12",
@@ -1653,7 +1780,8 @@
 },
 {
 "codigo": "COM-11",
-"titulo": "ESTRATEGIAS DIDÁCTICAS PARA EL FOMENTO DE LA MEDIACIÓN LECTORA EN EDUCACIÓN PRIMARIA",
+"titulo": "Estrategias didácticas para el fomento de la mediación lectora en educación primaria",
+"tituloHtml": null,
 "autor": "Isabel Aparicio García (Universidad de Zaragoza) · Lucía Lizarbe Casado (Universidad de Zaragoza)",
 "dia": "Jueves 26",
 "inicio": "09:12",
@@ -1666,7 +1794,8 @@
 },
 {
 "codigo": "COM-43",
-"titulo": "LA ILUSIÓN DIALÓGICA: ANÁLISIS DISCURSIVO DE LA INTERACCIÓN ENTRE APRENDIENTES DE LENGUAS ADICIONALES E INTELIGENCIA ARTIFICIAL GENERATIVA",
+"titulo": "La ilusión dialógica: análisis discursivo de la interacción entre aprendientes de lenguas adicionales e inteligencia artificial generativa",
+"tituloHtml": null,
 "autor": "Alba Delgado-Aguilar (Universitat Pompeu Fabra) · Carme Bach (Universitat Pompeu Fabra)",
 "dia": "Jueves 26",
 "inicio": "09:12",
@@ -1679,7 +1808,8 @@
 },
 {
 "codigo": "COM-37",
-"titulo": "THE PRESENCE OF IDIOMATIC EXPRESSIONS IN LITERARY WORKS READ BY STUDENTS AT THE BEGINNING OF SCHOOLING",
+"titulo": "The presence of idiomatic expressions in literary works read by students at the beginning of schooling",
+"tituloHtml": "<i>The presence of idiomatic expressions in literary works read by students at the beginning of schooling</i>",
 "autor": "Ana Ćavar (University of Zagreb, Croatia)",
 "dia": "Jueves 26",
 "inicio": "09:24",
@@ -1692,7 +1822,8 @@
 },
 {
 "codigo": "COM-73",
-"titulo": "LIBROS ILUSTRADOS DE NO FICCIÓN PARA LA ORGANIZACIÓN Y COMPRENSIÓN DE CONTENIDOS CIENTÍFICOS",
+"titulo": "Libros ilustrados de no ficción para la organización y comprensión de contenidos científicos",
+"tituloHtml": null,
 "autor": "Salvador Gutiérrez Molero (Universidad de Cádiz) · Hugo Heredia Ponce (Universidad de Cádiz)",
 "dia": "Jueves 26",
 "inicio": "09:24",
@@ -1705,7 +1836,8 @@
 },
 {
 "codigo": "COM-84",
-"titulo": "LA VOZ DE RAQUEL LANSEROS EN LAS AULAS DE SECUNDARIA: SITUACIONES DE APRENDIZAJE PARA UN CANON ESCOLAR MÁS JUSTO",
+"titulo": "La voz de Raquel Lanseros en las aulas de secundaria: situaciones de aprendizaje para un canon escolar más justo",
+"tituloHtml": null,
 "autor": "Víctor Abel Jiménez Jódar (Universidad de Almería)",
 "dia": "Jueves 26",
 "inicio": "09:24",
@@ -1718,7 +1850,8 @@
 },
 {
 "codigo": "COM-139",
-"titulo": "EDUCAR PARA INCLUIR: INICIACIÓN A LA LENGUA DE SIGNOS EN LA FORMACIÓN DE FUTUROS MAESTROS",
+"titulo": "Educar para incluir: iniciación a la lengua de signos en la formación de futuros maestros",
+"tituloHtml": null,
 "autor": "Clara Macarena Ponce Romero (Universidade de Santiago de Compostela)",
 "dia": "Jueves 26",
 "inicio": "09:24",
@@ -1731,7 +1864,8 @@
 },
 {
 "codigo": "COM-28",
-"titulo": "DEL FEEDBACK AUTOMÁTICO AL JUICIO PEDAGÓGICO: INTELIGENCIA ARTIFICIAL Y COMPETENCIA COMUNICATIVA EN FUTUROS DOCENTES",
+"titulo": "Del feedback automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
+"tituloHtml": "Del <i>feedback</i> automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
 "autor": "M. Almudena Cantero Sandoval",
 "dia": "Jueves 26",
 "inicio": "09:24",
@@ -1744,7 +1878,8 @@
 },
 {
 "codigo": "COM-41",
-"titulo": "LEARNING ON THE MOVE: AI-ENHANCED WALK-AND-TALK PEDAGOGY FOR LANGUAGE LEARNING",
+"titulo": "Learning on the move: AI-enhanced walk-and-talk pedagogy for language learning",
+"tituloHtml": "<i>Learning on the move: AI-enhanced walk-and-talk pedagogy for language learning</i>",
 "autor": "Marisa Costa (University of Aveiro) · Liudmila Shafirova (The Research Centre on Didactics and Technology in the Education of Trainers (CIDTFF), Department of Education and Psychology, University of Aveiro) · Margarida Lucas (The Research Centre on Didactics and Technology in the Education of Trainers (CIDTFF), Department of Education and Psychology, Universidade de Aveiro)",
 "dia": "Jueves 26",
 "inicio": "09:24",
@@ -1757,7 +1892,8 @@
 },
 {
 "codigo": "COM-15",
-"titulo": "LA INTERNACIONALIZACIÓN DEL AULA A TRAVÉS DE ETWINNING: PRÁCTICAS COLABORATIVAS PARA EL DESARROLLO DE LA COMPETENCIA COMUNICATIVA INTERCULTURAL Y DIGITAL",
+"titulo": "La internacionalización del aula a través de eTwinning: prácticas colaborativas para el desarrollo de la competencia comunicativa intercultural y digital",
+"tituloHtml": null,
 "autor": "Natalia Barranco Izquierdo (Universidad de Valladolid) · Paula Pérez Lucas (Universidad de Valladolid)",
 "dia": "Jueves 26",
 "inicio": "09:36",
@@ -1770,7 +1906,8 @@
 },
 {
 "codigo": "COM-158",
-"titulo": "INTELIGENCIA ARTIFICIAL Y STORYTELLING: ¿NUEVOS AMIGOS O ENEMIGOS?",
+"titulo": "Inteligencia artificial y storytelling: ¿nuevos amigos o enemigos?",
+"tituloHtml": "Inteligencia artificial y <i>storytelling</i>: ¿nuevos amigos o enemigos?",
 "autor": "Ana María Sánchez Catena (Institute for the International Education of Students)",
 "dia": "Jueves 26",
 "inicio": "09:36",
@@ -1783,7 +1920,8 @@
 },
 {
 "codigo": "COM-50",
-"titulo": "LES OPINIONS SOBRE LIJ DE VICENÇ PAGÈS JORDÀ: ENTRE EL CÀNON I LA POSTMODERNITAT",
+"titulo": "Les opinions sobre LIJ de Vicenç Pagès Jordà: entre el cànon i la postmodernitat",
+"tituloHtml": null,
 "autor": "Enric Falguera Garcia (Universitat de Lleida)",
 "dia": "Jueves 26",
 "inicio": "09:36",
@@ -1796,7 +1934,8 @@
 },
 {
 "codigo": "COM-109",
-"titulo": "LA REINTERPRETACIÓN MULTIMODAL DE DON QUIJOTE EN EDUCACIÓN PRIMARIA: UNA EXPERIENCIA DE EDUCACIÓN LITERARIA Y COMPRENSIÓN LECTORA",
+"titulo": "La reinterpretación multimodal de Don Quijote en educación primaria: una experiencia de educación literaria y comprensión lectora",
+"tituloHtml": null,
 "autor": "Beatriz Mederer Hengstl (Universidad de Granada)",
 "dia": "Jueves 26",
 "inicio": "09:36",
@@ -1809,7 +1948,8 @@
 },
 {
 "codigo": "COM-117",
-"titulo": "ENSEÑAR A ESCRIBIR EN TIEMPOS DE INTELIGENCIA ARTIFICIAL: UNA PROPUESTA FORMATIVA PARA FUTUROS MAESTROS",
+"titulo": "Enseñar a escribir en tiempos de inteligencia artificial: una propuesta formativa para futuros maestros",
+"tituloHtml": null,
 "autor": "Celia Morales Rando (Universidad de La Laguna) · Rebeca Villarroel Ramírez (Universidad de La Laguna) · Isaac Marco Rodríguez (Universidad de La Laguna)",
 "dia": "Jueves 26",
 "inicio": "09:36",
@@ -1822,7 +1962,8 @@
 },
 {
 "codigo": "COM-182",
-"titulo": "MÁS ALLÁ DEL PROMPT: ESTUDIO CRÍTICO DE LAS LITERACIDADES MEDIADAS POR IA EN LA EDUCACIÓN LINGÜÍSTICA",
+"titulo": "Más allá del prompt: estudio crítico de las literacidades mediadas por IA en la educación lingüística",
+"tituloHtml": "Más allá del <i>prompt</i>: estudio crítico de las literacidades mediadas por IA en la educación lingüística",
 "autor": "Boris Vázquez-Calvo (Universidad de Sevilla) · Mary Griffith (Universidad de Málaga) · María de la Luz Bort (Universidad de Málaga) · Salomé Yélamos Guerra (Universidad de Málaga)",
 "dia": "Jueves 26",
 "inicio": "09:36",
@@ -1835,7 +1976,8 @@
 },
 {
 "codigo": "COM-18",
-"titulo": "¿CÓMO REVISAN LOS ESCRITOS LOS FUTUROS MAESTROS? UNA INVESTIGACIÓN SOBRE REVISIÓN COLABORATIVA CON ALUMNADO UNIVERSITARIO",
+"titulo": "¿Cómo revisan los escritos los futuros maestros? Una investigación sobre revisión colaborativa con alumnado universitario",
+"tituloHtml": null,
 "autor": "Aranzazu Bea Reyes (Universitat de València)",
 "dia": "Jueves 26",
 "inicio": "09:48",
@@ -1848,7 +1990,8 @@
 },
 {
 "codigo": "COM-179",
-"titulo": "LA LECTURA LITERARIA Y LA FORMACIÓN DE LECTORES EN EL AULA DE ELE",
+"titulo": "La lectura literaria y la formación de lectores en el aula de ELE",
+"tituloHtml": null,
 "autor": "Fátima Tihal (Universidad de Ammar Telidji)",
 "dia": "Jueves 26",
 "inicio": "09:48",
@@ -1861,7 +2004,8 @@
 },
 {
 "codigo": "COM-145",
-"titulo": "“LOS TRES PELOS DE LA BARBA DEL DIABLO”: PROPUESTA DIDÁCTICA PARA TRABAJAR LA LITERATURA ORAL EN LAS AULAS DE FORMACIÓN DEL PROFESORADO",
+"titulo": "“Los tres pelos de la barba del diablo”: propuesta didáctica para trabajar la literatura oral en las aulas de formación del profesorado",
+"tituloHtml": null,
 "autor": "Amparo Rico Beltrán (Universitat de València)",
 "dia": "Jueves 26",
 "inicio": "09:48",
@@ -1874,7 +2018,8 @@
 },
 {
 "codigo": "COM-108",
-"titulo": "EL PATRIMONIO CULTURAL COMO CONTEXTO MULTIMODAL PARA EL DESARROLLO DE LA COMPETENCIA COMUNICATIVA EN EDUCACIÓN PRIMARIA",
+"titulo": "El patrimonio cultural como contexto multimodal para el desarrollo de la competencia comunicativa en educación primaria",
+"tituloHtml": null,
 "autor": "Beatriz Mederer Hengstl (Universidad de Granada)",
 "dia": "Jueves 26",
 "inicio": "09:48",
@@ -1887,7 +2032,8 @@
 },
 {
 "codigo": "COM-130",
-"titulo": "USO DE CHATBOTS CONVERSACIONALES PARA DESARROLLAR LA COMPETENCIA COMUNICATIVA CON ALUMNADO DE ELE",
+"titulo": "Uso de chatbots conversacionales para desarrollar la competencia comunicativa con alumnado de ELE",
+"tituloHtml": null,
 "autor": "Aída Bárbara Parrales Rodríguez (Universidad de Oviedo) · Concepción Francos Maldonado (Universidad de Oviedo)",
 "dia": "Jueves 26",
 "inicio": "09:48",
@@ -1900,7 +2046,8 @@
 },
 {
 "codigo": "COM-131",
-"titulo": "RECORRER LA IA: MÉTODO WALKTHROUGH Y ANÁLISIS CRÍTICO DE PLATAFORMAS DE IA PARA EL APRENDIZAJE DE LENGUAS",
+"titulo": "Recorrer la IA: método walkthrough y análisis crítico de plataformas de IA para el aprendizaje de lenguas",
+"tituloHtml": "Recorrer la IA: método <i>walkthrough</i> y análisis crítico de plataformas de IA para el aprendizaje de lenguas",
 "autor": "Alba Paz-López (Universidad de Málaga)",
 "dia": "Jueves 26",
 "inicio": "09:48",
@@ -1913,7 +2060,8 @@
 },
 {
 "codigo": "COM-10",
-"titulo": "DE LA LECTURA A LA PRODUCCIÓN ESCRITA: CONSTRUIR LA ARGUMENTACIÓN A PARTIR DE ARTÍCULOS DE PRENSA",
+"titulo": "De la lectura a la producción escrita: construir la argumentación a partir de artículos de prensa",
+"tituloHtml": null,
 "autor": "Arrate Aldama Epelde",
 "dia": "Jueves 26",
 "inicio": "10:00",
@@ -1926,7 +2074,8 @@
 },
 {
 "codigo": "COM-59",
-"titulo": "PROYECTOS DE ESCRITURA COLABORATIVA BASADOS EN LA INVESTIGACIÓN",
+"titulo": "Proyectos de escritura colaborativa basados en la investigación",
+"tituloHtml": null,
 "autor": "Xavier Fontich Vicens (Universitat Autònoma de Barcelona)",
 "dia": "Jueves 26",
 "inicio": "10:00",
@@ -1939,7 +2088,8 @@
 },
 {
 "codigo": "COM-184",
-"titulo": "ESTRATEGIAS FORMATIVAS DEL PERSONAL ASESOR TÉCNICO-PEDAGÓGICO PARA FAVORECER LA ENSEÑANZA DEL LENGUAJE ORAL Y ESCRITO EN PRIMER CICLO DE PRIMARIA EN MÉXICO",
+"titulo": "Estrategias formativas del personal asesor técnico-pedagógico para favorecer la enseñanza del lenguaje oral y escrito en primer ciclo de primaria en México",
+"tituloHtml": null,
 "autor": "Karime Velázquez Wong (Universidad de Cádiz)",
 "dia": "Jueves 26",
 "inicio": "10:00",
@@ -1952,7 +2102,8 @@
 },
 {
 "codigo": "COM-115",
-"titulo": "EL PROYECTO LUMINARIA: MEDIACIÓN DE NARRATIVAS GRÁFICAS INFANTILES CON INTELIGENCIA ARTIFICIAL",
+"titulo": "El proyecto Luminaria: mediación de narrativas gráficas infantiles con inteligencia artificial",
+"tituloHtml": null,
 "autor": "Sebastián Miras (Universidad de Alicante) · Mónica Ruiz-Bañuls (Universidad de Alicante) · José Rovira-Collado (Universidad de Alicante)",
 "dia": "Jueves 26",
 "inicio": "10:00",
@@ -1965,7 +2116,8 @@
 },
 {
 "codigo": "COM-119",
-"titulo": "MÉS ENLLÀ DE LA INTUÏCIÓ: FICCIÓ, NO-FICCIÓ I CRITERIS DE SELECCIÓ EN LA FORMACIÓ INICIAL DE MESTRES",
+"titulo": "Més enllà de la intuïció: ficció, no-ficció i criteris de selecció en la formació inicial de mestres",
+"tituloHtml": null,
 "autor": "Diana Nastasescu (Universitat Jaume I)",
 "dia": "Viernes 27",
 "inicio": "09:30",
@@ -1978,7 +2130,8 @@
 },
 {
 "codigo": "COM-173",
-"titulo": "LA RESEÑA LITERARIA: ESCRITURA Y MULTIMODALIDAD ENTRE LO ANALÓGICO Y LO DIGITAL",
+"titulo": "La reseña literaria: escritura y multimodalidad entre lo analógico y lo digital",
+"tituloHtml": null,
 "autor": "Betlem Soler Pardo (Universitat de València) · Gloria Torralba Miralles (Universitat Jaume I)",
 "dia": "Viernes 27",
 "inicio": "09:30",
@@ -1991,7 +2144,8 @@
 },
 {
 "codigo": "COM-93",
-"titulo": "IDEOLOGÍAS LINGÜÍSTICAS Y PLURILINGÜISMO: ACTITUDES DE ESTUDIANTES DE SECUNDARIA EN EXTREMADURA",
+"titulo": "Ideologías lingüísticas y plurilingüismo: actitudes de estudiantes de secundaria en Extremadura",
+"tituloHtml": null,
 "autor": "Magdalena López-Pérez (Universidad de Extremadura) · Guadalupe de la Maya Retamar (Universidad de Extremadura)",
 "dia": "Viernes 27",
 "inicio": "09:30",
@@ -2004,7 +2158,8 @@
 },
 {
 "codigo": "COM-136",
-"titulo": "PLURILINGÜISMO EN LA ESCUELA, PERO NO EN TODA LA ESCUELA",
+"titulo": "Plurilingüismo en la escuela, pero no en toda la escuela",
+"tituloHtml": null,
 "autor": "María Pérez-Hernández (Universidad de Sevilla) · Coral Ivy Hunt Gómez (Universidad de Sevilla) · Mario Ferreras Listán (Universidad de Sevilla)",
 "dia": "Viernes 27",
 "inicio": "09:30",
@@ -2017,7 +2172,8 @@
 },
 {
 "codigo": "COM-114",
-"titulo": "COMPRENSIÓN NARRATIVA Y CODIFICACIÓN VISUAL DE BARBAZUL MEDIANTE IA GENERATIVA: UNA EXPERIENCIA CON DOCENTES EN FORMACIÓN",
+"titulo": "Comprensión narrativa y codificación visual de Barbazul mediante IA generativa: una experiencia con docentes en formación",
+"tituloHtml": null,
 "autor": "Sebastián Miras (Universidad de Alicante) · Delfina Mas Mas (Universidad de Alicante)",
 "dia": "Viernes 27",
 "inicio": "09:30",
@@ -2030,7 +2186,8 @@
 },
 {
 "codigo": "COM-160",
-"titulo": "ROELIBROS II: CONSTELACIONES LITERARIAS Y MULTIMODALES PARA LA FORMACIÓN DOCENTE EN EL MARCO DE LA AGENDA 2030",
+"titulo": "Roelibros II: constelaciones literarias y multimodales para la formación docente en el marco de la Agenda 2030",
+"tituloHtml": null,
 "autor": "Laura Sánchez Gómez (Universidad Complutense de Madrid) · Marta Larragueta Arribas (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "09:30",
@@ -2043,7 +2200,8 @@
 },
 {
 "codigo": "COM-110",
-"titulo": "MEDIAR AMB ELS CLÀSSICS EN L’ESO: UNA EXPERIÈNCIA DIDÀCTICA A PARTIR DE LA TRAGÈDIA NEOCLÀSSICA LUCRÈCIA (JOAN RAMIS)",
+"titulo": "Mediar amb els clàssics en l’ESO: una experiència didàctica a partir de la tragèdia neoclàssica Lucrècia (Joan Ramis)",
+"tituloHtml": "Mediar amb els clàssics en l’ESO: una experiència didàctica a partir de la tragèdia neoclàssica <i>Lucrècia</i> (Joan Ramis)",
 "autor": "Fernando Medina Martínez (Universitat de València) · Cristian Vicente Picó Herraiz (Centre Educatiu Asunción de Nuestra Señora (Riba-roja de Túria))",
 "dia": "Viernes 27",
 "inicio": "09:42",
@@ -2056,7 +2214,8 @@
 },
 {
 "codigo": "COM-25",
-"titulo": "¿QUÉ CUENTA COMO PRÁCTICAS DE ALFABETIZACIÓN EN LA INFANCIA? REPENSANDO EL MOVIMIENTO DESDE UNA PERSPECTIVA POSTHUMANA",
+"titulo": "¿Qué cuenta como prácticas de alfabetización en la infancia? Repensando el movimiento desde una perspectiva posthumana",
+"tituloHtml": null,
 "autor": "Giovanna Caetano-Silva (Universidad de Sevilla) · Fernando Guzmán-Simón (Universidad de Sevilla) · Eduardo García-Jiménez (Universidad de Sevilla)",
 "dia": "Viernes 27",
 "inicio": "09:42",
@@ -2069,7 +2228,8 @@
 },
 {
 "codigo": "COM-61",
-"titulo": "LA AGENCIA DEL ALUMNADO EN LA ESCRITURA ACADÉMICA EN EUSKERA: UN ESTUDIO CON ESTUDIANTES DE EDUCACIÓN EN CONTEXTOS DE IA GENERATIVA",
+"titulo": "La agencia del alumnado en la escritura académica en euskera: un estudio con estudiantes de educación en contextos de IA generativa",
+"tituloHtml": null,
 "autor": "Ane Gabikagogeaskoa Pagonabarraga (Universidad del País Vasco / Euskal Herriko Unibertsitatea) · Mari Mar Boillos Pereira (Universidad del País Vasco / Euskal Herriko Unibertsitatea) · Asier Romero Andonegi (Universidad del País Vasco / Euskal Herriko Unibertsitatea)",
 "dia": "Viernes 27",
 "inicio": "09:42",
@@ -2082,7 +2242,8 @@
 },
 {
 "codigo": "COM-81",
-"titulo": "PERCEPCIONES Y RETOS DEL CHILD LANGUAGE BROKERING DESDE LA PERSPECTIVA DE LOS FUTUROS DOCENTES DE PRIMARIA",
+"titulo": "Percepciones y retos del child language brokering desde la perspectiva de los futuros docentes de primaria",
+"tituloHtml": "Percepciones y retos del <i>child language brokering</i> desde la perspectiva de los futuros docentes de primaria",
 "autor": "Coral Ivy Hunt Gómez (Universidad de Sevilla) · Mario Ferreras Listán (Universidad de Sevilla) · María Pérez-Hernández (Universidad de Sevilla)",
 "dia": "Viernes 27",
 "inicio": "09:42",
@@ -2095,7 +2256,8 @@
 },
 {
 "codigo": "COM-4",
-"titulo": "EL AULA DE LENGUA Y LITERATURA COMO LABORATORIO DE CREACIÓN LITERARIA DIGITAL: HACIA UNA EDUCACIÓN LITERARIA CON INTELIGENCIA ARTIFICIAL",
+"titulo": "El aula de lengua y literatura como laboratorio de creación literaria digital: hacia una educación literaria con inteligencia artificial",
+"tituloHtml": null,
 "autor": "Antonio Acosta Sánchez (Universidad de Granada)",
 "dia": "Viernes 27",
 "inicio": "09:42",
@@ -2108,7 +2270,8 @@
 },
 {
 "codigo": "COM-57",
-"titulo": "RED DE CUENTOS II: EL CUENTO TRADICIONAL COMO MEDIO PARA DESARROLLAR LA COMPETENCIA LITERARIA DEL ALUMNADO",
+"titulo": "Red de cuentos II: el cuento tradicional como medio para desarrollar la competencia literaria del alumnado",
+"tituloHtml": null,
 "autor": "Gerardo Fernández San Emeterio (Universidad Complutense de Madrid) · Miguel Ángel Martín-Hervás (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "09:42",
@@ -2121,7 +2284,8 @@
 },
 {
 "codigo": "COM-112",
-"titulo": "ENTRE LIBROS Y AULAS: SELECCIONES Y PRÁCTICAS LECTORAS DEL PROFESORADO DE EDUCACIÓN INFANTIL",
+"titulo": "Entre libros y aulas: selecciones y prácticas lectoras del profesorado de educación infantil",
+"tituloHtml": null,
 "autor": "Carla Míguez-Álvarez (Universidad de Vigo | Universidad de Vigo) · Isabel Mociño-González (Universidad de Vigo | Universidad de Vigo) · Marcos Loureiro García (Universidad de Vigo) · Clara Grech-Santi (Universidad de Vigo)",
 "dia": "Viernes 27",
 "inicio": "09:54",
@@ -2134,7 +2298,8 @@
 },
 {
 "codigo": "COM-92",
-"titulo": "CUANDO EL PROYECTO LINGÜÍSTICO DE CENTRO TUMBA FRONTERAS: EL CASO DE “AQUÍ TAMÉN SE FALA”",
+"titulo": "Cuando el proyecto lingüístico de centro tumba fronteras: el caso de “Aquí tamén se fala”",
+"tituloHtml": null,
 "autor": "Zósimo López Pena (Universidade de Santiago de Compostela)",
 "dia": "Viernes 27",
 "inicio": "09:54",
@@ -2147,7 +2312,8 @@
 },
 {
 "codigo": "COM-19",
-"titulo": "GENERATIVE AI IN ENGLISH-MEDIUM INSTRUCTION: OPPORTUNITIES AND CHALLENGES IN ALGERIAN UNIVERSITIES",
+"titulo": "Generative AI in English-medium instruction: opportunities and challenges in Algerian universities",
+"tituloHtml": "<i>Generative AI in English-medium instruction: opportunities and challenges in Algerian universities</i>",
 "autor": "Insaf Bendahmane (University of Tlemcen) · Chamseddine Lamri (University of Tlemcen)",
 "dia": "Viernes 27",
 "inicio": "09:54",
@@ -2160,7 +2326,8 @@
 },
 {
 "codigo": "COM-23",
-"titulo": "MÁS ALLÁ DE LOS LIBROS: POTENCIAL PEDAGÓGICO DE LA BIBLIOTECA ESCOLAR EN LA ENSEÑANZA DE LENGUAS EXTRANJERAS",
+"titulo": "Más allá de los libros: potencial pedagógico de la biblioteca escolar en la enseñanza de lenguas extranjeras",
+"tituloHtml": null,
 "autor": "Raquel Ester Bethencourt Pérez (Universidad de La Laguna)",
 "dia": "Viernes 27",
 "inicio": "09:54",
@@ -2173,7 +2340,8 @@
 },
 {
 "codigo": "COM-176",
-"titulo": "LA ENSEÑANZA DE LA LECTURA MEDIANTE INTELIGENCIA ARTIFICIAL: USO ÉTICO Y REFLEXIVO EN FUTUROS MAESTROS/AS DE EDUCACIÓN PRIMARIA",
+"titulo": "La enseñanza de la lectura mediante inteligencia artificial: uso ético y reflexivo en futuros maestros/as de educación primaria",
+"tituloHtml": null,
 "autor": "Natalia María Suárez Rubio (Universidad de La Laguna) · Rebeca Villarroel Ramírez (Universidad de La Laguna) · Isaac Marco Rodríguez (Universidad de La Laguna)",
 "dia": "Viernes 27",
 "inicio": "09:54",
@@ -2186,7 +2354,8 @@
 },
 {
 "codigo": "COM-143",
-"titulo": "LABORATORIO DE LECTURA ROELIBROS",
+"titulo": "Laboratorio de lectura Roelibros",
+"tituloHtml": null,
 "autor": "Begoña Regueiro Salgado (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "09:54",
@@ -2199,7 +2368,8 @@
 },
 {
 "codigo": "COM-162",
-"titulo": "LA VOZ QUE NARRA UNA EXPERIENCIA DE VIDA",
+"titulo": "La voz que narra una experiencia de vida",
+"tituloHtml": null,
 "autor": "Viviana Santamaría Villa (Universidad de Antioquia)",
 "dia": "Viernes 27",
 "inicio": "10:06",
@@ -2212,7 +2382,8 @@
 },
 {
 "codigo": "COM-80",
-"titulo": "HABILIDADES LECTORAS EN ENTORNOS DIGITALES: ENTRE LO DIGITAL Y LO ANALÓGICO",
+"titulo": "Habilidades lectoras en entornos digitales: entre lo digital y lo analógico",
+"tituloHtml": null,
 "autor": "Carlos Huerga Pérez (Centro Universitario de Educación Escuni (adscrito a UPSA))",
 "dia": "Viernes 27",
 "inicio": "10:06",
@@ -2225,7 +2396,8 @@
 },
 {
 "codigo": "COM-122",
-"titulo": "FUTUROS MAESTROS E INTELIGENCIA ARTIFICIAL. PERCEPCIONES SOBRE LA CORRECCIÓN DE TEXTOS Y LA PREPARACIÓN DOCENTE",
+"titulo": "Futuros maestros e inteligencia artificial. Percepciones sobre la corrección de textos y la preparación docente",
+"tituloHtml": null,
 "autor": "Maria Navío-Inglés (Universidad de Castilla-La Mancha)",
 "dia": "Viernes 27",
 "inicio": "10:06",
@@ -2238,7 +2410,8 @@
 },
 {
 "codigo": "COM-133",
-"titulo": "LA BIBLIOTECA ESCOLAR COMO ESPACIO STEAM: UNA INTERVENCIÓN FORMATIVA EN EL CURSO “CIENCIA CASERA”",
+"titulo": "La biblioteca escolar como espacio STEAM: una intervención formativa en el curso “Ciencia casera”",
+"tituloHtml": null,
 "autor": "Carmen de los Á. Perdomo López (Universidad de La Laguna) · Zeus Plasencia Carballo (Universidad de La Laguna)",
 "dia": "Viernes 27",
 "inicio": "10:06",
@@ -2251,7 +2424,8 @@
 },
 {
 "codigo": "COM-86",
-"titulo": "ESCRITURA ACADÉMICA E INTELIGENCIA ARTIFICIAL EN LA EDUCACIÓN SUPERIOR: CONSTRUCCIÓN Y VALIDACIÓN DE UNA ESCALA DE EVALUACIÓN",
+"titulo": "Escritura académica e inteligencia artificial en la educación superior: construcción y validación de una escala de evaluación",
+"tituloHtml": null,
 "autor": "Steffanie Kloss (Universidad Andrés Bello)",
 "dia": "Viernes 27",
 "inicio": "10:06",
@@ -2264,7 +2438,8 @@
 },
 {
 "codigo": "COM-144",
-"titulo": "TROPOS, BIBLIOTECA DE ESCRITURA CREATIVA DIGITAL PARA LA ENSEÑANZA DE LA LITERATURA",
+"titulo": "Tropos, biblioteca de escritura creativa digital para la enseñanza de la literatura",
+"tituloHtml": null,
 "autor": "Begoña Regueiro Salgado (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "10:06",
@@ -2277,7 +2452,8 @@
 },
 {
 "codigo": "COM-63",
-"titulo": "LA WEB CAJÓN DE CUENTOS: ANTOLOGÍAS, REESCRITURAS Y ACTIVIDADES PARA LAS AULAS",
+"titulo": "La web Cajón de cuentos: antologías, reescrituras y actividades para las aulas",
+"tituloHtml": "La web <i>Cajón de cuentos</i>: antologías, reescrituras y actividades para las aulas",
 "autor": "Pilar García Carcedo (Universidad Complutense)",
 "dia": "Viernes 27",
 "inicio": "10:18",
@@ -2290,7 +2466,8 @@
 },
 {
 "codigo": "COM-102",
-"titulo": "DESARROLLO DE LA INTERCULTURALIDAD EN NARRATIVAS VISUALES SOBRE EL COLONIALISMO INGLÉS EN CHILE",
+"titulo": "Desarrollo de la interculturalidad en narrativas visuales sobre el colonialismo inglés en Chile",
+"tituloHtml": null,
 "autor": "Francisco Antonio Martínez-Carratalá (Universidad de Alicante) · Mónica Ruiz-Bañuls (Universidad de Alicante)",
 "dia": "Viernes 27",
 "inicio": "10:18",
@@ -2303,7 +2480,8 @@
 },
 {
 "codigo": "COM-77",
-"titulo": "USOS Y LÍMITES DE LA INTELIGENCIA ARTIFICIAL GENERATIVA EN EL FEEDBACK TUTORIAL: UNA PERSPECTIVA DESDE LA AGENCIA DOCENTE",
+"titulo": "Usos y límites de la inteligencia artificial generativa en el feedback tutorial: una perspectiva desde la agencia docente",
+"tituloHtml": "Usos y límites de la inteligencia artificial generativa en el <i>feedback</i> tutorial: una perspectiva desde la agencia docente",
 "autor": "Alicia Hernando Velasco (UCM) · Sonia Eusebio Hermira (UAM) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "10:18",
@@ -2316,7 +2494,8 @@
 },
 {
 "codigo": "COM-138",
-"titulo": "EL PROMPTING COMO COMPETENCIA DOCENTE EMERGENTE: UN ESTUDIO SOBRE STORYTELLING CON INTELIGENCIA ARTIFICIAL EN EDUCACIÓN INFANTIL",
+"titulo": "El prompting como competencia docente emergente: un estudio sobre storytelling con inteligencia artificial en educación infantil",
+"tituloHtml": "El <i>prompting</i> como competencia docente emergente: un estudio sobre <i>storytelling</i> con inteligencia artificial en educación infantil",
 "autor": "Zeus Plasencia Carballo (Universidad de La Laguna) · Cristian García Santana (Universidad de La Laguna) · Raquel Ester Bethencourt Pérez (Universidad de La Laguna) · Carmen de los Á. Perdomo López (Universidad de La Laguna)",
 "dia": "Viernes 27",
 "inicio": "10:18",
@@ -2329,7 +2508,8 @@
 },
 {
 "codigo": "COM-129",
-"titulo": "ALFABETIZACIÓN EN IA Y ESCRITURA ACADÉMICA ENTRE ESTUDIANTES DE EDUCACIÓN Y DE HUMANIDADES",
+"titulo": "Alfabetización en IA y escritura académica entre estudiantes de educación y de humanidades",
+"tituloHtml": null,
 "autor": "Aída Bárbara Parrales Rodríguez (Universidad de Oviedo) · Loreto Díaz Suárez (Facultad Padre Ossó –Universidad de Oviedo)",
 "dia": "Viernes 27",
 "inicio": "10:18",
@@ -2342,7 +2522,8 @@
 },
 {
 "codigo": "COM-88",
-"titulo": "EL PAPEL DE LOS JURADOS DE LOS PREMIOS EDITORIALES EN LA CONSTRUCCIÓN DEL CANON DEL ÁLBUM ILUSTRADO EN ESPAÑA",
+"titulo": "El papel de los jurados de los premios editoriales en la construcción del canon del álbum ilustrado en España",
+"tituloHtml": null,
 "autor": "Marta Larragueta Arribas (Universidad Complutense de Madrid) · Iria Sobrino-Freire (Universidade da Coruña) · Patricia Carballal Miñán (Universidade da Coruña)",
 "dia": "Viernes 27",
 "inicio": "10:18",
@@ -2355,7 +2536,8 @@
 },
 {
 "codigo": "COM-78",
-"titulo": "LECTURA DIALÓGICA Y COMPETENCIA NARRATIVA ORAL EN AULAS HOSPITALARIAS",
+"titulo": "Lectura dialógica y competencia narrativa oral en aulas hospitalarias",
+"tituloHtml": null,
 "autor": "Paola Herrera Macías (Universidad de Málaga) · Eugenio Maqueda Cuenca (Universidad de Málaga)",
 "dia": "Viernes 27",
 "inicio": "10:30",
@@ -2368,7 +2550,8 @@
 },
 {
 "codigo": "COM-69",
-"titulo": "LA RETROALIMENTACIÓN DIGITAL EN LA ESCRITURA ACADÉMICA: USOS, PERCEPCIONES Y SUGERENCIAS DE ESTUDIANTES Y DOCENTES EN LA FORMACIÓN INICIAL DE PROFESORES",
+"titulo": "La retroalimentación digital en la escritura académica: usos, percepciones y sugerencias de estudiantes y docentes en la formación inicial de profesores",
+"tituloHtml": null,
 "autor": "Emmy González Lillo (Universidad de O’Higgins) · María Teresa Mateo-Girona (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "10:30",
@@ -2381,7 +2564,8 @@
 },
 {
 "codigo": "COM-56",
-"titulo": "LA GENERACIÓN DEL 27 EN MANUALES DE BACHILLERATO Y ANTOLOGÍAS POÉTICAS EN EL CONTEXTO DE LA LOMLOE",
+"titulo": "La generación del 27 en manuales de bachillerato y antologías poéticas en el contexto de la LOMLOE",
+"tituloHtml": null,
 "autor": "Gerardo Fernández San Emeterio (Universidad Complutense de Madrid) · Miguel Ángel Martín-Hervás (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "10:30",
@@ -2395,6 +2579,7 @@
 {
 "codigo": "COM-189",
 "titulo": "Conferencia plenaria",
+"tituloHtml": null,
 "autor": "Alberto Fernández Costales (Universidad de Oviedo)",
 "dia": null,
 "inicio": "10:00",
@@ -2408,6 +2593,7 @@
 {
 "codigo": "COM-191",
 "titulo": "Intervención en mesa redonda",
+"tituloHtml": null,
 "autor": "Gabriel Núñez Ruiz (Universidad de Almería)",
 "dia": null,
 "inicio": "10:30",
@@ -2421,6 +2607,7 @@
 {
 "codigo": "COM-192",
 "titulo": "Intervención en mesa redonda",
+"tituloHtml": null,
 "autor": "Ester Trigo Ibáñez (Universidad de Cádiz)",
 "dia": null,
 "inicio": "11:00",
@@ -2434,6 +2621,7 @@
 {
 "codigo": "COM-193",
 "titulo": "Intervención en mesa redonda",
+"tituloHtml": null,
 "autor": "José Luis Ortega Martín (Universidad de Granada)",
 "dia": null,
 "inicio": "11:30",
@@ -2447,6 +2635,7 @@
 {
 "codigo": "COM-190",
 "titulo": "Conferencia plenaria",
+"tituloHtml": null,
 "autor": "Susana Sánchez Rodríguez (Universidad de Cádiz)",
 "dia": null,
 "inicio": "11:30",
@@ -2460,6 +2649,7 @@
 {
 "codigo": "COM-194",
 "titulo": "Intervención en mesa redonda",
+"tituloHtml": null,
 "autor": "Eloy Martos Núñez",
 "dia": null,
 "inicio": "12:30",
@@ -2473,6 +2663,7 @@
 {
 "codigo": "COM-195",
 "titulo": "Intervención en mesa redonda",
+"tituloHtml": null,
 "autor": "Mariona Masgrau Juanola",
 "dia": null,
 "inicio": "13:00",
@@ -2486,6 +2677,7 @@
 {
 "codigo": "COM-196",
 "titulo": "Intervención en mesa redonda",
+"tituloHtml": null,
 "autor": "Aurora Martínez Ezquerro (Universidad de La Rioja)",
 "dia": null,
 "inicio": "13:30",
@@ -3081,5 +3273,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-13T20:42:01.587245+00:00"
+"generado": "2026-09-13T22:22:00.644788+00:00"
 }
