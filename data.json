@@ -2728,7 +2728,7 @@
 "tipo": "Mesa",
 "eje": "Educación literaria",
 "estado": "Confirmada",
-"moderacion": "Xaquín Núñez Sabarís (Universidade do Minho)",
+"moderacion": "Juan Lucas Onieva López (Universidad de Málaga)",
 "ponente": null,
 "participantes": []
 },
@@ -2835,7 +2835,7 @@
 "sesion": "SIMPOSIO · Didáctica de la lengua y la literatura en contextos universitarios",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Aula 0.16",
 "tipo": "Simposio",
 "eje": "Educación literaria",
@@ -3273,5 +3273,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-14T03:28:46.873258+00:00"
+"generado": "2026-09-14T11:52:02.698495+00:00"
 }
