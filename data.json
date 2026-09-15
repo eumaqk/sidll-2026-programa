@@ -2812,7 +2812,7 @@
 "tipo": "Mesa",
 "eje": "Educación literaria",
 "estado": "Confirmada",
-"moderacion": "Alejandro J. Rodríguez Ayllón (Universidad de Málaga)",
+"moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
 "ponente": null,
 "participantes": []
 },
@@ -2966,7 +2966,7 @@
 "tipo": "Simposio",
 "eje": "Objetivos de Desarrollo Sostenible",
 "estado": "Confirmada",
-"moderacion": "Alejandro J. Rodríguez Ayllón (Universidad de Málaga)",
+"moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
 "ponente": null,
 "participantes": []
 },
@@ -3273,5 +3273,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-15T03:29:53.102875+00:00"
+"generado": "2026-09-15T11:07:34.697632+00:00"
 }
