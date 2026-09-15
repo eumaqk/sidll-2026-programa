@@ -1765,20 +1765,6 @@
 "orden": 2
 },
 {
-"codigo": "COM-105",
-"titulo": "La expresión escrita en los libros de texto de educación primaria",
-"tituloHtml": null,
-"autor": "Helena Martínez Zuazua (Universidad de Oviedo)",
-"dia": "Jueves 26",
-"inicio": "09:12",
-"fin": "09:24",
-"aula": "Aula 2.05",
-"eje": "Multimodalidad",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 2
-},
-{
 "codigo": "COM-11",
 "titulo": "Estrategias didácticas para el fomento de la mediación lectora en educación primaria",
 "tituloHtml": null,
@@ -3273,5 +3259,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-15T16:18:12.774496+00:00"
+"generado": "2026-09-15T20:53:05.102318+00:00"
 }
