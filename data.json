@@ -1,6 +1,20 @@
 {
 "trabajos": [
 {
+"codigo": "COM-34",
+"titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
+"tituloHtml": null,
+"autor": "Margarida Castellano-Sanz (Universitat de València) · Rocío Domene-Benito (Universitat de València)",
+"dia": "Miércoles 25",
+"inicio": "09:30",
+"fin": "09:42",
+"aula": "Sala de grados",
+"eje": "Multimodalidad",
+"tipo": "Comunicación de simposio",
+"estado": "Programado",
+"orden": 1
+},
+{
 "codigo": "COM-51",
 "titulo": "Breaking Out with Mr Panda: una propuesta de breakout educativo para futuros docentes de educación primaria",
 "tituloHtml": "<i>Breaking Out with Mr Panda</i>: una propuesta de <i>breakout</i> educativo para futuros docentes de educación primaria",
@@ -74,7 +88,7 @@
 "codigo": "COM-42",
 "titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
 "tituloHtml": null,
-"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
+"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana María Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
 "fin": "11:42",
@@ -561,20 +575,6 @@
 "orden": 1
 },
 {
-"codigo": "COM-34",
-"titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
-"tituloHtml": null,
-"autor": "Margarida Castellano-Sanz (Universitat de València) · Rocío Domene-Benito (Universitat de València)",
-"dia": "Miércoles 25",
-"inicio": "13:00",
-"fin": "13:12",
-"aula": "Sala de grados",
-"eje": "Multimodalidad",
-"tipo": "Comunicación de simposio",
-"estado": "Programado",
-"orden": 1
-},
-{
 "codigo": "COM-120",
 "titulo": "El concepto de educación en futuros docentes de educación primaria y secundaria en contextos bilingües: un análisis a través del léxico disponible",
 "tituloHtml": null,
@@ -939,6 +939,20 @@
 "orden": 5
 },
 {
+"codigo": "COM-48",
+"titulo": "La influencia de la variable sexo en la disponibilidad léxica del alumnado de educación primaria",
+"tituloHtml": null,
+"autor": "Rocío Escudero Sánchez (Universidad de Málaga) · Inmaculada Clotilde Santos Díaz (Universidad de Málaga) · Ester Trigo Ibáñez (Universidad de Cádiz)",
+"dia": "Miércoles 25",
+"inicio": "14:00",
+"fin": "14:12",
+"aula": "Aula 0.04",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 4
+},
+{
 "codigo": "COM-165",
 "titulo": "Lectura compartida en la formación inicial del profesorado de lenguas: dialogando sobre la multiculturalidad e interculturalidad para la sostenibilidad social",
 "tituloHtml": null,
@@ -990,20 +1004,6 @@
 "fin": "14:12",
 "aula": "Aula 2.25",
 "eje": "Multimodalidad",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
-},
-{
-"codigo": "COM-121",
-"titulo": "Inteligencia artificial generativa en la producción y revisión de textos en inglés en la formación inicial docente",
-"tituloHtml": null,
-"autor": "Cristina Navas Romero (Universidad de Málaga)",
-"dia": "Miércoles 25",
-"inicio": "14:00",
-"fin": "14:12",
-"aula": "Salón de actos",
-"eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
@@ -1597,20 +1597,6 @@
 "orden": 3
 },
 {
-"codigo": "COM-48",
-"titulo": "La influencia de la variable sexo en la disponibilidad léxica del alumnado de educación primaria",
-"tituloHtml": null,
-"autor": "Rocío Escudero Sánchez (Universidad de Málaga) · Inmaculada Clotilde Santos Díaz (Universidad de Málaga) · Ester Trigo Ibáñez (Universidad de Cádiz)",
-"dia": "Miércoles 25",
-"inicio": "17:36",
-"fin": "17:48",
-"aula": "Aula 0.04",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 4
-},
-{
 "codigo": "COM-79",
 "titulo": "When English becomes a bridge: a multiple case study of newly arrived refugees' experiences of service-learning and social inclusion in Spain",
 "tituloHtml": "<i>When English becomes a bridge: a multiple case study of newly arrived refugees&#x27; experiences of service-learning and social inclusion in Spain</i>",
@@ -1623,6 +1609,20 @@
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 4
+},
+{
+"codigo": "COM-121",
+"titulo": "Inteligencia artificial generativa en la producción y revisión de textos en inglés en la formación inicial docente",
+"tituloHtml": null,
+"autor": "Cristina Navas Romero (Universidad de Málaga)",
+"dia": "Miércoles 25",
+"inicio": "17:36",
+"fin": "17:48",
+"aula": "Salón de actos",
+"eje": "Inteligencia artificial y tecnologías emergentes",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 6
 },
 {
 "codigo": "COM-83",
@@ -2115,20 +2115,6 @@
 "orden": 1
 },
 {
-"codigo": "COM-173",
-"titulo": "La reseña literaria: escritura y multimodalidad entre lo analógico y lo digital",
-"tituloHtml": null,
-"autor": "Betlem Soler Pardo (Universitat de València) · Gloria Torralba Miralles (Universitat Jaume I)",
-"dia": "Viernes 27",
-"inicio": "09:30",
-"fin": "09:42",
-"aula": "Aula 0.09",
-"eje": "Multimodalidad",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 1
-},
-{
 "codigo": "COM-93",
 "titulo": "Ideologías lingüísticas y plurilingüismo: actitudes de estudiantes de secundaria en Extremadura",
 "tituloHtml": null,
@@ -2561,6 +2547,20 @@
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
+},
+{
+"codigo": "COM-173",
+"titulo": "La reseña literaria: escritura y multimodalidad entre lo analógico y lo digital",
+"tituloHtml": null,
+"autor": "Betlem Soler Pardo (Universitat de València) · Gloria Torralba Miralles (Universitat Jaume I)",
+"dia": "Viernes 27",
+"inicio": "17:36",
+"fin": "17:48",
+"aula": "Aula 0.09",
+"eje": "Multimodalidad",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
 },
 {
 "codigo": "COM-189",
@@ -3259,5 +3259,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-16T10:52:39.669286+00:00"
+"generado": "2026-09-16T16:10:23.559019+00:00"
 }
