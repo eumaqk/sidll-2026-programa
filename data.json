@@ -15,20 +15,6 @@
 "orden": 6
 },
 {
-"codigo": "COM-34",
-"titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
-"tituloHtml": null,
-"autor": "Margarida Castellano-Sanz (Universitat de València) · Rocío Domene-Benito (Universitat de València)",
-"dia": "Miércoles 25",
-"inicio": "09:30",
-"fin": "09:42",
-"aula": "Sala de grados",
-"eje": "Multimodalidad",
-"tipo": "Comunicación de simposio",
-"estado": "Programado",
-"orden": 1
-},
-{
 "codigo": "COM-42",
 "titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
 "tituloHtml": null,
@@ -85,20 +71,6 @@
 "orden": 3
 },
 {
-"codigo": "COM-148",
-"titulo": "Reescribiendo los discursos de la desigualdad: situaciones de aprendizaje gamificadas para la prevención de la violencia machista en educación infantil y primaria",
-"tituloHtml": null,
-"autor": "Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
-"dia": "Miércoles 25",
-"inicio": "10:42",
-"fin": "10:54",
-"aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3
-},
-{
 "codigo": "COM-159",
 "titulo": "Materialidades postdigitales en la LIJ: lectores activos y pensamiento computacional",
 "tituloHtml": null,
@@ -127,15 +99,15 @@
 "orden": 1
 },
 {
-"codigo": "COM-151",
-"titulo": "Diseño y validación de contenido de dos cuestionarios diagnósticos sobre perfiles lectores del alumnado y bibliotecas escolares en educación primaria",
+"codigo": "COM-20",
+"titulo": "Acompañamiento pedagógico para la enseñanza de la escritura en un aula de educación infantil de una escuela rural",
 "tituloHtml": null,
-"autor": "Yolanda Romero-Vallejo (Universidad de Cádiz) · Ester Trigo Ibáñez (Universidad de Cádiz) · Noelia Ibarra Rius (Universitat de València)",
+"autor": "María Benéitez Bayón (Universidad de León) · María Dolores Alonso-Cortés Fradejas (Universidad de León) · Gloria Navas Fernández (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
 "fin": "11:42",
 "aula": "Aula 2.25",
-"eje": "Educación literaria",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 1
@@ -197,15 +169,15 @@
 "orden": 2
 },
 {
-"codigo": "COM-58",
-"titulo": "Narrar sense paraules, educar per al futur: el potencial ecosocial de l’àlbum il·lustrat",
+"codigo": "COM-68",
+"titulo": "Documentación de actividades para el aprendizaje de la lengua en las redes sociales de los centros educativos rurales de León",
 "tituloHtml": null,
-"autor": "Maria Elora Flordelís Esteve (Universitat de València)",
+"autor": "María Inmaculada González Alonso (Universidad de León) · María Benéitez Bayón (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
 "fin": "11:54",
 "aula": "Aula 2.25",
-"eje": "Multimodalidad",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 2
@@ -281,15 +253,15 @@
 "orden": 3
 },
 {
-"codigo": "COM-100",
-"titulo": "Competencia literaria y pruebas EBAU en la Comunidad Valenciana",
+"codigo": "COM-91",
+"titulo": "Documentación de una práctica de dictado interactivo en un aula rural de educación primaria",
 "tituloHtml": null,
-"autor": "Fernando Marín Martí (IES Sucro)",
+"autor": "María Teresa Llamazares Prieto (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
 "fin": "12:06",
 "aula": "Aula 2.25",
-"eje": "Educación literaria",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 3
@@ -351,15 +323,15 @@
 "orden": 4
 },
 {
-"codigo": "COM-127",
-"titulo": "Des-versando el aula: una propuesta multimodal de investigación-acción para reconectar con la poesía",
+"codigo": "COM-44",
+"titulo": "La oca del tiempo. Un estudio exploratorio sobre la utilización del pódcast como herramienta de evaluación auténtica del aprendizaje de la lengua y de las ciencias sociales en educación primaria",
 "tituloHtml": null,
-"autor": "Coral Palomero Seijas (Universidad de Valencia)",
+"autor": "Raquel Domínguez Fernández (Universidad de León) · María Teresa Llamazares Prieto (Universidad de León)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
 "fin": "12:18",
 "aula": "Aula 2.25",
-"eje": "Multimodalidad",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 4
@@ -505,34 +477,6 @@
 "orden": 6
 },
 {
-"codigo": "COM-30",
-"titulo": "Literatura en lengua inglesa y ODS: una aproximación contemporánea",
-"tituloHtml": null,
-"autor": "Blasina Cantizano Márquez (Universidad de Almería)",
-"dia": "Miércoles 25",
-"inicio": "12:33",
-"fin": "12:45",
-"aula": "Aula 2.25",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5
-},
-{
-"codigo": "COM-87",
-"titulo": "Incidencia de dos métodos de enseñanza de escritura académica en la calidad textual del ensayo argumentativo: un estudio para apoyar la formación inicial docente",
-"tituloHtml": null,
-"autor": "Steffanie Kloss (Universidad Andrés Bello)",
-"dia": "Miércoles 25",
-"inicio": "12:45",
-"fin": "12:57",
-"aula": "Aula 2.25",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
-},
-{
 "codigo": "COM-2",
 "titulo": "Lectura crítica y pensamiento histórico ante la desinformación: un enfoque interdisciplinar en la formación de maestros",
 "tituloHtml": null,
@@ -575,6 +519,20 @@
 "orden": 1
 },
 {
+"codigo": "COM-187",
+"titulo": "Selección y mediación de literatura infantil en la escuela: tensiones entre demandas curriculares, experiencia literaria e interculturalidad",
+"tituloHtml": null,
+"autor": "Melina Borges Omitto (U. de San Pablo/ Pontificia Universidad Católica de Chile)",
+"dia": "Miércoles 25",
+"inicio": "13:00",
+"fin": "13:12",
+"aula": "Aula 0.11",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
+},
+{
 "codigo": "COM-124",
 "titulo": "Narrar Latam. Contenidos flexibles y evaluación formativa en la literatura hispanoamericana en la educación superior",
 "tituloHtml": null,
@@ -589,16 +547,30 @@
 "orden": 1
 },
 {
-"codigo": "COM-90",
-"titulo": "Del trazo al compromiso de los cómics de Arlindo Fagundes: mediación lingüístico-cultural y Agenda 2030 en ELE",
+"codigo": "COM-116",
+"titulo": "El aprendizaje de la ortografía y la escritura al teclado en educación primaria: implicaciones didácticas",
 "tituloHtml": null,
-"autor": "María Dolores Lerma Sanchís (Universidade do Minho)",
+"autor": "Celia Morales Rando (Universidad de La Laguna)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
 "fin": "13:12",
 "aula": "Aula 2.25",
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
+},
+{
+"codigo": "COM-47",
+"titulo": "Mirarse para aprender a enseñar: el vídeo como mediador de la reflexión docente en la formación inicial del profesorado de lengua",
+"tituloHtml": null,
+"autor": "Carme Durán Rivas (Universitat Autònoma de Barcelona) · Mireia Manresa Potrony (Universitat Autònoma de Barcelona)",
+"dia": "Miércoles 25",
+"inicio": "13:00",
+"fin": "13:12",
+"aula": "Sala de grados",
+"eje": "Multimodalidad",
+"tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 1
 },
@@ -645,6 +617,20 @@
 "orden": 2
 },
 {
+"codigo": "COM-188",
+"titulo": "Poesía y la libertad femenina en el horizonte europeo de la migración. Una propuesta de lectura para la formación del futuro profesorado de Educación Primaria",
+"tituloHtml": null,
+"autor": "Nieves Muriel García (Universidad de Málaga)",
+"dia": "Miércoles 25",
+"inicio": "13:12",
+"fin": "13:24",
+"aula": "Aula 0.11",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 2
+},
+{
 "codigo": "COM-38",
 "titulo": "Entre los hermanos Grimm y Anne Sexton. Una propuesta de lectura comparada con perspectiva de género, para la formación literaria del profesorado de magisterio",
 "tituloHtml": null,
@@ -659,10 +645,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-116",
-"titulo": "El aprendizaje de la ortografía y la escritura al teclado en educación primaria: implicaciones didácticas",
+"codigo": "COM-154",
+"titulo": "Alfabetización multimodal: un proyecto para la vinculación universitaria con la comunidad",
 "tituloHtml": null,
-"autor": "Celia Morales Rando (Universidad de La Laguna)",
+"autor": "Virginia Sánchez Andrade (Universidad Bolivariana del Ecuador)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
 "fin": "13:24",
@@ -673,10 +659,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-82",
-"titulo": "Narrativas para la emergencia climática en el cómic español",
+"codigo": "COM-74",
+"titulo": "Explorando el cambio de creencias hacia el multilingüismo en la formación inicial docente: la reflexión mediada por vídeo como eje de la intervención",
 "tituloHtml": null,
-"autor": "Noelia Ibarra Rius (Universitat de València) · Álvaro M. Pons Moreno (Universitat de València)",
+"autor": "Irene Guzmán-Alcón (Universitat de València) · Alícia Martí-Climent (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
 "fin": "13:24",
@@ -729,18 +715,18 @@
 "orden": 3
 },
 {
-"codigo": "COM-187",
-"titulo": "Selección y mediación de literatura infantil en la escuela: tensiones entre demandas curriculares, experiencia literaria e interculturalidad",
+"codigo": "COM-103",
+"titulo": "La educación literaria como herramienta de construcción identitaria y reinserción social en un centro de reeducación de menores",
 "tituloHtml": null,
-"autor": "Melina Borges Omitto (U. de San Pablo/ Pontificia Universidad Católica de Chile)",
+"autor": "Olivia Martínez Giménez de León (Universidad de Alicante)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
 "fin": "13:36",
-"aula": "Aula 0.12",
+"aula": "Aula 0.11",
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 3
 },
 {
 "codigo": "COM-153",
@@ -757,10 +743,10 @@
 "orden": 3
 },
 {
-"codigo": "COM-154",
-"titulo": "Alfabetización multimodal: un proyecto para la vinculación universitaria con la comunidad",
+"codigo": "COM-149",
+"titulo": "Proceso de escritura y creatividad en educación primaria",
 "tituloHtml": null,
-"autor": "Virginia Sánchez Andrade (Universidad Bolivariana del Ecuador)",
+"autor": "Marcos Rodríguez Iraola (Universidad de Oviedo)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
 "fin": "13:36",
@@ -771,10 +757,10 @@
 "orden": 3
 },
 {
-"codigo": "COM-142",
-"titulo": "Literatura multimodal y conflicto en educación primaria: claves para la formación docente",
+"codigo": "COM-134",
+"titulo": "Hablamos para reflexionar y aprender con futuros docentes de primaria: biografías lingüísticas y educativas grabadas en vídeo para su posterior confrontación",
 "tituloHtml": null,
-"autor": "María Querol Bataller (Universitat de València) · Francesc Rodrigo Segura (Universitat de València)",
+"autor": "Montserrat Pérez-Giménez (Universitat de València - GIEL)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
 "fin": "13:36",
@@ -827,24 +813,38 @@
 "orden": 4
 },
 {
-"codigo": "COM-188",
-"titulo": "Poesía y la libertad femenina en el horizonte europeo de la migración. Una propuesta de lectura para la formación del futuro profesorado de Educación Primaria",
-"tituloHtml": null,
-"autor": "Nieves Muriel García (Universidad de Málaga)",
+"codigo": "COM-167",
+"titulo": "La educación poética en la etapa prelectora: análisis de las colecciones La cereza y De la cuna a la luna",
+"tituloHtml": "La educación poética en la etapa prelectora: análisis de las colecciones <i>La cereza</i> y <i>De la cuna a la luna</i>",
+"autor": "Moisés Selfa Sastre (Universitat de Lleida)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
 "fin": "13:48",
-"aula": "Aula 0.12",
+"aula": "Aula 0.11",
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 4
 },
 {
-"codigo": "COM-149",
-"titulo": "Proceso de escritura y creatividad en educación primaria",
+"codigo": "COM-90",
+"titulo": "Del trazo al compromiso de los cómics de Arlindo Fagundes: mediación lingüístico-cultural y Agenda 2030 en ELE",
 "tituloHtml": null,
-"autor": "Marcos Rodríguez Iraola (Universidad de Oviedo)",
+"autor": "María Dolores Lerma Sanchís (Universidade do Minho)",
+"dia": "Miércoles 25",
+"inicio": "13:36",
+"fin": "13:48",
+"aula": "Aula 0.16",
+"eje": "Multimodalidad",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 4
+},
+{
+"codigo": "COM-178",
+"titulo": "Del comentario a la acción: cómo los estudiantes interpretan y utilizan la retroalimentación escrita en la universidad",
+"tituloHtml": null,
+"autor": "Mónica Tapia Ladino (Universidad Católica de la Santísima Concepción)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
 "fin": "13:48",
@@ -855,10 +855,10 @@
 "orden": 4
 },
 {
-"codigo": "COM-104",
-"titulo": "Teatro infantil en la formación de maestros de primaria: comprensión, creación y diseño de propuestas didácticas",
+"codigo": "COM-173",
+"titulo": "La reseña literaria: escritura y multimodalidad entre lo analógico y lo digital",
 "tituloHtml": null,
-"autor": "Patricia Martínez León (Universitat de València) · Josep Ballester Roca (Universitat de València)",
+"autor": "Betlem Soler Pardo (Universitat de València) · Gloria Torralba Miralles (Universitat Jaume I)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
 "fin": "13:48",
@@ -911,30 +911,16 @@
 "orden": 5
 },
 {
-"codigo": "COM-178",
-"titulo": "Del comentario a la acción: cómo los estudiantes interpretan y utilizan la retroalimentación escrita en la universidad",
+"codigo": "COM-7",
+"titulo": "Femicuentos como mediación lectora crítica: identidad lectora, literacidad de género y agencia comunicativa en diversificación curricular",
 "tituloHtml": null,
-"autor": "Mónica Tapia Ladino (Universidad Católica de la Santísima Concepción)",
+"autor": "María Esther Aguilera Pérez (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
 "fin": "14:00",
 "aula": "Aula 2.25",
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5
-},
-{
-"codigo": "COM-172",
-"titulo": "Los clásicos a través del entretenimiento interactivo. Una aproximación didáctica",
-"tituloHtml": null,
-"autor": "Matheus Gabriel Silveira Martins (Universitat de València) · Josep Ballester Roca (Universitat de València)",
-"dia": "Miércoles 25",
-"inicio": "13:48",
-"fin": "14:00",
-"aula": "Sala de grados",
-"eje": "Multimodalidad",
-"tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 5
 },
@@ -995,46 +981,32 @@
 "orden": 6
 },
 {
-"codigo": "COM-103",
-"titulo": "La educación literaria como herramienta de construcción identitaria y reinserción social en un centro de reeducación de menores",
+"codigo": "COM-30",
+"titulo": "Literatura en lengua inglesa y ODS: una aproximación contemporánea",
 "tituloHtml": null,
-"autor": "Olivia Martínez Giménez de León (Universidad de Alicante)",
-"dia": "Miércoles 25",
-"inicio": "14:00",
-"fin": "14:12",
-"aula": "Aula 0.12",
-"eje": "Educación literaria",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 4
-},
-{
-"codigo": "COM-7",
-"titulo": "Femicuentos como mediación lectora crítica: identidad lectora, literacidad de género y agencia comunicativa en diversificación curricular",
-"tituloHtml": null,
-"autor": "María Esther Aguilera Pérez (Universidad de Málaga)",
+"autor": "Blasina Cantizano Márquez (Universidad de Almería)",
 "dia": "Miércoles 25",
 "inicio": "14:00",
 "fin": "14:12",
 "aula": "Aula 2.25",
-"eje": "Multimodalidad",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
 },
 {
-"codigo": "COM-167",
-"titulo": "La educación poética en la etapa prelectora: análisis de las colecciones La cereza y De la cuna a la luna",
-"tituloHtml": "La educación poética en la etapa prelectora: análisis de las colecciones <i>La cereza</i> y <i>De la cuna a la luna</i>",
-"autor": "Moisés Selfa Sastre (Universitat de Lleida)",
+"codigo": "COM-87",
+"titulo": "Incidencia de dos métodos de enseñanza de escritura académica en la calidad textual del ensayo argumentativo: un estudio para apoyar la formación inicial docente",
+"tituloHtml": null,
+"autor": "Steffanie Kloss (Universidad Andrés Bello)",
 "dia": "Miércoles 25",
-"inicio": "14:15",
-"fin": "14:27",
-"aula": "Sala de grados",
-"eje": "Educación literaria",
+"inicio": "14:12",
+"fin": "14:24",
+"aula": "Aula 2.25",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 7
 },
 {
 "codigo": "COM-46",
@@ -1048,7 +1020,7 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 1
 },
 {
 "codigo": "COM-36",
@@ -1107,15 +1079,15 @@
 "orden": 1
 },
 {
-"codigo": "COM-20",
-"titulo": "Acompañamiento pedagógico para la enseñanza de la escritura en un aula de educación infantil de una escuela rural",
+"codigo": "COM-151",
+"titulo": "Diseño y validación de contenido de dos cuestionarios diagnósticos sobre perfiles lectores del alumnado y bibliotecas escolares en educación primaria",
 "tituloHtml": null,
-"autor": "María Benéitez Bayón (Universidad de León) · María Dolores Alonso-Cortés Fradejas (Universidad de León) · Gloria Navas Fernández (Universidad de León)",
+"autor": "Yolanda Romero-Vallejo (Universidad de Cádiz) · Ester Trigo Ibáñez (Universidad de Cádiz) · Noelia Ibarra Rius (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
 "fin": "16:12",
 "aula": "Salón de actos",
-"eje": "Objetivos de Desarrollo Sostenible",
+"eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 1
@@ -1132,7 +1104,7 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 2
 },
 {
 "codigo": "COM-169",
@@ -1191,15 +1163,15 @@
 "orden": 2
 },
 {
-"codigo": "COM-68",
-"titulo": "Documentación de actividades para el aprendizaje de la lengua en las redes sociales de los centros educativos rurales de León",
+"codigo": "COM-58",
+"titulo": "Narrar sense paraules, educar per al futur: el potencial ecosocial de l’àlbum il·lustrat",
 "tituloHtml": null,
-"autor": "María Inmaculada González Alonso (Universidad de León) · María Benéitez Bayón (Universidad de León)",
+"autor": "Maria Elora Flordelís Esteve (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
 "fin": "16:24",
 "aula": "Salón de actos",
-"eje": "Objetivos de Desarrollo Sostenible",
+"eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 2
@@ -1216,7 +1188,7 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 3
 },
 {
 "codigo": "COM-180",
@@ -1261,15 +1233,15 @@
 "orden": 3
 },
 {
-"codigo": "COM-91",
-"titulo": "Documentación de una práctica de dictado interactivo en un aula rural de educación primaria",
+"codigo": "COM-100",
+"titulo": "Competencia literaria y pruebas EBAU en la Comunidad Valenciana",
 "tituloHtml": null,
-"autor": "María Teresa Llamazares Prieto (Universidad de León)",
+"autor": "Fernando Marín Martí (IES Sucro)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
 "fin": "16:36",
 "aula": "Salón de actos",
-"eje": "Objetivos de Desarrollo Sostenible",
+"eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 3
@@ -1331,24 +1303,24 @@
 "orden": 4
 },
 {
-"codigo": "COM-44",
-"titulo": "La oca del tiempo. Un estudio exploratorio sobre la utilización del pódcast como herramienta de evaluación auténtica del aprendizaje de la lengua y de las ciencias sociales en educación primaria",
+"codigo": "COM-127",
+"titulo": "Des-versando el aula: una propuesta multimodal de investigación-acción para reconectar con la poesía",
 "tituloHtml": null,
-"autor": "Raquel Domínguez Fernández (Universidad de León) · María Teresa Llamazares Prieto (Universidad de León)",
+"autor": "Coral Palomero Seijas (Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "16:36",
 "fin": "16:48",
 "aula": "Salón de actos",
-"eje": "Objetivos de Desarrollo Sostenible",
+"eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 4
 },
 {
-"codigo": "COM-47",
-"titulo": "Mirarse para aprender a enseñar: el vídeo como mediador de la reflexión docente en la formación inicial del profesorado de lengua",
+"codigo": "COM-82",
+"titulo": "Narrativas para la emergencia climática en el cómic español",
 "tituloHtml": null,
-"autor": "Carme Durán Rivas (Universitat Autònoma de Barcelona) · Mireia Manresa Potrony (Universitat Autònoma de Barcelona)",
+"autor": "Noelia Ibarra Rius (Universitat de València) · Álvaro M. Pons Moreno (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
 "fin": "17:12",
@@ -1356,7 +1328,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 1
 },
 {
 "codigo": "COM-67",
@@ -1429,10 +1401,10 @@
 "orden": 1
 },
 {
-"codigo": "COM-74",
-"titulo": "Explorando el cambio de creencias hacia el multilingüismo en la formación inicial docente: la reflexión mediada por vídeo como eje de la intervención",
+"codigo": "COM-142",
+"titulo": "Literatura multimodal y conflicto en educación primaria: claves para la formación docente",
 "tituloHtml": null,
-"autor": "Irene Guzmán-Alcón (Universitat de València) · Alícia Martí-Climent (Universitat de València)",
+"autor": "María Querol Bataller (Universitat de València) · Francesc Rodrigo Segura (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
 "fin": "17:24",
@@ -1440,7 +1412,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 2
 },
 {
 "codigo": "COM-125",
@@ -1513,10 +1485,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-134",
-"titulo": "Hablamos para reflexionar y aprender con futuros docentes de primaria: biografías lingüísticas y educativas grabadas en vídeo para su posterior confrontación",
+"codigo": "COM-104",
+"titulo": "Teatro infantil en la formación de maestros de primaria: comprensión, creación y diseño de propuestas didácticas",
 "tituloHtml": null,
-"autor": "Montserrat Pérez-Giménez (Universitat de València - GIEL)",
+"autor": "Patricia Martínez León (Universitat de València) · Josep Ballester Roca (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "17:24",
 "fin": "17:36",
@@ -1524,7 +1496,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 3
 },
 {
 "codigo": "COM-24",
@@ -1595,6 +1567,20 @@
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 3
+},
+{
+"codigo": "COM-172",
+"titulo": "Los clásicos a través del entretenimiento interactivo. Una aproximación didáctica",
+"tituloHtml": null,
+"autor": "Matheus Gabriel Silveira Martins (Universitat de València) · Josep Ballester Roca (Universitat de València)",
+"dia": "Miércoles 25",
+"inicio": "17:36",
+"fin": "17:48",
+"aula": "Aula 0.01",
+"eje": "Multimodalidad",
+"tipo": "Comunicación de simposio",
+"estado": "Programado",
+"orden": 4
 },
 {
 "codigo": "COM-79",
@@ -2087,6 +2073,20 @@
 "orden": 6
 },
 {
+"codigo": "COM-112",
+"titulo": "Entre libros y aulas: selecciones y prácticas lectoras del profesorado de educación infantil",
+"tituloHtml": null,
+"autor": "Carla Míguez-Álvarez (Universidad de Vigo) · Isabel Mociño-González (Universidad de Vigo) · Marcos Loureiro García (Universidad de Vigo) · Clara Grech-Santi (Universidad de Vigo)",
+"dia": "Jueves 26",
+"inicio": "10:12",
+"fin": "10:24",
+"aula": "Aula 1.17",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 7
+},
+{
 "codigo": "COM-28",
 "titulo": "Del feedback automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
 "tituloHtml": "Del <i>feedback</i> automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
@@ -2153,6 +2153,20 @@
 "aula": "Sala de grados",
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
+},
+{
+"codigo": "COM-34",
+"titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
+"tituloHtml": null,
+"autor": "Margarida Castellano-Sanz (Universitat de València) · Rocío Domene-Benito (Universitat de València)",
+"dia": "Viernes 27",
+"inicio": "09:30",
+"fin": "09:42",
+"aula": "Sala de grados",
+"eje": "Multimodalidad",
+"tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 1
 },
@@ -2253,6 +2267,20 @@
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 2
+},
+{
+"codigo": "COM-148",
+"titulo": "Reescribiendo los discursos de la desigualdad: situaciones de aprendizaje gamificadas para la prevención de la violencia machista en educación infantil y primaria",
+"tituloHtml": null,
+"autor": "Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
+"dia": "Viernes 27",
+"inicio": "09:54",
+"fin": "10:06",
+"aula": "Aula 0.01",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
 },
 {
 "codigo": "COM-92",
@@ -2409,20 +2437,6 @@
 "orden": 4
 },
 {
-"codigo": "COM-112",
-"titulo": "Entre libros y aulas: selecciones y prácticas lectoras del profesorado de educación infantil",
-"tituloHtml": null,
-"autor": "Carla Míguez-Álvarez (Universidad de Vigo) · Isabel Mociño-González (Universidad de Vigo) · Marcos Loureiro García (Universidad de Vigo) · Clara Grech-Santi (Universidad de Vigo)",
-"dia": "Viernes 27",
-"inicio": "10:12",
-"fin": "10:24",
-"aula": "Aula 0.01",
-"eje": "Educación literaria",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3
-},
-{
 "codigo": "COM-102",
 "titulo": "Desarrollo de la interculturalidad en narrativas visuales sobre el colonialismo inglés en Chile",
 "tituloHtml": null,
@@ -2547,20 +2561,6 @@
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
-},
-{
-"codigo": "COM-173",
-"titulo": "La reseña literaria: escritura y multimodalidad entre lo analógico y lo digital",
-"tituloHtml": null,
-"autor": "Betlem Soler Pardo (Universitat de València) · Gloria Torralba Miralles (Universitat Jaume I)",
-"dia": "Viernes 27",
-"inicio": "17:36",
-"fin": "17:48",
-"aula": "Aula 0.09",
-"eje": "Multimodalidad",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 1
 },
 {
 "codigo": "COM-189",
@@ -2733,16 +2733,16 @@
 "participantes": []
 },
 {
-"codigo": "SES-036",
-"sesion": "SIMPOSIO · Formación lectora, competencia literaria y evaluación",
+"codigo": "SES-018",
+"sesion": "SIMPOSIO · Documentación científica de prácticas para el aprendizaje de la lengua implementadas en centros educativos rurales de León. Resultados preliminares",
 "dia": "Miércoles 25",
 "inicio": "11:30",
 "fin": "13:00",
 "aula": "Aula 2.25",
 "tipo": "Simposio",
-"eje": "Educación literaria",
+"eje": "Objetivos de Desarrollo Sostenible",
 "estado": "Confirmada",
-"moderacion": "Yolanda Romero-Vallejo (Universidad de Cádiz)",
+"moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
 "ponente": null,
 "participantes": []
 },
@@ -2808,7 +2808,7 @@
 "dia": "Miércoles 25",
 "inicio": "13:00",
 "fin": "14:30",
-"aula": "Aula 0.12",
+"aula": "Aula 0.11",
 "tipo": "Mesa",
 "eje": "Educación literaria",
 "estado": "Confirmada",
@@ -2845,8 +2845,8 @@
 "participantes": []
 },
 {
-"codigo": "SES-012",
-"sesion": "SIMPOSIO · Literatura infantil, multimodalidad y formación docente",
+"codigo": "SES-037",
+"sesion": "SIMPOSIO · El vídeo como mediador de la reflexión y del desarrollo profesional docente en contextos plurilingües",
 "dia": "Miércoles 25",
 "inicio": "13:00",
 "fin": "14:30",
@@ -2854,7 +2854,7 @@
 "tipo": "Simposio",
 "eje": "Multimodalidad",
 "estado": "Confirmada",
-"moderacion": "Margarida Castellano-Sanz (Universitat de València)",
+"moderacion": "Alícia Martí-Climent (Universitat de València)",
 "ponente": null,
 "participantes": []
 },
@@ -2943,22 +2943,22 @@
 "participantes": []
 },
 {
-"codigo": "SES-018",
-"sesion": "SIMPOSIO · Documentación científica de prácticas para el aprendizaje de la lengua implementadas en centros educativos rurales de León. Resultados preliminares",
+"codigo": "SES-036",
+"sesion": "SIMPOSIO · Formación lectora, competencia literaria y evaluación",
 "dia": "Miércoles 25",
 "inicio": "16:00",
 "fin": "17:00",
 "aula": "Salón de actos",
 "tipo": "Simposio",
-"eje": "Objetivos de Desarrollo Sostenible",
+"eje": "Educación literaria",
 "estado": "Confirmada",
-"moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
+"moderacion": "Yolanda Romero-Vallejo (Universidad de Cádiz)",
 "ponente": null,
 "participantes": []
 },
 {
-"codigo": "SES-037",
-"sesion": "SIMPOSIO · El vídeo como mediador de la reflexión y del desarrollo profesional docente en contextos plurilingües",
+"codigo": "SES-012",
+"sesion": "SIMPOSIO · Literatura infantil, multimodalidad y formación docente",
 "dia": "Miércoles 25",
 "inicio": "17:00",
 "fin": "18:00",
@@ -2966,7 +2966,7 @@
 "tipo": "Simposio",
 "eje": "Multimodalidad",
 "estado": "Confirmada",
-"moderacion": "Alícia Martí-Climent (Universitat de València)",
+"moderacion": "Margarida Castellano-Sanz (Universitat de València)",
 "ponente": null,
 "participantes": []
 },
@@ -3259,5 +3259,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-16T20:53:47.153883+00:00"
+"generado": "2026-09-16T23:32:41.788537+00:00"
 }
