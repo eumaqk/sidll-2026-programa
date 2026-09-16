@@ -1,6 +1,20 @@
 {
 "trabajos": [
 {
+"codigo": "COM-62",
+"titulo": "Observar lo lingüístico en la formación de profesorado: una experiencia dialógica para conectar teoría y práctica",
+"tituloHtml": null,
+"autor": "María José Galé Moyano (Universidad de Zaragoza) · Cristina Bartolomé Porcar (Universidad de Zaragoza)",
+"dia": "Miércoles 25",
+"inicio": "09:24",
+"fin": "09:36",
+"aula": "Salón de actos",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 6
+},
+{
 "codigo": "COM-34",
 "titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
 "tituloHtml": null,
@@ -15,18 +29,74 @@
 "orden": 1
 },
 {
+"codigo": "COM-42",
+"titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
+"tituloHtml": null,
+"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana María Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
+"dia": "Miércoles 25",
+"inicio": "10:00",
+"fin": "10:12",
+"aula": "Salón de actos",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
+},
+{
 "codigo": "COM-51",
 "titulo": "Breaking Out with Mr Panda: una propuesta de breakout educativo para futuros docentes de educación primaria",
 "tituloHtml": "<i>Breaking Out with Mr Panda</i>: una propuesta de <i>breakout</i> educativo para futuros docentes de educación primaria",
 "autor": "Fátima M. Faya Cerqueiro (Universidad de Santiago de Compostela) · Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
 "dia": "Miércoles 25",
-"inicio": "11:30",
-"fin": "11:42",
+"inicio": "10:12",
+"fin": "10:24",
 "aula": "Aula 0.07",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 1
+},
+{
+"codigo": "COM-60",
+"titulo": "El álbum ilustrado como puente hacia el plurilingüismo: un análisis comparativo de intervenciones multisensoriales en educación infantil",
+"tituloHtml": null,
+"autor": "Paula Fraga Rey (Universidad de Santiago de Compostela) · Paola Filomena Gagliano (Universidad de Santiago de Compostela)",
+"dia": "Miércoles 25",
+"inicio": "10:12",
+"fin": "10:24",
+"aula": "Salón de actos",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
+},
+{
+"codigo": "COM-132",
+"titulo": "El impacto del desastre del Prestige en la LIJ: una aproximación desde la perspectiva ecocrítica",
+"tituloHtml": null,
+"autor": "Montse Pena Presas (Universidade de Santiago de Compostela) · María J. Caamaño Rojo (Universidade de Santiago de Compostela)",
+"dia": "Miércoles 25",
+"inicio": "10:18",
+"fin": "10:30",
+"aula": "Aula 0.12",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
+},
+{
+"codigo": "COM-148",
+"titulo": "Reescribiendo los discursos de la desigualdad: situaciones de aprendizaje gamificadas para la prevención de la violencia machista en educación infantil y primaria",
+"tituloHtml": null,
+"autor": "Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
+"dia": "Miércoles 25",
+"inicio": "10:42",
+"fin": "10:54",
+"aula": "Aula 0.12",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
 },
 {
 "codigo": "COM-159",
@@ -81,20 +151,6 @@
 "aula": "Sala de grados",
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
-"estado": "Programado",
-"orden": 1
-},
-{
-"codigo": "COM-42",
-"titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
-"tituloHtml": null,
-"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana María Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
-"dia": "Miércoles 25",
-"inicio": "11:30",
-"fin": "11:42",
-"aula": "Salón de actos",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
 "estado": "Programado",
 "orden": 1
 },
@@ -249,20 +305,6 @@
 "aula": "Sala de grados",
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
-"estado": "Programado",
-"orden": 3
-},
-{
-"codigo": "COM-60",
-"titulo": "El álbum ilustrado como puente hacia el plurilingüismo: un análisis comparativo de intervenciones multisensoriales en educación infantil",
-"tituloHtml": null,
-"autor": "Paula Fraga Rey (Universidad de Santiago de Compostela) · Paola Filomena Gagliano (Universidad de Santiago de Compostela)",
-"dia": "Miércoles 25",
-"inicio": "11:54",
-"fin": "12:06",
-"aula": "Salón de actos",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
 "estado": "Programado",
 "orden": 3
 },
@@ -458,20 +500,6 @@
 "fin": "12:42",
 "aula": "Aula 0.16",
 "eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
-},
-{
-"codigo": "COM-62",
-"titulo": "Observar lo lingüístico en la formación de profesorado: una experiencia dialógica para conectar teoría y práctica",
-"tituloHtml": null,
-"autor": "María José Galé Moyano (Universidad de Zaragoza) · Cristina Bartolomé Porcar (Universidad de Zaragoza)",
-"dia": "Miércoles 25",
-"inicio": "12:30",
-"fin": "12:42",
-"aula": "Salón de actos",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
@@ -883,20 +911,6 @@
 "orden": 5
 },
 {
-"codigo": "COM-148",
-"titulo": "Reescribiendo los discursos de la desigualdad: situaciones de aprendizaje gamificadas para la prevención de la violencia machista en educación infantil y primaria",
-"tituloHtml": null,
-"autor": "Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
-"dia": "Miércoles 25",
-"inicio": "13:48",
-"fin": "14:00",
-"aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3
-},
-{
 "codigo": "COM-178",
 "titulo": "Del comentario a la acción: cómo los estudiantes interpretan y utilizan la retroalimentación escrita en la universidad",
 "tituloHtml": null,
@@ -1228,20 +1242,6 @@
 "fin": "16:36",
 "aula": "Aula 0.08",
 "eje": "Educación literaria",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3
-},
-{
-"codigo": "COM-132",
-"titulo": "El impacto del desastre del Prestige en la LIJ: una aproximación desde la perspectiva ecocrítica",
-"tituloHtml": null,
-"autor": "Montse Pena Presas (Universidade de Santiago de Compostela) · María J. Caamaño Rojo (Universidade de Santiago de Compostela)",
-"dia": "Miércoles 25",
-"inicio": "16:24",
-"fin": "16:36",
-"aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 3
@@ -1849,20 +1849,6 @@
 "orden": 3
 },
 {
-"codigo": "COM-28",
-"titulo": "Del feedback automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
-"tituloHtml": "Del <i>feedback</i> automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
-"autor": "M. Almudena Cantero Sandoval",
-"dia": "Jueves 26",
-"inicio": "09:24",
-"fin": "09:36",
-"aula": "Sala de grados",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3
-},
-{
 "codigo": "COM-41",
 "titulo": "Learning on the move: AI-enhanced walk-and-talk pedagogy for language learning",
 "tituloHtml": "<i>Learning on the move: AI-enhanced walk-and-talk pedagogy for language learning</i>",
@@ -2101,6 +2087,20 @@
 "orden": 6
 },
 {
+"codigo": "COM-28",
+"titulo": "Del feedback automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
+"tituloHtml": "Del <i>feedback</i> automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
+"autor": "M. Almudena Cantero Sandoval",
+"dia": "Jueves 26",
+"inicio": "16:48",
+"fin": "17:00",
+"aula": "Sala de grados",
+"eje": "Inteligencia artificial y tecnologías emergentes",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
+},
+{
 "codigo": "COM-119",
 "titulo": "Més enllà de la intuïció: ficció, no-ficció i criteris de selecció en la formació inicial de mestres",
 "tituloHtml": null,
@@ -2253,20 +2253,6 @@
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 2
-},
-{
-"codigo": "COM-112",
-"titulo": "Entre libros y aulas: selecciones y prácticas lectoras del profesorado de educación infantil",
-"tituloHtml": null,
-"autor": "Carla Míguez-Álvarez (Universidad de Vigo) · Isabel Mociño-González (Universidad de Vigo) · Marcos Loureiro García (Universidad de Vigo) · Clara Grech-Santi (Universidad de Vigo)",
-"dia": "Viernes 27",
-"inicio": "09:54",
-"fin": "10:06",
-"aula": "Aula 0.01",
-"eje": "Educación literaria",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3
 },
 {
 "codigo": "COM-92",
@@ -2423,6 +2409,34 @@
 "orden": 4
 },
 {
+"codigo": "COM-112",
+"titulo": "Entre libros y aulas: selecciones y prácticas lectoras del profesorado de educación infantil",
+"tituloHtml": null,
+"autor": "Carla Míguez-Álvarez (Universidad de Vigo) · Isabel Mociño-González (Universidad de Vigo) · Marcos Loureiro García (Universidad de Vigo) · Clara Grech-Santi (Universidad de Vigo)",
+"dia": "Viernes 27",
+"inicio": "10:12",
+"fin": "10:24",
+"aula": "Aula 0.01",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
+},
+{
+"codigo": "COM-102",
+"titulo": "Desarrollo de la interculturalidad en narrativas visuales sobre el colonialismo inglés en Chile",
+"tituloHtml": null,
+"autor": "Francisco Antonio Martínez-Carratalá (Universidad de Alicante) · Mónica Ruiz-Bañuls (Universidad de Alicante)",
+"dia": "Viernes 27",
+"inicio": "10:12",
+"fin": "10:24",
+"aula": "Aula 0.09",
+"eje": "Interculturalidad",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 5
+},
+{
 "codigo": "COM-63",
 "titulo": "La web Cajón de cuentos: antologías, reescrituras y actividades para las aulas",
 "tituloHtml": "La web <i>Cajón de cuentos</i>: antologías, reescrituras y actividades para las aulas",
@@ -2433,20 +2447,6 @@
 "aula": "Aula 0.01",
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
-"estado": "Programado",
-"orden": 5
-},
-{
-"codigo": "COM-102",
-"titulo": "Desarrollo de la interculturalidad en narrativas visuales sobre el colonialismo inglés en Chile",
-"tituloHtml": null,
-"autor": "Francisco Antonio Martínez-Carratalá (Universidad de Alicante) · Mónica Ruiz-Bañuls (Universidad de Alicante)",
-"dia": "Viernes 27",
-"inicio": "10:18",
-"fin": "10:30",
-"aula": "Aula 0.09",
-"eje": "Interculturalidad",
-"tipo": "Comunicación",
 "estado": "Programado",
 "orden": 5
 },
@@ -3259,5 +3259,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-16T16:10:23.559019+00:00"
+"generado": "2026-09-16T20:53:47.153883+00:00"
 }
