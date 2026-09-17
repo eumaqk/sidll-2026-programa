@@ -12,7 +12,7 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 3
 },
 {
 "codigo": "COM-42",
@@ -26,7 +26,7 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 5
 },
 {
 "codigo": "COM-51",
@@ -40,7 +40,7 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 7
 },
 {
 "codigo": "COM-60",
@@ -54,7 +54,7 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 7
 },
 {
 "codigo": "COM-132",
@@ -68,7 +68,21 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 5
+},
+{
+"codigo": "COM-140",
+"titulo": "La competencia pragmática en la formación docente: conocimiento y autopercepción en estudiantes de educación infantil",
+"tituloHtml": null,
+"autor": "Clara Macarena Ponce Romero (Universidade de Santiago de Compostela) · Marta Peláez Torres (Universidade de Vigo)",
+"dia": "Miércoles 25",
+"inicio": "11:30",
+"fin": "11:42",
+"aula": "Aula 0.07",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
 },
 {
 "codigo": "COM-159",
@@ -127,10 +141,24 @@
 "orden": 1
 },
 {
-"codigo": "COM-140",
-"titulo": "La competencia pragmática en la formación docente: conocimiento y autopercepción en estudiantes de educación infantil",
+"codigo": "COM-12",
+"titulo": "Formación inicial del profesoráu d’educación primaria pal aula d’asturianu n’educación infantil: evaluación d’un proyeutu d’anovación docente",
 "tituloHtml": null,
-"autor": "Clara Macarena Ponce Romero (Universidade de Santiago de Compostela) · Marta Peláez Torres (Universidade de Vigo)",
+"autor": "Roberto Avello Rodríguez (Universidá d’Uviéu) · Xosé Antón González Riaño (Universidad de Oviedo) · Lucía García Díez (Universidá d’Uviéu) · Alba Fernández Blanco",
+"dia": "Miércoles 25",
+"inicio": "11:30",
+"fin": "11:42",
+"aula": "Salón de actos",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
+},
+{
+"codigo": "COM-95",
+"titulo": "Lecturas graduadas, educación literaria e interculturalidad: un análisis de las adaptaciones de The Adventures of Huckleberry Finn en el aula de inglés",
+"tituloHtml": "Lecturas graduadas, educación literaria e interculturalidad: un análisis de las adaptaciones de <i>The Adventures of Huckleberry Finn</i> en el aula de inglés",
+"autor": "María López Sández (Universidad de Santiago de Compostela) · Manuel Anxo Cabañas López (investigador sin filiación institucional)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
 "fin": "11:54",
@@ -197,10 +225,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-12",
-"titulo": "Formación inicial del profesoráu d’educación primaria pal aula d’asturianu n’educación infantil: evaluación d’un proyeutu d’anovación docente",
+"codigo": "COM-35",
+"titulo": "Propuesta didáctica y recursos de mediación para desarrollar prácticas literarias de lectura y escritura para jóvenes con discapacidad intelectual",
 "tituloHtml": null,
-"autor": "Roberto Avello Rodríguez (Universidá d’Uviéu) · Xosé Antón González Riaño (Universidad de Oviedo) · Lucía García Díez (Universidá d’Uviéu) · Alba Fernández Blanco",
+"autor": "Sandra Loreto Catalán Henríquez (Universidad Católica de Valparaíso) · Carolina Margarita González Ramírez (Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
 "fin": "11:54",
@@ -211,10 +239,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-95",
-"titulo": "Lecturas graduadas, educación literaria e interculturalidad: un análisis de las adaptaciones de The Adventures of Huckleberry Finn en el aula de inglés",
-"tituloHtml": "Lecturas graduadas, educación literaria e interculturalidad: un análisis de las adaptaciones de <i>The Adventures of Huckleberry Finn</i> en el aula de inglés",
-"autor": "María López Sández (Universidad de Santiago de Compostela) · Manuel Anxo Cabañas López (investigador sin filiación institucional)",
+"codigo": "COM-177",
+"titulo": "La ortografía en los/as futuros/as docentes: percepciones, actitudes y prácticas en la era digital",
+"tituloHtml": null,
+"autor": "Natalia María Suárez Rubio (Universidad de La Laguna) · Desirée González Martín (Universidad de La Laguna)",
 "dia": "Miércoles 25",
 "inicio": "11:54",
 "fin": "12:06",
@@ -281,10 +309,24 @@
 "orden": 3
 },
 {
-"codigo": "COM-177",
-"titulo": "La ortografía en los/as futuros/as docentes: percepciones, actitudes y prácticas en la era digital",
+"codigo": "COM-9",
+"titulo": "Creer para aprender: autoeficacia y léxico en la formación docente",
 "tituloHtml": null,
-"autor": "Natalia María Suárez Rubio (Universidad de La Laguna) · Desirée González Martín (Universidad de La Laguna)",
+"autor": "Gema Alcaraz Mármol (Universidad de Castilla-La Mancha)",
+"dia": "Miércoles 25",
+"inicio": "11:54",
+"fin": "12:06",
+"aula": "Salón de actos",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
+},
+{
+"codigo": "COM-5",
+"titulo": "“Sevillanas en West Virginia”: las narrativas audiovisuales como recurso didáctico en ELE para fomentar el intercambio cultural",
+"tituloHtml": null,
+"autor": "Antonio Acosta Sánchez (Universidad de Granada)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
 "fin": "12:18",
@@ -351,24 +393,10 @@
 "orden": 4
 },
 {
-"codigo": "COM-35",
-"titulo": "Propuesta didáctica y recursos de mediación para desarrollar prácticas literarias de lectura y escritura para jóvenes con discapacidad intelectual",
+"codigo": "COM-152",
+"titulo": "La comprensión lectora en el aula de español como lengua de herencia: una perspectiva de pedagogía crítica de la educación secundaria en Nueva York",
 "tituloHtml": null,
-"autor": "Sandra Loreto Catalán Henríquez (Universidad Católica de Valparaíso) · Carolina Margarita González Ramírez (Universidad Católica de Valparaíso)",
-"dia": "Miércoles 25",
-"inicio": "12:06",
-"fin": "12:18",
-"aula": "Salón de actos",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 4
-},
-{
-"codigo": "COM-5",
-"titulo": "“Sevillanas en West Virginia”: las narrativas audiovisuales como recurso didáctico en ELE para fomentar el intercambio cultural",
-"tituloHtml": null,
-"autor": "Antonio Acosta Sánchez (Universidad de Granada)",
+"autor": "Francisco Salgado Robles (City College of New York)",
 "dia": "Miércoles 25",
 "inicio": "12:18",
 "fin": "12:30",
@@ -419,34 +447,6 @@
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 5
-},
-{
-"codigo": "COM-9",
-"titulo": "Creer para aprender: autoeficacia y léxico en la formación docente",
-"tituloHtml": null,
-"autor": "Gema Alcaraz Mármol (Universidad de Castilla-La Mancha)",
-"dia": "Miércoles 25",
-"inicio": "12:18",
-"fin": "12:30",
-"aula": "Salón de actos",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5
-},
-{
-"codigo": "COM-152",
-"titulo": "La comprensión lectora en el aula de español como lengua de herencia: una perspectiva de pedagogía crítica de la educación secundaria en Nueva York",
-"tituloHtml": null,
-"autor": "Francisco Salgado Robles (City College of New York)",
-"dia": "Miércoles 25",
-"inicio": "12:30",
-"fin": "12:42",
-"aula": "Aula 0.07",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
 },
 {
 "codigo": "COM-72",
@@ -939,20 +939,6 @@
 "orden": 5
 },
 {
-"codigo": "COM-48",
-"titulo": "La influencia de la variable sexo en la disponibilidad léxica del alumnado de educación primaria",
-"tituloHtml": null,
-"autor": "Rocío Escudero Sánchez (Universidad de Málaga) · Inmaculada Clotilde Santos Díaz (Universidad de Málaga) · Ester Trigo Ibáñez (Universidad de Cádiz)",
-"dia": "Miércoles 25",
-"inicio": "14:00",
-"fin": "14:12",
-"aula": "Aula 0.04",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 4
-},
-{
 "codigo": "COM-165",
 "titulo": "Lectura compartida en la formación inicial del profesorado de lenguas: dialogando sobre la multiculturalidad e interculturalidad para la sostenibilidad social",
 "tituloHtml": null,
@@ -990,6 +976,20 @@
 "fin": "14:12",
 "aula": "Aula 2.25",
 "eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 6
+},
+{
+"codigo": "COM-121",
+"titulo": "Inteligencia artificial generativa en la producción y revisión de textos en inglés en la formación inicial docente",
+"tituloHtml": null,
+"autor": "Cristina Navas Romero (Universidad de Málaga)",
+"dia": "Miércoles 25",
+"inicio": "14:00",
+"fin": "14:12",
+"aula": "Salón de actos",
+"eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
@@ -1219,6 +1219,20 @@
 "orden": 3
 },
 {
+"codigo": "COM-16",
+"titulo": "El teatro como herramienta para la mejora de competencias lingüísticas y sociales en el marco de los ODS",
+"tituloHtml": null,
+"autor": "Óscar Barros González (Universidad de Cantabria) · María Adelina Calvo Salvador (Universidad de Cantabria)",
+"dia": "Miércoles 25",
+"inicio": "16:24",
+"fin": "16:36",
+"aula": "Aula 0.12",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
+},
+{
 "codigo": "COM-175",
 "titulo": "Cuando los clásicos salen a la calle",
 "tituloHtml": null,
@@ -1275,20 +1289,6 @@
 "orden": 4
 },
 {
-"codigo": "COM-16",
-"titulo": "El teatro como herramienta para la mejora de competencias lingüísticas y sociales en el marco de los ODS",
-"tituloHtml": null,
-"autor": "Óscar Barros González (Universidad de Cantabria) · María Adelina Calvo Salvador (Universidad de Cantabria)",
-"dia": "Miércoles 25",
-"inicio": "16:36",
-"fin": "16:48",
-"aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 4
-},
-{
 "codigo": "COM-157",
 "titulo": "Leer para calmar. Diseño de un rincón de la calma literario en educación infantil",
 "tituloHtml": null,
@@ -1331,10 +1331,10 @@
 "orden": 1
 },
 {
-"codigo": "COM-67",
-"titulo": "El diario de campo como género discursivo escolar: diseño y validación de una rúbrica analítica para primer ciclo de educación secundaria obligatoria",
+"codigo": "COM-125",
+"titulo": "La lectura expresiva como predictor de la comprensión lectora: propuesta de una investigación longitudinal en educación primaria",
 "tituloHtml": null,
-"autor": "Teresa Gómez Sáenz de Miera (Universidad Complutense de Madrid) · María Teresa Mateo-Girona (Universidad Complutense de Madrid)",
+"autor": "Daniela Ester Oliveros Díaz (Universidad de Jaén) · Nicolás Gutiérrez Palma (Universidad de Jaén)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
 "fin": "17:12",
@@ -1415,10 +1415,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-125",
-"titulo": "La lectura expresiva como predictor de la comprensión lectora: propuesta de una investigación longitudinal en educación primaria",
+"codigo": "COM-67",
+"titulo": "El diario de campo como género discursivo escolar: diseño y validación de una rúbrica analítica para primer ciclo de educación secundaria obligatoria",
 "tituloHtml": null,
-"autor": "Daniela Ester Oliveros Díaz (Universidad de Jaén) · Nicolás Gutiérrez Palma (Universidad de Jaén)",
+"autor": "Teresa Gómez Sáenz de Miera (Universidad Complutense de Madrid) · María Teresa Mateo-Girona (Universidad Complutense de Madrid)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
 "fin": "17:24",
@@ -1583,6 +1583,20 @@
 "orden": 4
 },
 {
+"codigo": "COM-48",
+"titulo": "La influencia de la variable sexo en la disponibilidad léxica del alumnado de educación primaria",
+"tituloHtml": null,
+"autor": "Rocío Escudero Sánchez (Universidad de Málaga) · Inmaculada Clotilde Santos Díaz (Universidad de Málaga) · Ester Trigo Ibáñez (Universidad de Cádiz)",
+"dia": "Miércoles 25",
+"inicio": "17:36",
+"fin": "17:48",
+"aula": "Aula 0.04",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 4
+},
+{
 "codigo": "COM-79",
 "titulo": "When English becomes a bridge: a multiple case study of newly arrived refugees' experiences of service-learning and social inclusion in Spain",
 "tituloHtml": "<i>When English becomes a bridge: a multiple case study of newly arrived refugees&#x27; experiences of service-learning and social inclusion in Spain</i>",
@@ -1595,20 +1609,6 @@
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 4
-},
-{
-"codigo": "COM-121",
-"titulo": "Inteligencia artificial generativa en la producción y revisión de textos en inglés en la formación inicial docente",
-"tituloHtml": null,
-"autor": "Cristina Navas Romero (Universidad de Málaga)",
-"dia": "Miércoles 25",
-"inicio": "17:36",
-"fin": "17:48",
-"aula": "Salón de actos",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
 },
 {
 "codigo": "COM-83",
@@ -1832,7 +1832,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 2
 },
 {
 "codigo": "COM-41",
@@ -1902,7 +1902,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 3
 },
 {
 "codigo": "COM-117",
@@ -1986,7 +1986,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 4
 },
 {
 "codigo": "COM-130",
@@ -2098,7 +2098,7 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 5
 },
 {
 "codigo": "COM-119",
@@ -2111,6 +2111,20 @@
 "aula": "Aula 0.01",
 "eje": "Educación literaria",
 "tipo": "Comunicación",
+"estado": "Programado",
+"orden": 1
+},
+{
+"codigo": "COM-34",
+"titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
+"tituloHtml": null,
+"autor": "Margarida Castellano-Sanz (Universitat de València) · Rocío Domene-Benito (Universitat de València)",
+"dia": "Viernes 27",
+"inicio": "09:30",
+"fin": "09:42",
+"aula": "Aula 0.09",
+"eje": "Multimodalidad",
+"tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 1
 },
@@ -2153,20 +2167,6 @@
 "aula": "Sala de grados",
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
-"estado": "Programado",
-"orden": 1
-},
-{
-"codigo": "COM-34",
-"titulo": "Maternidades entre territorios: álbum ilustrado, migración y alfabetización crítica en la formación inicial del profesorado",
-"tituloHtml": null,
-"autor": "Margarida Castellano-Sanz (Universitat de València) · Rocío Domene-Benito (Universitat de València)",
-"dia": "Viernes 27",
-"inicio": "09:30",
-"fin": "09:42",
-"aula": "Sala de grados",
-"eje": "Multimodalidad",
-"tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 1
 },
@@ -2448,7 +2448,7 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 7
 },
 {
 "codigo": "COM-63",
@@ -2821,7 +2821,7 @@
 "sesion": "SIMPOSIO · Didáctica de la lengua y la literatura en contextos universitarios",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:00",
+"fin": "14:30",
 "aula": "Aula 0.16",
 "tipo": "Simposio",
 "eje": "Educación literaria",
@@ -3101,7 +3101,7 @@
 "sesion": "Mesa P1 — Inteligencia artificial y tecnologías emergentes",
 "dia": "Jueves 26",
 "inicio": "09:00",
-"fin": "10:30",
+"fin": "10:27",
 "aula": "Sala de grados",
 "tipo": "Mesa",
 "eje": "Inteligencia artificial y tecnologías emergentes",
@@ -3259,5 +3259,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-16T23:32:41.788537+00:00"
+"generado": "2026-09-17T03:31:43.212422+00:00"
 }
