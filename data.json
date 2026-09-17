@@ -396,7 +396,7 @@
 "codigo": "COM-146",
 "titulo": "De la memorización al pensamiento aumentado: redefinir la literatura en tiempo de inteligencia artificial (IA)",
 "tituloHtml": null,
-"autor": "Francesc Rodrigo Segura (Universitat de València)",
+"autor": "Jordi Rodrigo Pons (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "12:18",
 "fin": "12:30",
@@ -1933,15 +1933,15 @@
 "orden": 5
 },
 {
-"codigo": "COM-42",
-"titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
+"codigo": "COM-114",
+"titulo": "Comprensión narrativa y codificación visual de Barbazul mediante IA generativa: una experiencia con docentes en formación",
 "tituloHtml": null,
-"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana María Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
+"autor": "Sebastián Miras (Universidad de Alicante) · Delfina Mas Mas (Universidad de Alicante)",
 "dia": "Jueves 26",
 "inicio": "09:48",
 "fin": "10:00",
 "aula": "Aula 2.05",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 5
@@ -2012,6 +2012,20 @@
 "fin": "10:12",
 "aula": "Aula 1.17",
 "eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 6
+},
+{
+"codigo": "COM-42",
+"titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
+"tituloHtml": null,
+"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana María Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
+"dia": "Jueves 26",
+"inicio": "10:00",
+"fin": "10:12",
+"aula": "Aula 2.05",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
@@ -2227,10 +2241,10 @@
 "orden": 1
 },
 {
-"codigo": "COM-114",
-"titulo": "Comprensión narrativa y codificación visual de Barbazul mediante IA generativa: una experiencia con docentes en formación",
+"codigo": "COM-4",
+"titulo": "El aula de lengua y literatura como laboratorio de creación literaria digital: hacia una educación literaria con inteligencia artificial",
 "tituloHtml": null,
-"autor": "Sebastián Miras (Universidad de Alicante) · Delfina Mas Mas (Universidad de Alicante)",
+"autor": "Antonio Acosta Sánchez (Universidad de Granada)",
 "dia": "Viernes 27",
 "inicio": "09:30",
 "fin": "09:42",
@@ -2311,10 +2325,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-4",
-"titulo": "El aula de lengua y literatura como laboratorio de creación literaria digital: hacia una educación literaria con inteligencia artificial",
+"codigo": "COM-176",
+"titulo": "La enseñanza de la lectura mediante inteligencia artificial: uso ético y reflexivo en futuros maestros/as de educación primaria",
 "tituloHtml": null,
-"autor": "Antonio Acosta Sánchez (Universidad de Granada)",
+"autor": "Natalia María Suárez Rubio (Universidad de La Laguna) · Rebeca Villarroel Ramírez (Universidad de La Laguna) · Isaac Marco Rodríguez (Universidad de La Laguna)",
 "dia": "Viernes 27",
 "inicio": "09:42",
 "fin": "09:54",
@@ -2395,10 +2409,10 @@
 "orden": 3
 },
 {
-"codigo": "COM-176",
-"titulo": "La enseñanza de la lectura mediante inteligencia artificial: uso ético y reflexivo en futuros maestros/as de educación primaria",
+"codigo": "COM-86",
+"titulo": "Escritura académica e inteligencia artificial en la educación superior: construcción y validación de una escala de evaluación",
 "tituloHtml": null,
-"autor": "Natalia María Suárez Rubio (Universidad de La Laguna) · Rebeca Villarroel Ramírez (Universidad de La Laguna) · Isaac Marco Rodríguez (Universidad de La Laguna)",
+"autor": "Steffanie Kloss (Universidad Andrés Bello)",
 "dia": "Viernes 27",
 "inicio": "09:54",
 "fin": "10:06",
@@ -2437,15 +2451,15 @@
 "orden": 4
 },
 {
-"codigo": "COM-80",
-"titulo": "Habilidades lectoras en entornos digitales: entre lo digital y lo analógico",
+"codigo": "COM-132",
+"titulo": "El impacto del desastre del Prestige en la LIJ: una aproximación desde la perspectiva ecocrítica",
 "tituloHtml": null,
-"autor": "Carlos Huerga Pérez (Centro Universitario de Educación Escuni (adscrito a UPSA))",
+"autor": "Montse Pena Presas (Universidade de Santiago de Compostela) · María J. Caamaño Rojo (Universidade de Santiago de Compostela)",
 "dia": "Viernes 27",
 "inicio": "10:06",
 "fin": "10:18",
 "aula": "Aula 0.09",
-"eje": "Multimodalidad",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 4
@@ -2479,10 +2493,10 @@
 "orden": 4
 },
 {
-"codigo": "COM-86",
-"titulo": "Escritura académica e inteligencia artificial en la educación superior: construcción y validación de una escala de evaluación",
+"codigo": "COM-129",
+"titulo": "Alfabetización en IA y escritura académica entre estudiantes de educación y de humanidades",
 "tituloHtml": null,
-"autor": "Steffanie Kloss (Universidad Andrés Bello)",
+"autor": "Aída Bárbara Parrales Rodríguez (Universidad de Oviedo) · Loreto Díaz Suárez (Facultad Padre Ossó –Universidad de Oviedo)",
 "dia": "Viernes 27",
 "inicio": "10:06",
 "fin": "10:18",
@@ -2521,20 +2535,6 @@
 "orden": 5
 },
 {
-"codigo": "COM-132",
-"titulo": "El impacto del desastre del Prestige en la LIJ: una aproximación desde la perspectiva ecocrítica",
-"tituloHtml": null,
-"autor": "Montse Pena Presas (Universidade de Santiago de Compostela) · María J. Caamaño Rojo (Universidade de Santiago de Compostela)",
-"dia": "Viernes 27",
-"inicio": "10:18",
-"fin": "10:30",
-"aula": "Aula 0.09",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5
-},
-{
 "codigo": "COM-77",
 "titulo": "Usos y límites de la inteligencia artificial generativa en el feedback tutorial: una perspectiva desde la agencia docente",
 "tituloHtml": "Usos y límites de la inteligencia artificial generativa en el <i>feedback</i> tutorial: una perspectiva desde la agencia docente",
@@ -2563,10 +2563,10 @@
 "orden": 5
 },
 {
-"codigo": "COM-129",
-"titulo": "Alfabetización en IA y escritura académica entre estudiantes de educación y de humanidades",
+"codigo": "COM-69",
+"titulo": "La retroalimentación digital en la escritura académica: usos, percepciones y sugerencias de estudiantes y docentes en la formación inicial de profesores",
 "tituloHtml": null,
-"autor": "Aída Bárbara Parrales Rodríguez (Universidad de Oviedo) · Loreto Díaz Suárez (Facultad Padre Ossó –Universidad de Oviedo)",
+"autor": "Emmy González Lillo (Universidad de O’Higgins) · María Teresa Mateo-Girona (Universidad Complutense de Madrid)",
 "dia": "Viernes 27",
 "inicio": "10:18",
 "fin": "10:30",
@@ -2614,20 +2614,6 @@
 "fin": "10:42",
 "aula": "Aula 0.16",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
-},
-{
-"codigo": "COM-69",
-"titulo": "La retroalimentación digital en la escritura académica: usos, percepciones y sugerencias de estudiantes y docentes en la formación inicial de profesores",
-"tituloHtml": null,
-"autor": "Emmy González Lillo (Universidad de O’Higgins) · María Teresa Mateo-Girona (Universidad Complutense de Madrid)",
-"dia": "Viernes 27",
-"inicio": "10:30",
-"fin": "10:42",
-"aula": "Sala de grados",
-"eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
@@ -3259,5 +3245,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-17T16:16:45.119295+00:00"
+"generado": "2026-09-17T17:07:13.688361+00:00"
 }
