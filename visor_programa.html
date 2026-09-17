@@ -534,7 +534,7 @@ const EJES_NO_PUBLICOS = new Set(['ELCIS_INTERPANEL', 'INTERPANEL']);
 
 function norm(s){ return (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''); }
 function uniq(arr){ return [...new Set(arr.filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es')); }
-function tituloPublico(s){ return (s||'').replace(/\s*\(recomposici[oó]n\)/i, '').trim(); }
+function tituloPublico(s){ return (s||'').replace(/\s*\(recomposici[oó]n\)/i, '').trim().replace(/\n/g, '<br>'); }
 
 // El "horario" de una comunicación es el bloque real de la sesión a la que
 // pertenece (mismo día + aula + hora dentro de [inicio,fin)), no un intervalo
