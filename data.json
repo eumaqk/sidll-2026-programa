@@ -253,6 +253,20 @@
 "orden": 3
 },
 {
+"codigo": "COM-52",
+"titulo": "El rol docente en la percepción de la asignatura de lengua inglesa: análisis de reflexiones de profesorado en formación desde un enfoque asistido por corpus",
+"tituloHtml": null,
+"autor": "Fátima M. Faya Cerqueiro (Universidad de Santiago de Compostela) · Gema Alcaraz Mármol (Universidad de Castilla-La Mancha)",
+"dia": "Miércoles 25",
+"inicio": "11:54",
+"fin": "12:06",
+"aula": "Salón de actos",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3
+},
+{
 "codigo": "COM-5",
 "titulo": "“Sevillanas en West Virginia”: las narrativas audiovisuales como recurso didáctico en ELE para fomentar el intercambio cultural",
 "tituloHtml": null,
@@ -323,6 +337,20 @@
 "orden": 4
 },
 {
+"codigo": "COM-30",
+"titulo": "Literatura en lengua inglesa y ODS: una aproximación contemporánea",
+"tituloHtml": null,
+"autor": "Blasina Cantizano Márquez (Universidad de Almería)",
+"dia": "Miércoles 25",
+"inicio": "12:06",
+"fin": "12:18",
+"aula": "Salón de actos",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 4
+},
+{
 "codigo": "COM-152",
 "titulo": "La comprensión lectora en el aula de español como lengua de herencia: una perspectiva de pedagogía crítica de la educación secundaria en Nueva York",
 "tituloHtml": null,
@@ -375,6 +403,20 @@
 "aula": "Sala de grados",
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
+"estado": "Programado",
+"orden": 5
+},
+{
+"codigo": "COM-141",
+"titulo": "La generación de la amistad saharaui y su potencialidad pedagógica en el sistema educativo español",
+"tituloHtml": null,
+"autor": "Jaime Puig Guisado (Universidad de Sevilla)",
+"dia": "Miércoles 25",
+"inicio": "12:18",
+"fin": "12:30",
+"aula": "Salón de actos",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
 "estado": "Programado",
 "orden": 5
 },
@@ -505,10 +547,10 @@
 "orden": 2
 },
 {
-"codigo": "COM-141",
-"titulo": "La generación de la amistad saharaui y su potencialidad pedagógica en el sistema educativo español",
+"codigo": "COM-70",
+"titulo": "Tensiones y desafíos en la configuración de planes de lectura domiciliaria para educación secundaria",
 "tituloHtml": null,
-"autor": "Jaime Puig Guisado (Universidad de Sevilla)",
+"autor": "Carolina Margarita González Ramírez (Pontificia Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
 "fin": "13:24",
@@ -603,10 +645,10 @@
 "orden": 3
 },
 {
-"codigo": "COM-70",
-"titulo": "Tensiones y desafíos en la configuración de planes de lectura domiciliaria para educación secundaria",
+"codigo": "COM-106",
+"titulo": "Alumnado en formación docente y creación de álbumes ilustrados: un estudio cuasi-experimental",
 "tituloHtml": null,
-"autor": "Carolina Margarita González Ramírez (Pontificia Universidad Católica de Valparaíso)",
+"autor": "Delfina Mas Mas (Universidad de Alicante) · Francisco Antonio Martínez-Carratalá (Universidad de Alicante) · José Rovira-Collado (Universidad de Alicante)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
 "fin": "13:36",
@@ -701,10 +743,10 @@
 "orden": 4
 },
 {
-"codigo": "COM-106",
-"titulo": "Alumnado en formación docente y creación de álbumes ilustrados: un estudio cuasi-experimental",
-"tituloHtml": null,
-"autor": "Delfina Mas Mas (Universidad de Alicante) · Francisco Antonio Martínez-Carratalá (Universidad de Alicante) · José Rovira-Collado (Universidad de Alicante)",
+"codigo": "COM-75",
+"titulo": "Nara (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
+"tituloHtml": "<i>Nara</i> (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
+"autor": "Jesús Guzmán Mora (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
 "fin": "13:48",
@@ -785,24 +827,24 @@
 "orden": 4
 },
 {
-"codigo": "COM-52",
-"titulo": "El rol docente en la percepción de la asignatura de lengua inglesa: análisis de reflexiones de profesorado en formación desde un enfoque asistido por corpus",
+"codigo": "COM-165",
+"titulo": "Lectura compartida en la formación inicial del profesorado de lenguas: dialogando sobre la multiculturalidad e interculturalidad para la sostenibilidad social",
 "tituloHtml": null,
-"autor": "Fátima M. Faya Cerqueiro (Universidad de Santiago de Compostela) · Gema Alcaraz Mármol (Universidad de Castilla-La Mancha)",
+"autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
 "dia": "Miércoles 25",
 "inicio": "13:48",
 "fin": "14:00",
 "aula": "Aula 0.07",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 5
 },
 {
-"codigo": "COM-75",
-"titulo": "Nara (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
-"tituloHtml": "<i>Nara</i> (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
-"autor": "Jesús Guzmán Mora (Universidad de Castilla-La Mancha)",
+"codigo": "COM-76",
+"titulo": "Un teatro que hace “teatreros”: intertextualidad y metateatralidad en la dramaturgia juvenil contemporánea",
+"tituloHtml": null,
+"autor": "Laura Hernández González (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
 "fin": "14:00",
@@ -841,38 +883,10 @@
 "orden": 5
 },
 {
-"codigo": "COM-165",
-"titulo": "Lectura compartida en la formación inicial del profesorado de lenguas: dialogando sobre la multiculturalidad e interculturalidad para la sostenibilidad social",
+"codigo": "COM-87",
+"titulo": "Incidencia de dos métodos de enseñanza de escritura académica en la calidad textual del ensayo argumentativo: un estudio para apoyar la formación inicial docente",
 "tituloHtml": null,
-"autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
-"dia": "Miércoles 25",
-"inicio": "14:00",
-"fin": "14:12",
-"aula": "Aula 0.07",
-"eje": "Interculturalidad",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
-},
-{
-"codigo": "COM-76",
-"titulo": "Un teatro que hace “teatreros”: intertextualidad y metateatralidad en la dramaturgia juvenil contemporánea",
-"tituloHtml": null,
-"autor": "Laura Hernández González (Universidad de Castilla-La Mancha)",
-"dia": "Miércoles 25",
-"inicio": "14:00",
-"fin": "14:12",
-"aula": "Aula 0.10",
-"eje": "Educación literaria",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6
-},
-{
-"codigo": "COM-30",
-"titulo": "Literatura en lengua inglesa y ODS: una aproximación contemporánea",
-"tituloHtml": null,
-"autor": "Blasina Cantizano Márquez (Universidad de Almería)",
+"autor": "Steffanie Kloss (Universidad Andrés Bello)",
 "dia": "Miércoles 25",
 "inicio": "14:00",
 "fin": "14:12",
@@ -895,20 +909,6 @@
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
-},
-{
-"codigo": "COM-87",
-"titulo": "Incidencia de dos métodos de enseñanza de escritura académica en la calidad textual del ensayo argumentativo: un estudio para apoyar la formación inicial docente",
-"tituloHtml": null,
-"autor": "Steffanie Kloss (Universidad Andrés Bello)",
-"dia": "Miércoles 25",
-"inicio": "14:12",
-"fin": "14:24",
-"aula": "Aula 2.25",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 7
 },
 {
 "codigo": "COM-46",
@@ -1681,6 +1681,20 @@
 "orden": 2
 },
 {
+"codigo": "COM-139",
+"titulo": "Educar para incluir: iniciación a la lengua de signos en la formación de futuros maestros",
+"tituloHtml": null,
+"autor": "Clara Macarena Ponce Romero (Universidade de Santiago de Compostela)",
+"dia": "Jueves 26",
+"inicio": "09:12",
+"fin": "09:24",
+"aula": "Aula 2.05",
+"eje": "Multimodalidad",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 2
+},
+{
 "codigo": "COM-11",
 "titulo": "Estrategias didácticas para el fomento de la mediación lectora en educación primaria",
 "tituloHtml": null,
@@ -1751,10 +1765,10 @@
 "orden": 3
 },
 {
-"codigo": "COM-139",
-"titulo": "Educar para incluir: iniciación a la lengua de signos en la formación de futuros maestros",
+"codigo": "COM-109",
+"titulo": "La reinterpretación multimodal de Don Quijote en educación primaria: una experiencia de educación literaria y comprensión lectora",
 "tituloHtml": null,
-"autor": "Clara Macarena Ponce Romero (Universidade de Santiago de Compostela)",
+"autor": "Beatriz Mederer Hengstl (Universidad de Granada)",
 "dia": "Jueves 26",
 "inicio": "09:24",
 "fin": "09:36",
@@ -1762,7 +1776,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 3
 },
 {
 "codigo": "COM-62",
@@ -1835,8 +1849,8 @@
 "orden": 4
 },
 {
-"codigo": "COM-109",
-"titulo": "La reinterpretación multimodal de Don Quijote en educación primaria: una experiencia de educación literaria y comprensión lectora",
+"codigo": "COM-108",
+"titulo": "El patrimonio cultural como contexto multimodal para el desarrollo de la competencia comunicativa en educación primaria",
 "tituloHtml": null,
 "autor": "Beatriz Mederer Hengstl (Universidad de Granada)",
 "dia": "Jueves 26",
@@ -1846,7 +1860,7 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 4
 },
 {
 "codigo": "COM-117",
@@ -1919,18 +1933,18 @@
 "orden": 5
 },
 {
-"codigo": "COM-108",
-"titulo": "El patrimonio cultural como contexto multimodal para el desarrollo de la competencia comunicativa en educación primaria",
+"codigo": "COM-42",
+"titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
 "tituloHtml": null,
-"autor": "Beatriz Mederer Hengstl (Universidad de Granada)",
+"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana María Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
 "dia": "Jueves 26",
 "inicio": "09:48",
 "fin": "10:00",
 "aula": "Aula 2.05",
-"eje": "Multimodalidad",
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 5
 },
 {
 "codigo": "COM-130",
@@ -2001,20 +2015,6 @@
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6
-},
-{
-"codigo": "COM-42",
-"titulo": "Diseño y validación de una rúbrica para la evaluación de trabajos fin de máster de investigaciones aplicadas a enseñanza de lenguas extranjeras",
-"tituloHtml": null,
-"autor": "Rocío Cuberos Vicente (Universidad Complutense de Madrid) · Anna Doquin de Saint-Preux (Universidad Complutense de Madrid) · Juana María Blanco Fernández (Universidad de Castilla La Mancha) · Monika Anna Ciesielkiewicz (Universidad Complutense de Madrid)",
-"dia": "Jueves 26",
-"inicio": "10:00",
-"fin": "10:12",
-"aula": "Aula 2.05",
-"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5
 },
 {
 "codigo": "COM-115",
@@ -3259,5 +3259,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-17T14:06:54.763541+00:00"
+"generado": "2026-09-17T14:44:18.886756+00:00"
 }
