@@ -1107,15 +1107,15 @@
 "orden": 3
 },
 {
-"codigo": "COM-155",
-"titulo": "Subjetividad femenina, memoria política y discurso nacional en Páginas del Ecuador de Marieta de Veintemilla",
-"tituloHtml": "Subjetividad femenina, memoria política y discurso nacional en <i>Páginas del Ecuador</i> de Marieta de Veintemilla",
-"autor": "Virginia Sánchez Andrade (Universidad Bolivariana del Ecuador)",
+"codigo": "COM-2",
+"titulo": "Lectura crítica y pensamiento histórico ante la desinformación: un enfoque interdisciplinar en la formación de maestros",
+"tituloHtml": null,
+"autor": "Leonel Abarzúa (Universitat de Barcelona) · Concha Fuentes-Moreno (Universitat de Barcelona)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
 "fin": "16:36",
 "aula": "Aula 0.08",
-"eje": "Educación literaria",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 3
@@ -1191,15 +1191,15 @@
 "orden": 4
 },
 {
-"codigo": "COM-2",
-"titulo": "Lectura crítica y pensamiento histórico ante la desinformación: un enfoque interdisciplinar en la formación de maestros",
-"tituloHtml": null,
-"autor": "Leonel Abarzúa (Universitat de Barcelona) · Concha Fuentes-Moreno (Universitat de Barcelona)",
+"codigo": "COM-155",
+"titulo": "Subjetividad femenina, memoria política y discurso nacional en Páginas del Ecuador de Marieta de Veintemilla",
+"tituloHtml": "Subjetividad femenina, memoria política y discurso nacional en <i>Páginas del Ecuador</i> de Marieta de Veintemilla",
+"autor": "Virginia Sánchez Andrade (Universidad Bolivariana del Ecuador)",
 "dia": "Miércoles 25",
 "inicio": "16:36",
 "fin": "16:48",
 "aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
+"eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 4
@@ -1933,10 +1933,10 @@
 "orden": 5
 },
 {
-"codigo": "COM-114",
-"titulo": "Comprensión narrativa y codificación visual de Barbazul mediante IA generativa: una experiencia con docentes en formación",
+"codigo": "COM-130",
+"titulo": "Uso de chatbots conversacionales para desarrollar la competencia comunicativa con alumnado de ELE",
 "tituloHtml": null,
-"autor": "Sebastián Miras (Universidad de Alicante) · Delfina Mas Mas (Universidad de Alicante)",
+"autor": "Aída Bárbara Parrales Rodríguez (Universidad de Oviedo) · Concepción Francos Maldonado (Universidad de Oviedo)",
 "dia": "Jueves 26",
 "inicio": "09:48",
 "fin": "10:00",
@@ -1947,10 +1947,10 @@
 "orden": 5
 },
 {
-"codigo": "COM-130",
-"titulo": "Uso de chatbots conversacionales para desarrollar la competencia comunicativa con alumnado de ELE",
+"codigo": "COM-114",
+"titulo": "Comprensión narrativa y codificación visual de Barbazul mediante IA generativa: una experiencia con docentes en formación",
 "tituloHtml": null,
-"autor": "Aída Bárbara Parrales Rodríguez (Universidad de Oviedo) · Concepción Francos Maldonado (Universidad de Oviedo)",
+"autor": "Sebastián Miras (Universidad de Alicante) · Delfina Mas Mas (Universidad de Alicante)",
 "dia": "Jueves 26",
 "inicio": "09:48",
 "fin": "10:00",
@@ -3245,5 +3245,5 @@
 "participantes": []
 }
 ],
-"generado": "2026-09-18T15:52:04.569683+00:00"
+"generado": "2026-09-18T20:25:44.852822+00:00"
 }
