@@ -40,6 +40,8 @@
     --seg-debate-border:#c7d0d6;
     --gap-bg:#fbe2df;
     --gap-mark:#d99089;
+    --seg-debate-bg-simposio:#c7d0ea;
+    --gap-bg-simposio:#f3b7ae;
   }
 
   *{box-sizing:border-box;}
@@ -173,6 +175,11 @@
   .occ-cell.is-warning .cell-label::after{content:' ⚠';}
   .occ-cell.gap{background:var(--gap-bg); cursor:default;}
   .occ-cell.gap::after{content:''; width:60%; height:2px; background:var(--gap-mark);}
+  /* En una fila de Simposio, el tramo de Debate y los huecos suben de tono
+     también -- para que toda la fila se lea como Simposio de un vistazo,
+     no solo las casillas con comunicación. */
+  .occ-row.tipo-simposio .occ-cell.debate{background:var(--seg-debate-bg-simposio) !important; color:#3d4a6b !important;}
+  .occ-row.tipo-simposio .occ-cell.gap{background:var(--gap-bg-simposio);}
 
   .detail-panel{
     position:fixed; right:18px; bottom:18px; width:360px; max-width:calc(100vw - 28px);
