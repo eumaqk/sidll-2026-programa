@@ -284,7 +284,7 @@
   <div class="legend" aria-hidden="true">
     <span class="legend-item"><span class="legend-swatch mesa"></span>Mesa</span>
     <span class="legend-item"><span class="legend-swatch simposio"></span>Simposio</span>
-    <span class="legend-item"><span class="legend-swatch debate"></span>Debate</span>
+    <span class="legend-item"><span class="legend-swatch debate"></span>Turno de preguntas</span>
     <span class="legend-item"><span class="legend-swatch gap"></span>Hueco (sesión más corta)</span>
     <span class="legend-item"><span class="legend-swatch retirado"></span>Retirado</span>
     <span class="legend-item"><span class="legend-swatch warn"></span>Incoherencia en Notion</span>
@@ -485,8 +485,8 @@ function renderDay(day){
         cell.addEventListener('click', ()=> openTrabajoDetail(t, s));
       } else if(i === ligadas.length){
         cell.className = 'occ-cell filled debate';
-        cell.title = 'Debate' + (s.debateMin ? ` · ${s.debateMin} min` : '');
-        cell.innerHTML = '<span class="cell-label">Debate</span>';
+        cell.title = 'Turno de preguntas' + (s.debateMin ? ` · ${s.debateMin} min` : '');
+        cell.innerHTML = '<span class="cell-label">Turno de preguntas</span>';
         cell.addEventListener('click', ()=> openSesionDetail(s, isConflict));
       } else {
         cell.className = 'occ-cell gap';
