@@ -378,10 +378,18 @@ function renderDay(day){
     return;
   }
 
-  // Sin plenarias: una plenaria ocupa la sala entera sin paralelismo que
-  // comparar, no aporta a "qué aula está ocupada por qué" frente a otras.
+  // Sin plenarias (ocupan la sala entera, sin paralelismo que comparar) ni
+  // mesas redondas (mismo caso: Tipo="Mesa" en Notion, pero sus "trabajos"
+  // ligados son intervenciones de ponentes, no comunicaciones académicas
+  // reales -- se detecta porque ninguno de sus trabajos tiene Tipo
+  // "Comunicación" / "Comunicación de simposio", así no depende del texto
+  // del título y sigue funcionando si se añaden más mesas redondas).
+  const TIPOS_COMUNICACION_REAL = new Set(['Comunicación', 'Comunicación de simposio']);
+  const tieneComunicacionReal = (codigoSesion) =>
+    trabajos.some(t => t.sesionCodigo === codigoSesion && TIPOS_COMUNICACION_REAL.has(t.tipo));
+
   const sessSet = sesiones
-    .filter(s => s.dia === day && s.inicio && s.fin && s.tipo !== 'Plenaria')
+    .filter(s => s.dia === day && s.inicio && s.fin && s.tipo !== 'Plenaria' && tieneComunicacionReal(s.codigo))
     .sort((a,b) => timeToMin(a.inicio)-timeToMin(b.inicio) || (a.aula||'').localeCompare(b.aula||'','es'));
 
   if(!sessSet.length){
