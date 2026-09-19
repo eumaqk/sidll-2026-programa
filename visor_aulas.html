@@ -186,6 +186,9 @@
   .occ-row.tipo-simposio .occ-cell{box-shadow:inset 0 3px 0 var(--type-simposio-border);}
   .occ-cell.filled:hover{filter:brightness(0.97);}
   .occ-cell.debate{font-style:italic; color:#4e5f69 !important; background:var(--seg-debate-bg) !important;}
+  /* "Turno de preguntas" no cabe en 96px en una sola línea -- se deja
+     partir en dos en vez de recortarlo con puntos suspensivos. */
+  .occ-cell.debate .cell-label{white-space:normal; overflow:visible; text-overflow:clip; line-height:1.2;}
   .occ-cell.is-retirado{background-image:repeating-linear-gradient(45deg, rgba(0,0,0,.14) 0 5px, transparent 5px 10px);}
   /* !important: sin esto, la franja de acento de .filled (más específica)
      gana la cascada en box-shadow y el aviso deja de verse. */
