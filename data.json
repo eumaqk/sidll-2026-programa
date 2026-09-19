@@ -12,7 +12,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-048",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-140",
@@ -26,7 +32,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-026",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-159",
@@ -40,7 +52,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-002",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-13",
@@ -54,7 +72,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-001",
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-20",
@@ -68,7 +92,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-018",
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-111",
@@ -82,7 +112,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-005",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-12",
@@ -96,7 +132,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-040",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-95",
@@ -110,7 +152,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-026",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-98",
@@ -124,7 +172,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-002",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-185",
@@ -138,7 +192,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-001",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-68",
@@ -152,7 +212,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-018",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-89",
@@ -166,7 +232,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-005",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-35",
@@ -180,7 +252,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-040",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-177",
@@ -194,7 +272,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-026",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-170",
@@ -208,7 +292,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-002",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-161",
@@ -222,7 +312,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-001",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-91",
@@ -236,7 +332,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-018",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-150",
@@ -250,7 +352,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-005",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-52",
@@ -264,7 +372,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-040",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-5",
@@ -278,7 +392,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-026",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-126",
@@ -292,7 +412,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-002",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-186",
@@ -306,7 +432,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-001",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-44",
@@ -320,7 +452,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-018",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-147",
@@ -334,7 +472,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-005",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-30",
@@ -348,7 +492,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-040",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-152",
@@ -362,7 +512,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-026",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-26",
@@ -376,7 +532,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-002",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-64",
@@ -390,7 +552,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-001",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-146",
@@ -404,7 +572,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-005",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-141",
@@ -418,7 +592,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-040",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-71",
@@ -432,7 +612,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-001",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-33",
@@ -446,7 +632,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-015",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-6",
@@ -460,7 +652,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-009",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-187",
@@ -474,7 +672,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-047",
+"estadoTrabajo": "Recibido",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-124",
@@ -488,7 +692,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-017",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-116",
@@ -502,7 +712,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-007",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-47",
@@ -516,7 +732,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-037",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-120",
@@ -530,7 +752,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-013",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-107",
@@ -544,7 +772,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-015",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-70",
@@ -558,7 +792,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-009",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-188",
@@ -572,7 +812,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-047",
+"estadoTrabajo": "Recibido",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-38",
@@ -586,7 +832,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-017",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-154",
@@ -600,7 +852,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-007",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-74",
@@ -614,7 +872,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-037",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-156",
@@ -628,7 +892,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-013",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-94",
@@ -642,7 +912,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-015",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-106",
@@ -656,7 +932,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-009",
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-103",
@@ -670,7 +952,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-047",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-153",
@@ -684,7 +972,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-017",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-149",
@@ -698,7 +992,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-007",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-134",
@@ -712,7 +1012,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-037",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-99",
@@ -726,7 +1032,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-013",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-55",
@@ -740,7 +1052,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-015",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-75",
@@ -754,7 +1072,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-009",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-167",
@@ -768,7 +1092,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-047",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-90",
@@ -782,7 +1112,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-017",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-178",
@@ -796,7 +1132,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-007",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-173",
@@ -810,7 +1152,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-037",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-163",
@@ -824,7 +1172,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-013",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-165",
@@ -838,7 +1192,13 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-015",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-76",
@@ -852,7 +1212,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-009",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-7",
@@ -866,7 +1232,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-007",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-8",
@@ -880,7 +1252,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-013",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-87",
@@ -894,7 +1272,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-007",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-121",
@@ -908,7 +1292,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-013",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-46",
@@ -922,7 +1312,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-043",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-36",
@@ -936,7 +1332,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-016",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-49",
@@ -950,7 +1352,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-019",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-164",
@@ -964,7 +1372,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-044",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-39",
@@ -978,7 +1392,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-010",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-151",
@@ -992,7 +1412,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-036",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-65",
@@ -1006,7 +1432,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-043",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-169",
@@ -1020,7 +1452,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-016",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-1",
@@ -1034,7 +1472,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-019",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-53",
@@ -1048,7 +1492,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-044",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-101",
@@ -1062,7 +1512,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-010",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-58",
@@ -1076,7 +1532,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-036",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-135",
@@ -1090,7 +1552,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-043",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-180",
@@ -1104,7 +1572,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-016",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-2",
@@ -1118,7 +1592,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-019",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-16",
@@ -1132,7 +1612,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-044",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-175",
@@ -1146,7 +1632,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-010",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-100",
@@ -1160,7 +1652,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-036",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-22",
@@ -1174,7 +1672,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-016",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-29",
@@ -1188,7 +1692,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-019",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-155",
@@ -1202,7 +1712,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-044",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-157",
@@ -1216,7 +1732,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-010",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-127",
@@ -1230,7 +1752,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-036",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-28",
@@ -1244,7 +1772,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-019",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-82",
@@ -1258,7 +1792,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-012",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-125",
@@ -1272,7 +1812,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-035",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-137",
@@ -1286,7 +1832,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-024",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-118",
@@ -1300,7 +1852,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-023",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-183",
@@ -1314,7 +1872,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-020",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-54",
@@ -1328,7 +1892,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-045",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-142",
@@ -1342,7 +1912,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-012",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-67",
@@ -1356,7 +1932,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-035",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-14",
@@ -1370,7 +1952,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-024",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-32",
@@ -1384,7 +1972,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-023",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-27",
@@ -1398,7 +1992,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-020",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-85",
@@ -1412,7 +2012,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-045",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-104",
@@ -1426,7 +2032,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-012",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-24",
@@ -1440,7 +2052,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-035",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-166",
@@ -1454,7 +2072,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-024",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-171",
@@ -1468,7 +2092,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-023",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-40",
@@ -1482,7 +2112,13 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-020",
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-168",
@@ -1496,7 +2132,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-045",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-172",
@@ -1510,7 +2152,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-012",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-48",
@@ -1524,7 +2172,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-035",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-79",
@@ -1538,7 +2192,13 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-020",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-83",
@@ -1552,7 +2212,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-045",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-174",
@@ -1566,7 +2232,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-025",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-3",
@@ -1580,7 +2252,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-027",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-113",
@@ -1594,7 +2272,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-028",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-123",
@@ -1608,7 +2292,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-029",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-17",
@@ -1622,7 +2312,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-030",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-128",
@@ -1636,7 +2332,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-006",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-97",
@@ -1650,7 +2352,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-025",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-181",
@@ -1664,7 +2372,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-027",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-66",
@@ -1678,7 +2392,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-028",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-139",
@@ -1692,7 +2412,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-029",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-11",
@@ -1706,7 +2432,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-030",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-43",
@@ -1720,7 +2452,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-006",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-37",
@@ -1734,7 +2472,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-025",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-73",
@@ -1748,7 +2492,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-027",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-84",
@@ -1762,7 +2512,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-028",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-109",
@@ -1776,7 +2532,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-029",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-62",
@@ -1790,7 +2552,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-030",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-41",
@@ -1804,7 +2572,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-006",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-15",
@@ -1818,7 +2592,13 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-025",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-158",
@@ -1832,7 +2612,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-027",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-50",
@@ -1846,7 +2632,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-028",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-108",
@@ -1860,7 +2652,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-029",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-117",
@@ -1874,7 +2672,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-030",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-182",
@@ -1888,7 +2692,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-006",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-18",
@@ -1902,7 +2712,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-025",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-179",
@@ -1916,7 +2732,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-027",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-145",
@@ -1930,7 +2752,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-028",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-130",
@@ -1944,7 +2772,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-029",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-114",
@@ -1958,7 +2792,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-030",
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-131",
@@ -1972,7 +2812,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-006",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-10",
@@ -1986,7 +2832,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-025",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-59",
@@ -2000,7 +2852,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-027",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-184",
@@ -2014,7 +2872,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-028",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-42",
@@ -2028,7 +2892,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-029",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-115",
@@ -2042,7 +2912,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-030",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-51",
@@ -2056,7 +2932,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 7
+"orden": 7,
+"sesionCodigo": "SES-025",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-60",
@@ -2070,7 +2952,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 7
+"orden": 7,
+"sesionCodigo": "SES-027",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-112",
@@ -2084,7 +2972,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 7
+"orden": 7,
+"sesionCodigo": "SES-028",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-102",
@@ -2098,7 +2992,13 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 7
+"orden": 7,
+"sesionCodigo": "SES-030",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-191",
@@ -2112,7 +3012,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-050",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-192",
@@ -2126,7 +3032,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-050",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-193",
@@ -2140,7 +3052,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-050",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-194",
@@ -2154,7 +3072,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-051",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-195",
@@ -2168,7 +3092,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-051",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-196",
@@ -2182,7 +3112,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-051",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-119",
@@ -2196,7 +3132,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-041",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-34",
@@ -2210,7 +3152,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-046",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-93",
@@ -2224,7 +3172,13 @@
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-032",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-136",
@@ -2238,7 +3192,13 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-039",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-4",
@@ -2252,7 +3212,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-042",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-160",
@@ -2266,7 +3232,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 1
+"orden": 1,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-110",
@@ -2280,7 +3252,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-041",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-25",
@@ -2294,7 +3272,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-046",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-61",
@@ -2308,7 +3292,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-032",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-81",
@@ -2322,7 +3312,13 @@
 "eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-039",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-176",
@@ -2336,7 +3332,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-042",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-57",
@@ -2350,7 +3352,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 2
+"orden": 2,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-148",
@@ -2364,7 +3372,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-041",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-92",
@@ -2378,7 +3392,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-046",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-19",
@@ -2392,7 +3412,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-032",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-23",
@@ -2406,7 +3432,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-039",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-86",
@@ -2420,7 +3452,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-042",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-143",
@@ -2434,7 +3472,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 3
+"orden": 3,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-162",
@@ -2448,7 +3492,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-041",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-132",
@@ -2462,7 +3512,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-046",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-122",
@@ -2476,7 +3532,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-032",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-133",
@@ -2490,7 +3552,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-039",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-129",
@@ -2504,7 +3572,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-042",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-144",
@@ -2518,7 +3592,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 4
+"orden": 4,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": "Revisar",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-63",
@@ -2532,7 +3612,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-041",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-77",
@@ -2546,7 +3632,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-032",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-138",
@@ -2560,7 +3652,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-039",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-69",
@@ -2574,7 +3672,13 @@
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-042",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-88",
@@ -2588,7 +3692,13 @@
 "eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 5
+"orden": 5,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-78",
@@ -2602,7 +3712,13 @@
 "eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-041",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-9",
@@ -2616,7 +3732,13 @@
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-032",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-56",
@@ -2630,7 +3752,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 6
+"orden": 6,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-72",
@@ -2644,7 +3772,13 @@
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
-"orden": 7
+"orden": 7,
+"sesionCodigo": "SES-041",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 },
 {
 "codigo": "COM-190",
@@ -2658,7 +3792,13 @@
 "eje": null,
 "tipo": null,
 "estado": "Programado",
-"orden": null
+"orden": null,
+"sesionCodigo": "SES-049",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 }
 ],
 "sesiones": [
@@ -2674,7 +3814,9 @@
 "estado": "Confirmada",
 "moderacion": "Eugenio Maqueda Cuenca (Universidad de Málaga)",
 "ponente": "Alberto Fernández Costales (Universidad de Oviedo)",
-"participantes": []
+"participantes": [],
+"debateMin": null,
+"capacidad": 272
 },
 {
 "codigo": "SES-026",
@@ -2688,7 +3830,9 @@
 "estado": "Confirmada",
 "moderacion": "María Luisa Carrió Pastor (Universitat Politècnica de València)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 18,
+"capacidad": 66
 },
 {
 "codigo": "SES-002",
@@ -2702,7 +3846,9 @@
 "estado": "Confirmada",
 "moderacion": "Juan Lucas Onieva López (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 30,
+"capacidad": 66
 },
 {
 "codigo": "SES-001",
@@ -2716,7 +3862,9 @@
 "estado": "Confirmada",
 "moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 18,
+"capacidad": 66
 },
 {
 "codigo": "SES-018",
@@ -2730,7 +3878,9 @@
 "estado": "Confirmada",
 "moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 42,
+"capacidad": 60
 },
 {
 "codigo": "SES-005",
@@ -2744,7 +3894,9 @@
 "estado": "Confirmada",
 "moderacion": "Josep Ballester Roca (Universitat de València)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 15,
+"capacidad": 90
 },
 {
 "codigo": "SES-040",
@@ -2758,7 +3910,9 @@
 "estado": "Confirmada",
 "moderacion": "Cristina Navas Romero (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 18,
+"capacidad": 272
 },
 {
 "codigo": "SES-015",
@@ -2772,7 +3926,9 @@
 "estado": "Confirmada",
 "moderacion": "María Remedios Fernández Ruiz (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 15,
+"capacidad": 66
 },
 {
 "codigo": "SES-009",
@@ -2786,7 +3942,9 @@
 "estado": "Confirmada",
 "moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 15,
+"capacidad": 66
 },
 {
 "codigo": "SES-047",
@@ -2800,7 +3958,9 @@
 "estado": "Confirmada",
 "moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 42,
+"capacidad": null
 },
 {
 "codigo": "SES-017",
@@ -2814,7 +3974,9 @@
 "estado": "Confirmada",
 "moderacion": "Josep Ballester Roca (Universitat de València)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 24,
+"capacidad": 66
 },
 {
 "codigo": "SES-007",
@@ -2828,7 +3990,9 @@
 "estado": "Confirmada",
 "moderacion": "Andrea Felipe Morales (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 6,
+"capacidad": 60
 },
 {
 "codigo": "SES-037",
@@ -2842,7 +4006,9 @@
 "estado": "Confirmada",
 "moderacion": "Alícia Martí-Climent (Universitat de València)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 42,
+"capacidad": 90
 },
 {
 "codigo": "SES-013",
@@ -2856,7 +4022,9 @@
 "estado": "Confirmada",
 "moderacion": "Ester Trigo Ibáñez (Universidad de Cádiz)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 15,
+"capacidad": 272
 },
 {
 "codigo": "SES-043",
@@ -2870,7 +4038,9 @@
 "estado": "Confirmada",
 "moderacion": "María Dolores García-Pastor (Universidad de Valencia)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 66
 },
 {
 "codigo": "SES-016",
@@ -2884,7 +4054,9 @@
 "estado": "Confirmada",
 "moderacion": "Cristina Navas Romero (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 80
 },
 {
 "codigo": "SES-019",
@@ -2898,7 +4070,9 @@
 "estado": "Confirmada",
 "moderacion": "Nieves Muriel García (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 0,
+"capacidad": 66
 },
 {
 "codigo": "SES-044",
@@ -2912,7 +4086,9 @@
 "estado": "Confirmada",
 "moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 64
 },
 {
 "codigo": "SES-010",
@@ -2926,7 +4102,9 @@
 "estado": "Confirmada",
 "moderacion": "María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 90
 },
 {
 "codigo": "SES-036",
@@ -2940,7 +4118,9 @@
 "estado": "Confirmada",
 "moderacion": "Josep Ballester Roca (Universitat de València)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 272
 },
 {
 "codigo": "SES-012",
@@ -2954,7 +4134,9 @@
 "estado": "Confirmada",
 "moderacion": "Josep Ballester Roca (Universitat de València)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 66
 },
 {
 "codigo": "SES-035",
@@ -2968,7 +4150,9 @@
 "estado": "Confirmada",
 "moderacion": "Cristina Navas Romero (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 80
 },
 {
 "codigo": "SES-024",
@@ -2982,7 +4166,9 @@
 "estado": "Confirmada",
 "moderacion": "Francisco Javier Sanz Trigueros (Universidad de Valladolid)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 66
 },
 {
 "codigo": "SES-023",
@@ -2996,7 +4182,9 @@
 "estado": "Confirmada",
 "moderacion": "Leonor Alejandra Silva Lomelí (Universidad Nacional Autónoma de México) · Maribel Carmona Herrera (Universidad Nacional Autónoma de México)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 24,
+"capacidad": 64
 },
 {
 "codigo": "SES-020",
@@ -3010,7 +4198,9 @@
 "estado": "Confirmada",
 "moderacion": "María Remedios Fernández Ruiz (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 90
 },
 {
 "codigo": "SES-045",
@@ -3024,7 +4214,9 @@
 "estado": "Confirmada",
 "moderacion": "Cristina Vereda Alonso (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 12,
+"capacidad": 272
 },
 {
 "codigo": "SES-025",
@@ -3038,7 +4230,9 @@
 "estado": "Confirmada",
 "moderacion": "Andrea Felipe Morales (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 6,
+"capacidad": 66
 },
 {
 "codigo": "SES-027",
@@ -3052,7 +4246,9 @@
 "estado": "Confirmada",
 "moderacion": "María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 6,
+"capacidad": 80
 },
 {
 "codigo": "SES-028",
@@ -3066,7 +4262,9 @@
 "estado": "Confirmada",
 "moderacion": "María Ángela Garrido Berlanga (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 6,
+"capacidad": 32
 },
 {
 "codigo": "SES-029",
@@ -3080,7 +4278,9 @@
 "estado": "Confirmada",
 "moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 15,
+"capacidad": 80
 },
 {
 "codigo": "SES-030",
@@ -3094,7 +4294,9 @@
 "estado": "Confirmada",
 "moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 3,
+"capacidad": 90
 },
 {
 "codigo": "SES-006",
@@ -3108,7 +4310,9 @@
 "estado": "Confirmada",
 "moderacion": "María del Rocío González Torres (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 15,
+"capacidad": 272
 },
 {
 "codigo": "SES-050",
@@ -3126,7 +4330,9 @@
 "Ester Trigo Ibáñez (Universidad de Cádiz)",
 "Gabriel Núñez Ruiz (Universidad de Almería)",
 "José Luis Ortega Martín (Universidad de Granada)"
-]
+],
+"debateMin": null,
+"capacidad": 272
 },
 {
 "codigo": "SES-051",
@@ -3144,7 +4350,9 @@
 "Aurora Martínez Ezquerro (Universidad de La Rioja)",
 "Eloy Martos Núñez (Universidad de Extremadura)",
 "Mariona Masgrau Juanola (Universitat de Girona)"
-]
+],
+"debateMin": null,
+"capacidad": 272
 },
 {
 "codigo": "SES-041",
@@ -3158,7 +4366,9 @@
 "estado": "Confirmada",
 "moderacion": "María Ángela Garrido Berlanga (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 6,
+"capacidad": 66
 },
 {
 "codigo": "SES-046",
@@ -3172,7 +4382,9 @@
 "estado": "Confirmada",
 "moderacion": "Boris Vázquez-Calvo (Universidad de Sevilla)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 30,
+"capacidad": 66
 },
 {
 "codigo": "SES-032",
@@ -3186,7 +4398,9 @@
 "estado": "Confirmada",
 "moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 18,
+"capacidad": 66
 },
 {
 "codigo": "SES-039",
@@ -3200,7 +4414,9 @@
 "estado": "Confirmada",
 "moderacion": "María del Rocío González Torres (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 30,
+"capacidad": 70
 },
 {
 "codigo": "SES-042",
@@ -3214,7 +4430,9 @@
 "estado": "Confirmada",
 "moderacion": "Cristina Navas Romero (Universidad de Málaga)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 18,
+"capacidad": 90
 },
 {
 "codigo": "SES-031",
@@ -3228,7 +4446,9 @@
 "estado": "Confirmada",
 "moderacion": "Marta Larragueta Arribas (Universidad Complutense de Madrid)",
 "ponente": null,
-"participantes": []
+"participantes": [],
+"debateMin": 18,
+"capacidad": 272
 },
 {
 "codigo": "SES-049",
@@ -3242,8 +4462,28 @@
 "estado": "Confirmada",
 "moderacion": "Inmaculada Clotilde Santos Díaz (Universidad de Málaga)",
 "ponente": "Susana Sánchez Rodríguez (Universidad de Cádiz)",
-"participantes": []
+"participantes": [],
+"debateMin": null,
+"capacidad": 272
 }
 ],
-"generado": "2026-09-19T03:13:49.150256+00:00"
+"aulasCapacidad": {
+"Aula 0.16": 66,
+"Aula 0.04": 80,
+"Aula 0.10": 66,
+"Aula 2.05": 80,
+"Aula 0.09": 66,
+"Salón de actos": 272,
+"Aula 0.01": 66,
+"Sala de grados": 90,
+"Aula 0.08": 66,
+"Aula 1.17": 32,
+"Aula 0.07": 66,
+"Aula 1.05": 70,
+"Aula 1.07": 30,
+"Aula 0.12": 64,
+"Aula 1.03": 86,
+"Aula 2.25": 60
+},
+"generado": "2026-09-19T09:14:29.889449+00:00"
 }
