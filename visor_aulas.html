@@ -490,7 +490,7 @@ function renderDay(day){
         (isConflict ? '\n⚠ Solape de horario con otra sesión en esta aula' : '');
       label.innerHTML = `
         <span class="name">${esc(s.aula)}</span>
-        <span class="meta"><span class="tipo-tag">${esc(s.tipo)}</span>${esc(s.inicio)}–${esc(s.fin)}${s.capacidad!=null?` · ${s.capacidad}p`:''}</span>
+        <span class="meta"><span class="tipo-tag">${esc(s.tipo)}</span>${esc(s.inicio)}–${esc(s.fin)}</span>
       `;
       label.addEventListener('click', ()=> openSesionDetail(s, isConflict));
       row.appendChild(label);
