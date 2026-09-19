@@ -1281,6 +1281,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-103",
+"titulo": "La educación literaria como herramienta de construcción identitaria y reinserción social en un centro de reeducación de menores",
+"tituloHtml": null,
+"autor": "Olivia Martínez Giménez de León (Universidad de Alicante)",
+"dia": "Miércoles 25",
+"inicio": "13:48",
+"fin": "14:00",
+"aula": "Aula 0.11",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 5,
+"sesionCodigo": "SES-019",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-141",
 "titulo": "La generación de la amistad saharaui y su potencialidad pedagógica en el sistema educativo español",
 "tituloHtml": null,
@@ -1581,10 +1601,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-103",
-"titulo": "La educación literaria como herramienta de construcción identitaria y reinserción social en un centro de reeducación de menores",
-"tituloHtml": null,
-"autor": "Olivia Martínez Giménez de León (Universidad de Alicante)",
+"codigo": "COM-29",
+"titulo": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de Huelga en el puerto",
+"tituloHtml": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de <i>Huelga en el puerto</i>",
+"autor": "M. Almudena Cantero Sandoval (Universidad Tecnológica Atlántico Mediterráneo (UTAMED))",
 "dia": "Miércoles 25",
 "inicio": "16:24",
 "fin": "16:36",
@@ -1594,7 +1614,7 @@
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-047",
-"estadoTrabajo": null,
+"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -1681,15 +1701,15 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-29",
-"titulo": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de Huelga en el puerto",
-"tituloHtml": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de <i>Huelga en el puerto</i>",
+"codigo": "COM-28",
+"titulo": "Del feedback automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
+"tituloHtml": "Del <i>feedback</i> automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
 "autor": "M. Almudena Cantero Sandoval (Universidad Tecnológica Atlántico Mediterráneo (UTAMED))",
 "dia": "Miércoles 25",
 "inicio": "16:36",
 "fin": "16:48",
 "aula": "Aula 0.08",
-"eje": "Educación literaria",
+"eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 4,
@@ -1755,26 +1775,6 @@
 "orden": 4,
 "sesionCodigo": "SES-036",
 "estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-28",
-"titulo": "Del feedback automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
-"tituloHtml": "Del <i>feedback</i> automático al juicio pedagógico: inteligencia artificial y competencia comunicativa en futuros docentes",
-"autor": "M. Almudena Cantero Sandoval (Universidad Tecnológica Atlántico Mediterráneo (UTAMED))",
-"dia": "Miércoles 25",
-"inicio": "16:48",
-"fin": "17:00",
-"aula": "Aula 0.08",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5,
-"sesionCodigo": "SES-047",
-"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -3959,7 +3959,7 @@
 "moderacion": "Nieves Muriel García (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 42,
+"debateMin": 30,
 "capacidad": null
 },
 {
@@ -4071,7 +4071,7 @@
 "moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
 "ponente": null,
 "participantes": [],
-"debateMin": 0,
+"debateMin": 12,
 "capacidad": 66
 },
 {
@@ -4485,5 +4485,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-19T14:00:02.848612+00:00"
+"generado": "2026-09-19T14:08:47.093491+00:00"
 }
