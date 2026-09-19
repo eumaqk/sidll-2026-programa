@@ -178,9 +178,16 @@
   .occ-cell.gap::after{content:''; width:60%; height:2px; background:var(--gap-mark);}
   /* En una fila de Simposio, el tramo de Debate y los huecos suben de tono
      también -- para que toda la fila se lea como Simposio de un vistazo,
-     no solo las casillas con comunicación. */
+     no solo las casillas con comunicación. Los huecos, además, comparten
+     el mismo color que el turno de palabra (en vez del rojo genérico) y
+     llevan un aspa en lugar de una raya, para no confundirlos con un
+     hueco "normal" de una Mesa. */
   .occ-row.tipo-simposio .occ-cell.debate{background:var(--seg-debate-bg-simposio) !important; color:#3d4a6b !important;}
-  .occ-row.tipo-simposio .occ-cell.gap{background:var(--gap-bg-simposio);}
+  .occ-row.tipo-simposio .occ-cell.gap{background:var(--seg-debate-bg-simposio);}
+  .occ-row.tipo-simposio .occ-cell.gap::after{
+    content:'✕'; width:auto; height:auto; background:none;
+    font-size:.85rem; font-weight:700; line-height:1; color:#3d4a6b;
+  }
 
   .detail-panel{
     position:fixed; right:18px; bottom:18px; width:360px; max-width:calc(100vw - 28px);
