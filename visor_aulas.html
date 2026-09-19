@@ -156,13 +156,13 @@
   .session-block.conflict{outline:2px solid var(--danger); outline-offset:1px;}
 
   .seg{
-    position:absolute; top:0; bottom:0; border-right:1px solid rgba(255,255,255,.75);
-    cursor:pointer; display:flex; align-items:center; justify-content:center; padding:0 1px; overflow:hidden;
+    position:absolute; top:0; bottom:0; border-right:1.5px solid rgba(0,30,60,.22);
+    cursor:pointer; display:flex; align-items:center; justify-content:center; padding:0 3px; overflow:hidden;
   }
   .seg:last-child{border-right:none;}
   .seg:hover{filter:brightness(0.93);}
   .seg .seg-label{
-    display:block; max-width:100%; font-size:.6rem; font-weight:700; color:inherit;
+    display:block; max-width:100%; font-size:.66rem; font-weight:700; color:inherit;
     white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   }
   .seg.debate{background:var(--seg-debate-bg); color:#6c7b85; font-style:italic;}
@@ -403,6 +403,27 @@ function renderDay(day){
   const step = (hi-lo>480) ? 60 : 30;
   const pct = (t)=> (t-lo)/(hi-lo)*100;
 
+  // El timeline no se encoge para caber en la pantalla: se calcula el ancho
+  // en píxeles que hace falta para que la sesión más apretada del día
+  // (más comunicaciones en menos minutos) siga teniendo casillas con sitio
+  // de sobra para el código completo, y esa densidad (px por minuto) se
+  // aplica a todo el eje del día -- así el ancho de cada sesión sigue
+  // siendo proporcional a su duración real, solo que a mayor escala.
+  const CELL_MIN_PX = 74;
+  const BASE_PX_PER_MIN = 2.6;
+  let dayPxPerMin = BASE_PX_PER_MIN;
+  sessSet.forEach(s=>{
+    const dur = timeToMin(s.fin) - timeToMin(s.inicio);
+    if(dur <= 0) return;
+    const nLigadas = trabajos.filter(t=>t.sesionCodigo===s.codigo).length;
+    const nCells = Math.max(nLigadas, 1) + 1; // + tramo de debate
+    const needed = (nCells * CELL_MIN_PX) / dur;
+    if(needed > dayPxPerMin) dayPxPerMin = needed;
+  });
+  const ROOM_LABEL_PX = 158;
+  const timelineWidthPx = Math.round((hi-lo) * dayPxPerMin);
+  const trackStyle = `flex:0 0 ${timelineWidthPx}px; width:${timelineWidthPx}px;`;
+
   // Aulas del día, ordenadas por aforo descendente (las sin aforo conocido, al final).
   const aulas = [...new Set(sessSet.map(s=>s.aula).filter(Boolean))];
   aulas.sort((a,b)=>{
@@ -432,6 +453,7 @@ function renderDay(day){
 
   const timeline = document.createElement('div');
   timeline.className = 'timeline';
+  timeline.style.width = (ROOM_LABEL_PX + timelineWidthPx) + 'px';
 
   const ruler = document.createElement('div');
   ruler.className = 'ruler';
@@ -439,7 +461,7 @@ function renderDay(day){
   for(let t=Math.ceil(lo/step)*step; t<=hi; t+=step){
     rulerMarksHtml += `<span class="ruler-mark" style="left:${pct(t)}%">${minToTime(t)}</span>`;
   }
-  ruler.innerHTML = `<div class="ruler-spacer"></div><div class="ruler-track">${rulerMarksHtml}</div>`;
+  ruler.innerHTML = `<div class="ruler-spacer"></div><div class="ruler-track" style="${trackStyle}">${rulerMarksHtml}</div>`;
   timeline.appendChild(ruler);
 
   aulas.forEach(aula=>{
@@ -447,7 +469,7 @@ function renderDay(day){
     row.className = 'room-row';
     const cap = capacidadDe(aula, sessSet);
     row.innerHTML = `<div class="room-label"><span class="name">${esc(aula)}</span>${cap!=null?`<span class="cap">${cap} plazas</span>`:''}</div>
-      <div class="room-track" style="${gridBg}"></div>`;
+      <div class="room-track" style="${gridBg}${trackStyle}"></div>`;
     const track = row.querySelector('.room-track');
 
     sessSet.filter(s=>s.aula===aula).forEach(s=>{
@@ -489,43 +511,23 @@ function renderDay(day){
       block.dataset.codigo = s.codigo;
       block.title = `${s.inicio}–${s.fin} · ${s.tipo} · ${s.sesion}\nAula: ${s.aula}` + (conflictCodes.has(s.codigo) ? '\n⚠ Solape de horario con otra sesión en esta aula' : '');
 
-      // Ancho real en pantalla de cada tramo, no proporcional a ciegas: se
-      // garantiza un mínimo (3% del timeline completo) para que el número
-      // quepa a simple vista, quitando ese espacio de los tramos que sí
-      // sobraban -- prioriza que se lea de un vistazo sobre la duración
-      // exacta en píxeles (el horario real siempre está en el tooltip).
-      const ABS_FLOOR_PCT = 3;
-      const floorRel = Math.min((ABS_FLOOR_PCT / width) * 100, 100 / segs.length);
-      const rawRel = segs.map(seg => Math.max((seg.endMin-seg.startMin)/(blockHi-blockLo)*100, 0.5));
-      const short = rawRel.map(w => w < floorRel);
-      const floorSum = short.reduce((sum,isShort,i) => sum + (isShort ? floorRel : 0), 0);
-      const restSum = rawRel.reduce((sum,w,i) => sum + (short[i] ? 0 : w), 0);
-      const scale = restSum > 0 ? Math.max((100 - floorSum) / restSum, 0) : 1;
-      let finalRel = (floorSum <= 100)
-        ? rawRel.map((w,i) => short[i] ? floorRel : w*scale)
-        : rawRel; // demasiados tramos incluso para el mínimo: se cede y se reparte proporcional
-      const finalSum = finalRel.reduce((a,b)=>a+b, 0);
-      if(finalSum > 0 && Math.abs(finalSum-100) > 0.01){
-        finalRel = finalRel.map(w => w * 100 / finalSum);
-      }
-
-      let cursor = 0;
-      const segWidths = finalRel.map(w => { const start = cursor; cursor += w; return {left:start, width:w}; });
+      // Casillas de ancho IGUAL entre sí (no proporcional a la duración real
+      // de cada comunicación): con la densidad de píxeles ya garantizada
+      // arriba, cada casilla tiene sitio de sobra para su código completo.
+      // El orden sigue siendo el real (por "Orden en sesión" u hora), solo
+      // el ANCHO deja de representar la duración exacta -- esa hora exacta
+      // sigue disponible en el tooltip y en el detalle al hacer clic.
+      const segWidth = 100 / segs.length;
 
       segs.forEach((seg,i)=>{
-        const segLeft = segWidths[i].left;
-        const segWidth = segWidths[i].width;
-        // Ancho real en pantalla (% del timeline completo, no del bloque) --
-        // es lo que de verdad decide si el texto cabe o hay que ocultarlo.
-        const absWidthPct = width * segWidth / 100;
+        const segLeft = i * segWidth;
         const div = document.createElement('div');
         div.className = 'seg' + (seg.debate?' debate':'') + (seg.retirado?' is-retirado':'') + (seg.warn?' is-warning':'');
         div.style.left = segLeft+'%';
         div.style.width = segWidth+'%';
         if(seg.debate){
           div.title = `Debate · ${minToTime(seg.startMin)}–${minToTime(seg.endMin)}`;
-          if(absWidthPct>=4.5) div.innerHTML = '<span class="seg-label">Debate</span>';
-          else if(absWidthPct>=1.8) div.innerHTML = '<span class="seg-label">D</span>';
+          div.innerHTML = '<span class="seg-label">Debate</span>';
         } else {
           const t = seg.trabajo;
           let tip = `${t.codigo} · ${t.titulo||''}\n${t.autor||''}\n${t.inicio||'?'}–${t.fin||'?'}`;
@@ -533,12 +535,7 @@ function renderDay(day){
           if(seg.warn) tip += '\n⚠ Incoherencia marcada en Notion (aula/día/hora)';
           div.title = tip;
           div.dataset.trabajoCodigo = t.codigo;
-          // Con poco sitio se muestra solo el número (más corto, cabe mejor
-          // y no se puede confundir con otro código al recortarse) -- el
-          // código completo siempre está en el tooltip y en el detalle.
-          const soloNumero = t.codigo.replace(/^\D+/, '');
-          if(absWidthPct>=5.5) div.innerHTML = `<span class="seg-label">${esc(t.codigo)}</span>`;
-          else if(absWidthPct>=2.2) div.innerHTML = `<span class="seg-label">${esc(soloNumero)}</span>`;
+          div.innerHTML = `<span class="seg-label">${esc(t.codigo)}</span>`;
         }
         block.appendChild(div);
       });
