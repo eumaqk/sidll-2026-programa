@@ -841,10 +841,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-70",
-"titulo": "Tensiones y desafíos en la configuración de planes de lectura domiciliaria para educación secundaria",
+"codigo": "COM-141",
+"titulo": "La generación de la amistad saharaui y su potencialidad pedagógica en el sistema educativo español",
 "tituloHtml": null,
-"autor": "Carolina Margarita González Ramírez (Pontificia Universidad Católica de Valparaíso)",
+"autor": "Jaime Puig Guisado (Universidad de Sevilla)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
 "fin": "13:24",
@@ -1301,10 +1301,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-141",
-"titulo": "La generación de la amistad saharaui y su potencialidad pedagógica en el sistema educativo español",
+"codigo": "COM-70",
+"titulo": "Tensiones y desafíos en la configuración de planes de lectura domiciliaria para educación secundaria",
 "tituloHtml": null,
-"autor": "Jaime Puig Guisado (Universidad de Sevilla)",
+"autor": "Carolina Margarita González Ramírez (Pontificia Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "13:48",
 "fin": "14:00",
@@ -2761,10 +2761,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-182",
-"titulo": "Más allá del prompt: estudio crítico de las literacidades mediadas por IA en la educación lingüística",
-"tituloHtml": "Más allá del <i>prompt</i>: estudio crítico de las literacidades mediadas por IA en la educación lingüística",
-"autor": "Boris Vázquez-Calvo (Universidad de Sevilla) · Mary Griffith (Universidad de Málaga) · María de la Luz Bort (Universidad de Málaga) · Salomé Yélamos Guerra (Universidad de Málaga)",
+"codigo": "COM-131",
+"titulo": "Recorrer la IA: método walkthrough y análisis crítico de plataformas de IA para el aprendizaje de lenguas",
+"tituloHtml": "Recorrer la IA: método <i>walkthrough</i> y análisis crítico de plataformas de IA para el aprendizaje de lenguas",
+"autor": "Alba Paz-López (Universidad de Málaga)",
 "dia": "Jueves 26",
 "inicio": "09:36",
 "fin": "09:48",
@@ -2881,10 +2881,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-131",
-"titulo": "Recorrer la IA: método walkthrough y análisis crítico de plataformas de IA para el aprendizaje de lenguas",
-"tituloHtml": "Recorrer la IA: método <i>walkthrough</i> y análisis crítico de plataformas de IA para el aprendizaje de lenguas",
-"autor": "Alba Paz-López (Universidad de Málaga)",
+"codigo": "COM-182",
+"titulo": "Más allá del prompt: estudio crítico de las literacidades mediadas por IA en la educación lingüística",
+"tituloHtml": "Más allá del <i>prompt</i>: estudio crítico de las literacidades mediadas por IA en la educación lingüística",
+"autor": "Boris Vázquez-Calvo (Universidad de Sevilla) · Mary Griffith (Universidad de Málaga) · María de la Luz Bort (Universidad de Málaga) · Salomé Yélamos Guerra (Universidad de Málaga)",
 "dia": "Jueves 26",
 "inicio": "09:48",
 "fin": "10:00",
@@ -3988,7 +3988,7 @@
 "tipo": "Simposio",
 "eje": "Objetivos de Desarrollo Sostenible",
 "estado": "Confirmada",
-"moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
+"moderacion": "Xosé Antón González Riaño (Universidad de Oviedo)",
 "ponente": null,
 "participantes": [],
 "debateMin": 42,
@@ -4068,7 +4068,7 @@
 "tipo": "Mesa",
 "eje": "Educación literaria",
 "estado": "Confirmada",
-"moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
+"moderacion": "José Vicente Salido López (Universidad de Castilla-La Mancha)",
 "ponente": null,
 "participantes": [],
 "debateMin": 12,
@@ -4501,5 +4501,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-19T15:24:03.701142+00:00"
+"generado": "2026-09-19T17:36:53.971104+00:00"
 }
