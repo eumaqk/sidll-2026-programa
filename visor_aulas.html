@@ -36,12 +36,20 @@
     --type-plenaria-bg:#f7e9ea;
     --type-plenaria-border:#a52a36;
     --type-plenaria-text:#7a1f29;
-    --seg-debate-bg:#eef1f2;
+    --seg-debate-bg:#f4f6f7;
     --seg-debate-border:#c7d0d6;
-    --gap-bg:#fbe2df;
-    --gap-mark:#d99089;
-    --seg-debate-bg-simposio:#c7d0ea;
+    --gap-bg:#fafbfc;
+    --gap-mark:#7a8790;
+    --seg-debate-bg-simposio:#f2f3f8;
     --gap-bg-simposio:#f3b7ae;
+
+    /* Fondos de las celdas grandes de la rejilla: casi blancos a propósito.
+       type-mesa-bg/type-simposio-bg (arriba) se quedan saturados porque los
+       usan la leyenda y la etiqueta de tipo (chips pequeños, donde el color
+       identifica); aquí el color deja de ser superficie y pasa a ser una
+       franja de acento de 3px (ver .occ-cell.filled más abajo). */
+    --cell-mesa-bg:#f7fbfd;
+    --cell-simposio-bg:#f5f7fb;
   }
 
   *{box-sizing:border-box;}
@@ -159,22 +167,26 @@
   .grid-scroll + .grid-scroll{margin-top:16px;}
 
   .occ-cell{
-    width:96px; min-height:46px; padding:0 6px; box-sizing:border-box;
-    display:flex; align-items:center; justify-content:center; text-align:center;
+    width:96px; min-height:52px; padding:6px 10px; box-sizing:border-box;
+    display:flex; align-items:center; justify-content:flex-start; text-align:left;
     border-right:1px solid var(--line-soft); border-bottom:1px solid var(--line-soft);
     cursor:pointer; overflow:hidden;
   }
   .occ-cell .cell-label{
     max-width:100%; font-size:.68rem; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   }
-  .occ-row.tipo-mesa .occ-cell.filled{background:var(--type-mesa-bg); color:var(--type-mesa-text);}
-  .occ-row.tipo-simposio .occ-cell.filled{background:var(--type-simposio-bg); color:var(--type-simposio-text);}
-  .occ-cell.filled:hover{filter:brightness(0.94);}
-  .occ-cell.debate{font-style:italic; color:#6c7b85 !important; background:var(--seg-debate-bg) !important;}
+  /* El color deja de ser superficie completa y pasa a ser señal: fondo casi
+     blanco + franja superior de 3px con el color de tipo. */
+  .occ-row.tipo-mesa .occ-cell.filled{background:var(--cell-mesa-bg); color:var(--type-mesa-text); box-shadow:inset 0 3px 0 var(--type-mesa-border);}
+  .occ-row.tipo-simposio .occ-cell.filled{background:var(--cell-simposio-bg); color:var(--type-simposio-text); box-shadow:inset 0 3px 0 var(--type-simposio-border);}
+  .occ-cell.filled:hover{filter:brightness(0.97);}
+  .occ-cell.debate{font-style:italic; color:#4e5f69 !important; background:var(--seg-debate-bg) !important;}
   .occ-cell.is-retirado{background-image:repeating-linear-gradient(45deg, rgba(0,0,0,.14) 0 5px, transparent 5px 10px);}
-  .occ-cell.is-warning{box-shadow:inset 0 0 0 2px var(--danger);}
+  /* !important: sin esto, la franja de acento de .filled (más específica)
+     gana la cascada en box-shadow y el aviso deja de verse. */
+  .occ-cell.is-warning{box-shadow:inset 0 0 0 2px var(--danger) !important;}
   .occ-cell.is-warning .cell-label::after{content:' ⚠';}
-  .occ-cell.gap{background:var(--gap-bg); cursor:default;}
+  .occ-cell.gap{background:var(--gap-bg); cursor:default; justify-content:center; text-align:center;}
   .occ-cell.gap::after{content:''; width:60%; height:2px; background:var(--gap-mark);}
   /* En una fila de Simposio, el tramo de Debate y los huecos suben de tono
      también -- para que toda la fila se lea como Simposio de un vistazo,
