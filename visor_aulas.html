@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ocupación de aulas · XXVII Congreso Internacional SIDLL 2026</title>
+<title>Aulas · XXVII Congreso Internacional SIDLL 2026</title>
 <link rel="icon" href="assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -155,7 +155,8 @@
   .occ-row.tipo-simposio .tipo-tag{background:var(--type-simposio-bg); border-color:var(--type-simposio-border); color:var(--type-simposio-text);}
   .occ-row.conflict .occ-label{background:var(--danger-bg);}
   .occ-row.conflict .occ-label .name::after{content:' ⚠ solape'; color:var(--danger); font-weight:700;}
-  .occ-row.franja-nueva > .occ-label, .occ-row.franja-nueva > .occ-cell{border-top:3px solid var(--uma-navy);}
+  .occ-grid.franja-nueva{border-top:3px solid var(--uma-navy);}
+  .grid-scroll + .grid-scroll{margin-top:16px;}
 
   .occ-cell{
     width:96px; min-height:46px; padding:0 6px; box-sizing:border-box;
@@ -267,10 +268,9 @@
   <header class="top">
     <img class="logo" src="assets/sidll_logo_full.png" alt="Logo XXVII Congreso SIDLL 2026, Málaga">
     <div class="heading">
-      <p class="eyebrow">Ocupación de aulas</p>
       <h1>XXVII Congreso Internacional SIDLL 2026</h1>
       <p class="location">25–27 noviembre 2026 · Facultad de Ciencias de la Educación · Málaga</p>
-      <p class="program-updated" id="program-updated">Ocupación actualizada</p>
+      <p class="program-updated" id="program-updated">Última actualización</p>
     </div>
   </header>
 
@@ -280,15 +280,6 @@
   </div>
 
   <div class="tabs" id="day-tabs" role="tablist" aria-label="Días del congreso"></div>
-
-  <div class="legend" aria-hidden="true">
-    <span class="legend-item"><span class="legend-swatch mesa"></span>Mesa</span>
-    <span class="legend-item"><span class="legend-swatch simposio"></span>Simposio</span>
-    <span class="legend-item"><span class="legend-swatch debate"></span>Turno de preguntas</span>
-    <span class="legend-item"><span class="legend-swatch gap"></span>Hueco (sesión más corta)</span>
-    <span class="legend-item"><span class="legend-swatch retirado"></span>Retirado</span>
-    <span class="legend-item"><span class="legend-swatch warn"></span>Incoherencia en Notion</span>
-  </div>
 
   <div class="warnings-banner" id="warnings-banner">
     <span>⚠</span>
@@ -351,11 +342,11 @@ function applyData(data){
 function updateProgramDate(){
   const el = document.getElementById('program-updated');
   if(!el) return;
-  if(!meta.generado){ el.textContent = 'Ocupación actualizada'; return; }
+  if(!meta.generado){ el.textContent = 'Última actualización'; return; }
   const d = new Date(meta.generado);
-  if(Number.isNaN(d.getTime())){ el.textContent = 'Ocupación actualizada'; return; }
+  if(Number.isNaN(d.getTime())){ el.textContent = 'Última actualización'; return; }
   const fecha = new Intl.DateTimeFormat('es-ES', {day:'numeric', month:'long', year:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'Europe/Madrid'}).format(d);
-  el.textContent = `Ocupación actualizada · ${fecha}`;
+  el.textContent = `Última actualización · ${fecha}`;
 }
 
 function buildDayTabs(){
@@ -431,77 +422,86 @@ function renderDay(day){
     ligadasPorSesion[s.codigo] = ligadas;
   });
 
-  // Nº de columnas FIJO para toda la rejilla del día: el máximo que necesita
-  // la sesión con más comunicaciones (+1 por el tramo de debate). Ninguna
-  // casilla se encoge para caber -- la sesión más corta simplemente deja
-  // huecos, que se rellenan en rojo en vez de desaparecer, para que se note
-  // sin tener que contar.
-  const maxCells = Math.max(...sessSet.map(s => ligadasPorSesion[s.codigo].length + 1));
+  // Las columnas NO son fijas para todo el día -- se calculan por franja
+  // horaria (grupo de sesiones que empiezan a la misma hora), que es la
+  // comparación que de verdad importa: cuánto más corta es una sesión que
+  // las demás que ocurren EN PARALELO con ella. Si se calculara para todo
+  // el día, una franja de tarde con sesiones cortas arrastraría columnas
+  // rojas vacías en todas sus filas solo porque una sesión de la mañana
+  // tuviera más comunicaciones -- confuso y sin ninguna sesión real que
+  // ocupara esas columnas. Cada franja es su propia rejilla independiente.
+  const franjas = [];
+  sessSet.forEach(s=>{
+    let franja = franjas[franjas.length-1];
+    if(!franja || franja.inicio !== s.inicio){
+      franja = {inicio: s.inicio, sesiones: []};
+      franjas.push(franja);
+    }
+    franja.sesiones.push(s);
+  });
 
   let warningCount = 0;
 
-  const grid = document.createElement('div');
-  grid.className = 'occ-grid';
-  grid.style.gridTemplateColumns = `230px repeat(${maxCells}, 96px)`;
+  franjas.forEach((franja, idx)=>{
+    const maxCells = Math.max(...franja.sesiones.map(s => ligadasPorSesion[s.codigo].length + 1));
 
-  let franjaAnterior = null;
-  sessSet.forEach(s=>{
-    const ligadas = ligadasPorSesion[s.codigo];
-    const tipoClass = s.tipo === 'Simposio' ? 'tipo-simposio' : 'tipo-mesa';
-    const isConflict = conflictCodes.has(s.codigo);
-    // Línea gruesa cada vez que empieza una franja horaria nueva (un grupo
-    // de sesiones con la misma hora de inicio), para separar visualmente
-    // un bloque del congreso del siguiente.
-    const esNuevaFranja = franjaAnterior !== null && s.inicio !== franjaAnterior;
-    franjaAnterior = s.inicio;
+    const grid = document.createElement('div');
+    grid.className = 'occ-grid' + (idx>0 ? ' franja-nueva' : '');
+    grid.style.gridTemplateColumns = `230px repeat(${maxCells}, 96px)`;
 
-    const row = document.createElement('div');
-    row.className = `occ-row ${tipoClass}` + (isConflict ? ' conflict' : '') + (esNuevaFranja ? ' franja-nueva' : '');
+    franja.sesiones.forEach(s=>{
+      const ligadas = ligadasPorSesion[s.codigo];
+      const tipoClass = s.tipo === 'Simposio' ? 'tipo-simposio' : 'tipo-mesa';
+      const isConflict = conflictCodes.has(s.codigo);
 
-    const label = document.createElement('div');
-    label.className = 'occ-label';
-    label.title = `${s.inicio}–${s.fin} · ${s.tipo} · ${s.sesion}` +
-      (isConflict ? '\n⚠ Solape de horario con otra sesión en esta aula' : '');
-    label.innerHTML = `
-      <span class="name">${esc(s.aula)}</span>
-      <span class="meta"><span class="tipo-tag">${esc(s.tipo)}</span>${esc(s.inicio)}–${esc(s.fin)}${s.capacidad!=null?` · ${s.capacidad}p`:''}</span>
-    `;
-    label.addEventListener('click', ()=> openSesionDetail(s, isConflict));
-    row.appendChild(label);
+      const row = document.createElement('div');
+      row.className = `occ-row ${tipoClass}` + (isConflict ? ' conflict' : '');
 
-    for(let i=0; i<maxCells; i++){
-      const cell = document.createElement('div');
-      if(i < ligadas.length){
-        const t = ligadas[i];
-        const warn = !!(t.avisoAulaDiscrepante || t.avisoDiaDiscrepante || t.avisoHoraFueraDeSesion || t.avisoSinSesion);
-        if(warn) warningCount++;
-        const retirado = t.estadoTrabajo === 'Retirado';
-        cell.className = 'occ-cell filled' + (retirado ? ' is-retirado' : '') + (warn ? ' is-warning' : '');
-        let tip = `${t.codigo} · ${t.titulo||''}\n${t.autor||''}\n${t.inicio||'?'}–${t.fin||'?'}`;
-        if(retirado) tip += '\n(Retirado)';
-        if(warn) tip += '\n⚠ Incoherencia marcada en Notion (aula/día/hora)';
-        cell.title = tip;
-        cell.innerHTML = `<span class="cell-label">${esc(t.codigo)}</span>`;
-        cell.addEventListener('click', ()=> openTrabajoDetail(t, s));
-      } else if(i === ligadas.length){
-        cell.className = 'occ-cell filled debate';
-        cell.title = 'Turno de preguntas' + (s.debateMin ? ` · ${s.debateMin} min` : '');
-        cell.innerHTML = '<span class="cell-label">Turno de preguntas</span>';
-        cell.addEventListener('click', ()=> openSesionDetail(s, isConflict));
-      } else {
-        cell.className = 'occ-cell gap';
-        cell.title = `${s.sesion}: no llega a tantas comunicaciones como la sesión más larga de ${day}.`;
+      const label = document.createElement('div');
+      label.className = 'occ-label';
+      label.title = `${s.inicio}–${s.fin} · ${s.tipo} · ${s.sesion}` +
+        (isConflict ? '\n⚠ Solape de horario con otra sesión en esta aula' : '');
+      label.innerHTML = `
+        <span class="name">${esc(s.aula)}</span>
+        <span class="meta"><span class="tipo-tag">${esc(s.tipo)}</span>${esc(s.inicio)}–${esc(s.fin)}${s.capacidad!=null?` · ${s.capacidad}p`:''}</span>
+      `;
+      label.addEventListener('click', ()=> openSesionDetail(s, isConflict));
+      row.appendChild(label);
+
+      for(let i=0; i<maxCells; i++){
+        const cell = document.createElement('div');
+        if(i < ligadas.length){
+          const t = ligadas[i];
+          const warn = !!(t.avisoAulaDiscrepante || t.avisoDiaDiscrepante || t.avisoHoraFueraDeSesion || t.avisoSinSesion);
+          if(warn) warningCount++;
+          const retirado = t.estadoTrabajo === 'Retirado';
+          cell.className = 'occ-cell filled' + (retirado ? ' is-retirado' : '') + (warn ? ' is-warning' : '');
+          let tip = `${t.codigo} · ${t.titulo||''}\n${t.autor||''}\n${t.inicio||'?'}–${t.fin||'?'}`;
+          if(retirado) tip += '\n(Retirado)';
+          if(warn) tip += '\n⚠ Incoherencia marcada en Notion (aula/día/hora)';
+          cell.title = tip;
+          cell.innerHTML = `<span class="cell-label">${esc(t.codigo)}</span>`;
+          cell.addEventListener('click', ()=> openTrabajoDetail(t, s));
+        } else if(i === ligadas.length){
+          cell.className = 'occ-cell filled debate';
+          cell.title = 'Turno de preguntas' + (s.debateMin ? ` · ${s.debateMin} min` : '');
+          cell.innerHTML = '<span class="cell-label">Turno de preguntas</span>';
+          cell.addEventListener('click', ()=> openSesionDetail(s, isConflict));
+        } else {
+          cell.className = 'occ-cell gap';
+          cell.title = `${s.sesion}: no llega a tantas comunicaciones como la sesión más larga de esta franja horaria (${franja.inicio}).`;
+        }
+        row.appendChild(cell);
       }
-      row.appendChild(cell);
-    }
 
-    grid.appendChild(row);
+      grid.appendChild(row);
+    });
+
+    const scroller = document.createElement('div');
+    scroller.className = 'grid-scroll';
+    scroller.appendChild(grid);
+    container.appendChild(scroller);
   });
-
-  const scroller = document.createElement('div');
-  scroller.className = 'grid-scroll';
-  scroller.appendChild(grid);
-  container.appendChild(scroller);
 
   const banner = document.getElementById('warnings-banner');
   if(warningCount>0 || conflictCodes.size>0){
