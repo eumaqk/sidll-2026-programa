@@ -3621,6 +3621,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-72",
+"titulo": "Representar para aprender: el teatro clásico español en la formación multicompetencial de los futuros maestros de educación primaria",
+"tituloHtml": null,
+"autor": "Alberto Gutiérrez Gil (Universidad de Castilla-La Mancha)",
+"dia": "Viernes 27",
+"inicio": "10:18",
+"fin": "10:30",
+"aula": "Aula 0.09",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 5,
+"sesionCodigo": "SES-046",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-77",
 "titulo": "Usos y límites de la inteligencia artificial generativa en el feedback tutorial: una perspectiva desde la agencia docente",
 "tituloHtml": "Usos y límites de la inteligencia artificial generativa en el <i>feedback</i> tutorial: una perspectiva desde la agencia docente",
@@ -3754,26 +3774,6 @@
 "estado": "Programado",
 "orden": 6,
 "sesionCodigo": "SES-031",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-72",
-"titulo": "Representar para aprender: el teatro clásico español en la formación multicompetencial de los futuros maestros de educación primaria",
-"tituloHtml": null,
-"autor": "Alberto Gutiérrez Gil (Universidad de Castilla-La Mancha)",
-"dia": "Viernes 27",
-"inicio": "10:42",
-"fin": "10:54",
-"aula": "Aula 0.01",
-"eje": "Educación literaria",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 7,
-"sesionCodigo": "SES-041",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -4367,7 +4367,7 @@
 "moderacion": "María Ángela Garrido Berlanga (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 6,
+"debateMin": 18,
 "capacidad": 66
 },
 {
@@ -4485,5 +4485,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-19T14:21:56.230966+00:00"
+"generado": "2026-09-19T14:43:30.489581+00:00"
 }
