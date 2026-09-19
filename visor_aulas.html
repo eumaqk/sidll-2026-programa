@@ -38,6 +38,8 @@
     --type-plenaria-text:#7a1f29;
     --seg-debate-bg:#eef1f2;
     --seg-debate-border:#c7d0d6;
+    --gap-bg:#fbe2df;
+    --gap-mark:#d99089;
   }
 
   *{box-sizing:border-box;}
@@ -109,10 +111,10 @@
   .legend-swatch{width:13px; height:13px; border-radius:3px; border:1px solid; flex:0 0 auto;}
   .legend-swatch.mesa{background:var(--type-mesa-bg); border-color:var(--type-mesa-border);}
   .legend-swatch.simposio{background:var(--type-simposio-bg); border-color:var(--type-simposio-border);}
-  .legend-swatch.plenaria{background:var(--type-plenaria-bg); border-color:var(--type-plenaria-border);}
   .legend-swatch.debate{background:var(--seg-debate-bg); border-color:var(--seg-debate-border);}
   .legend-swatch.retirado{background:repeating-linear-gradient(45deg,#c9d2d8 0 4px,#eef1f2 4px 8px); border-color:#c7d0d6;}
   .legend-swatch.warn{background:var(--danger-bg); border:2px dashed var(--danger);}
+  .legend-swatch.gap{background:var(--gap-bg); border-color:var(--gap-mark);}
 
   .warnings-banner{
     display:none; align-items:flex-start; gap:9px; margin:14px 0 0; padding:11px 13px;
@@ -127,52 +129,49 @@
   .day-panel.active{display:block;}
   .day-empty{padding:40px 0; text-align:center; color:var(--muted); font-size:.76rem;}
 
-  .timeline-scroll{overflow-x:auto; overflow-y:visible; padding-bottom:6px; -webkit-overflow-scrolling:touch;}
-  .timeline{min-width:880px;}
+  /* Rejilla: una fila por sesión (no por aula-día completo). Todas las
+     casillas de comunicación miden EXACTAMENTE lo mismo en toda la página
+     -- el hueco que le falta a una sesión más corta se rellena en rojo en
+     vez de quedar vacío, para que se note sin tener que contar. */
+  .grid-scroll{overflow-x:auto; padding-bottom:8px; -webkit-overflow-scrolling:touch;}
+  .occ-grid{display:inline-grid; border:1px solid var(--line); border-radius:6px; overflow:hidden;}
+  .occ-row{display:contents;}
+  .occ-row:hover .occ-label, .occ-row:hover .occ-cell{filter:brightness(0.97);}
 
-  .ruler{display:flex; position:sticky; top:0; z-index:4; background:#fff; border-bottom:1px solid var(--line);}
-  .ruler-spacer{flex:0 0 158px; position:sticky; left:0; background:#fff; z-index:5;}
-  .ruler-track{flex:1 1 auto; position:relative; height:26px;}
-  .ruler-mark{position:absolute; top:4px; transform:translateX(-50%); font-size:.62rem; font-weight:700; color:var(--muted); white-space:nowrap;}
-  .ruler-mark::before{content:''; position:absolute; left:50%; top:14px; width:1px; height:4px; background:var(--line);}
-
-  .room-row{display:flex; border-bottom:1px solid var(--line-soft);}
-  .room-row:last-child{border-bottom:none;}
-  .room-label{
-    flex:0 0 158px; position:sticky; left:0; z-index:2; background:#fff;
-    padding:8px 10px 8px 0; display:flex; flex-direction:column; justify-content:center; gap:2px;
+  .occ-label{
+    position:sticky; left:0; z-index:2; width:230px; padding:8px 12px;
+    display:flex; flex-direction:column; justify-content:center; gap:3px;
+    background:#fff; border-right:2px solid var(--uma-navy); border-bottom:1px solid var(--line-soft);
   }
-  .room-label .name{color:var(--uma-navy); font-size:.74rem; font-weight:700; line-height:1.25;}
-  .room-label .cap{color:var(--muted); font-size:.6rem; font-weight:600;}
-  .room-track{flex:1 1 auto; position:relative; min-height:58px;}
-
-  .session-block{
-    position:absolute; top:6px; bottom:6px; border-radius:4px; overflow:hidden;
-    background:var(--type-mesa-bg); border:1px solid var(--type-mesa-border);
-    box-shadow:0 0 0 1px #fff;
+  .occ-label .name{color:var(--uma-navy); font-size:.76rem; font-weight:700; line-height:1.25;}
+  .occ-label .meta{display:flex; align-items:center; gap:6px; color:var(--muted); font-size:.62rem; font-weight:600;}
+  .occ-label .tipo-tag{
+    display:inline-block; padding:1px 6px; border-radius:999px; font-size:.58rem; font-weight:700;
+    border:1px solid; letter-spacing:.02em;
   }
-  .session-block.tipo-simposio{background:var(--type-simposio-bg); border-color:var(--type-simposio-border);}
-  .session-block.tipo-plenaria{background:var(--type-plenaria-bg); border-color:var(--type-plenaria-border);}
-  .session-block.conflict{outline:2px solid var(--danger); outline-offset:1px;}
+  .occ-row.tipo-mesa .tipo-tag{background:var(--type-mesa-bg); border-color:var(--type-mesa-border); color:var(--type-mesa-text);}
+  .occ-row.tipo-simposio .tipo-tag{background:var(--type-simposio-bg); border-color:var(--type-simposio-border); color:var(--type-simposio-text);}
+  .occ-row.conflict .occ-label{background:var(--danger-bg);}
+  .occ-row.conflict .occ-label .name::after{content:' ⚠ solape'; color:var(--danger); font-weight:700;}
 
-  .seg{
-    position:absolute; top:0; bottom:0; border-right:1.5px solid rgba(0,30,60,.22);
-    cursor:pointer; display:flex; align-items:center; justify-content:center; padding:0 3px; overflow:hidden;
+  .occ-cell{
+    width:96px; min-height:46px; padding:0 6px; box-sizing:border-box;
+    display:flex; align-items:center; justify-content:center; text-align:center;
+    border-right:1px solid var(--line-soft); border-bottom:1px solid var(--line-soft);
+    cursor:pointer; overflow:hidden;
   }
-  .seg:last-child{border-right:none;}
-  .seg:hover{filter:brightness(0.93);}
-  .seg .seg-label{
-    display:block; max-width:100%; font-size:.66rem; font-weight:700; color:inherit;
-    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  .occ-cell .cell-label{
+    max-width:100%; font-size:.68rem; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   }
-  .seg.debate{background:var(--seg-debate-bg); color:#6c7b85; font-style:italic;}
-  .seg.is-retirado{background-image:repeating-linear-gradient(45deg, rgba(0,0,0,.14) 0 5px, transparent 5px 10px);}
-  .seg.is-warning{box-shadow:inset 0 0 0 2px var(--danger);}
-  .seg.is-warning::after{content:'⚠'; position:absolute; top:1px; right:2px; font-size:.6rem; line-height:1;}
-
-  .tipo-mesa .seg{color:var(--type-mesa-text);}
-  .tipo-simposio .seg{color:var(--type-simposio-text);}
-  .tipo-plenaria .seg{color:var(--type-plenaria-text);}
+  .occ-row.tipo-mesa .occ-cell.filled{background:var(--type-mesa-bg); color:var(--type-mesa-text);}
+  .occ-row.tipo-simposio .occ-cell.filled{background:var(--type-simposio-bg); color:var(--type-simposio-text);}
+  .occ-cell.filled:hover{filter:brightness(0.94);}
+  .occ-cell.debate{font-style:italic; color:#6c7b85 !important; background:var(--seg-debate-bg) !important;}
+  .occ-cell.is-retirado{background-image:repeating-linear-gradient(45deg, rgba(0,0,0,.14) 0 5px, transparent 5px 10px);}
+  .occ-cell.is-warning{box-shadow:inset 0 0 0 2px var(--danger);}
+  .occ-cell.is-warning .cell-label::after{content:' ⚠';}
+  .occ-cell.gap{background:var(--gap-bg); cursor:default;}
+  .occ-cell.gap::after{content:''; width:60%; height:2px; background:var(--gap-mark);}
 
   .detail-panel{
     position:fixed; right:18px; bottom:18px; width:360px; max-width:calc(100vw - 28px);
@@ -278,8 +277,8 @@
   <div class="legend" aria-hidden="true">
     <span class="legend-item"><span class="legend-swatch mesa"></span>Mesa</span>
     <span class="legend-item"><span class="legend-swatch simposio"></span>Simposio</span>
-    <span class="legend-item"><span class="legend-swatch plenaria"></span>Plenaria</span>
     <span class="legend-item"><span class="legend-swatch debate"></span>Debate</span>
+    <span class="legend-item"><span class="legend-swatch gap"></span>Hueco (sesión más corta)</span>
     <span class="legend-item"><span class="legend-swatch retirado"></span>Retirado</span>
     <span class="legend-item"><span class="legend-swatch warn"></span>Incoherencia en Notion</span>
   </div>
@@ -330,15 +329,6 @@ function timeToMin(hhmm){
   if(!m) return null;
   return (+m[1])*60 + (+m[2]);
 }
-function minToTime(min){
-  const h = Math.floor(min/60), m = min%60;
-  return String(h).padStart(2,'0')+':'+String(m).padStart(2,'0');
-}
-function capacidadDe(aula, sesionesDelAula){
-  const conCap = sesionesDelAula.find(s => s.aula===aula && s.capacidad!=null);
-  if(conCap) return conCap.capacidad;
-  return (meta.aulasCapacidad && meta.aulasCapacidad[aula]!=null) ? meta.aulasCapacidad[aula] : null;
-}
 
 function applyData(data){
   trabajos = data.trabajos || [];
@@ -388,186 +378,115 @@ function renderDay(day){
     return;
   }
 
-  const sessSet = sesiones.filter(s => s.dia === day && s.inicio && s.fin);
+  // Sin plenarias: una plenaria ocupa la sala entera sin paralelismo que
+  // comparar, no aporta a "qué aula está ocupada por qué" frente a otras.
+  const sessSet = sesiones
+    .filter(s => s.dia === day && s.inicio && s.fin && s.tipo !== 'Plenaria')
+    .sort((a,b) => timeToMin(a.inicio)-timeToMin(b.inicio) || (a.aula||'').localeCompare(b.aula||'','es'));
+
   if(!sessSet.length){
-    container.innerHTML = '<div class="day-empty">Sin sesiones este día.</div>';
+    container.innerHTML = '<div class="day-empty">Sin sesiones este día (sin contar plenarias).</div>';
     document.getElementById('warnings-banner').classList.remove('visible');
     return;
   }
 
-  // Rango horario del día, redondeado a la media hora con un margen de 30 min.
-  let lo = Math.min(...sessSet.map(s=>timeToMin(s.inicio)));
-  let hi = Math.max(...sessSet.map(s=>timeToMin(s.fin)));
-  lo = Math.floor(lo/30)*30 - 30;
-  hi = Math.ceil(hi/30)*30 + 30;
-  const step = (hi-lo>480) ? 60 : 30;
-  const pct = (t)=> (t-lo)/(hi-lo)*100;
-
-  // El timeline no se encoge para caber en la pantalla: se calcula el ancho
-  // en píxeles que hace falta para que la sesión más apretada del día
-  // (más comunicaciones en menos minutos) siga teniendo casillas con sitio
-  // de sobra para el código completo, y esa densidad (px por minuto) se
-  // aplica a todo el eje del día -- así el ancho de cada sesión sigue
-  // siendo proporcional a su duración real, solo que a mayor escala.
-  const CELL_MIN_PX = 74;
-  const BASE_PX_PER_MIN = 2.6;
-  let dayPxPerMin = BASE_PX_PER_MIN;
-  sessSet.forEach(s=>{
-    const dur = timeToMin(s.fin) - timeToMin(s.inicio);
-    if(dur <= 0) return;
-    const nLigadas = trabajos.filter(t=>t.sesionCodigo===s.codigo).length;
-    const nCells = Math.max(nLigadas, 1) + 1; // + tramo de debate
-    const needed = (nCells * CELL_MIN_PX) / dur;
-    if(needed > dayPxPerMin) dayPxPerMin = needed;
-  });
-  const ROOM_LABEL_PX = 158;
-  const timelineWidthPx = Math.round((hi-lo) * dayPxPerMin);
-  const trackStyle = `flex:0 0 ${timelineWidthPx}px; width:${timelineWidthPx}px;`;
-
-  // Aulas del día, ordenadas por aforo descendente (las sin aforo conocido, al final).
-  const aulas = [...new Set(sessSet.map(s=>s.aula).filter(Boolean))];
-  aulas.sort((a,b)=>{
-    const ca = capacidadDe(a, sessSet), cb = capacidadDe(b, sessSet);
-    if(ca==null && cb==null) return a.localeCompare(b,'es');
-    if(ca==null) return 1;
-    if(cb==null) return -1;
-    if(ca!==cb) return cb-ca;
-    return a.localeCompare(b,'es');
-  });
-
   // Solapes de horario dentro de la misma aula (posible incoherencia de programación).
   const conflictCodes = new Set();
-  aulas.forEach(aula=>{
-    const enAula = sessSet.filter(s=>s.aula===aula).sort((a,b)=>timeToMin(a.inicio)-timeToMin(b.inicio));
-    for(let i=1;i<enAula.length;i++){
-      if(timeToMin(enAula[i].inicio) < timeToMin(enAula[i-1].fin)){
-        conflictCodes.add(enAula[i].codigo);
-        conflictCodes.add(enAula[i-1].codigo);
+  const porAula = {};
+  sessSet.forEach(s => (porAula[s.aula] = porAula[s.aula] || []).push(s));
+  Object.values(porAula).forEach(list=>{
+    list.sort((a,b)=>timeToMin(a.inicio)-timeToMin(b.inicio));
+    for(let i=1;i<list.length;i++){
+      if(timeToMin(list[i].inicio) < timeToMin(list[i-1].fin)){
+        conflictCodes.add(list[i].codigo);
+        conflictCodes.add(list[i-1].codigo);
       }
     }
   });
 
+  // Comunicaciones de cada sesión, en orden real (Orden en sesión u hora).
+  const ligadasPorSesion = {};
+  sessSet.forEach(s=>{
+    const ligadas = trabajos.filter(t=>t.sesionCodigo===s.codigo);
+    ligadas.sort((a,b)=>{
+      const oa = a.orden!=null && a.orden!=='' ? Number(a.orden) : (timeToMin(a.inicio) ?? 9999);
+      const ob = b.orden!=null && b.orden!=='' ? Number(b.orden) : (timeToMin(b.inicio) ?? 9999);
+      return oa-ob;
+    });
+    ligadasPorSesion[s.codigo] = ligadas;
+  });
+
+  // Nº de columnas FIJO para toda la rejilla del día: el máximo que necesita
+  // la sesión con más comunicaciones (+1 por el tramo de debate). Ninguna
+  // casilla se encoge para caber -- la sesión más corta simplemente deja
+  // huecos, que se rellenan en rojo en vez de desaparecer, para que se note
+  // sin tener que contar.
+  const maxCells = Math.max(...sessSet.map(s => ligadasPorSesion[s.codigo].length + 1));
+
   let warningCount = 0;
 
-  const gridBg = `background-image:linear-gradient(to right, var(--line-soft) 1px, transparent 1px); background-size:${step/(hi-lo)*100}% 100%; background-position-x:${((Math.ceil(lo/step)*step)-lo)/(hi-lo)*100}%;`;
+  const grid = document.createElement('div');
+  grid.className = 'occ-grid';
+  grid.style.gridTemplateColumns = `230px repeat(${maxCells}, 96px)`;
 
-  const timeline = document.createElement('div');
-  timeline.className = 'timeline';
-  timeline.style.width = (ROOM_LABEL_PX + timelineWidthPx) + 'px';
+  sessSet.forEach(s=>{
+    const ligadas = ligadasPorSesion[s.codigo];
+    const tipoClass = s.tipo === 'Simposio' ? 'tipo-simposio' : 'tipo-mesa';
+    const isConflict = conflictCodes.has(s.codigo);
 
-  const ruler = document.createElement('div');
-  ruler.className = 'ruler';
-  let rulerMarksHtml = '';
-  for(let t=Math.ceil(lo/step)*step; t<=hi; t+=step){
-    rulerMarksHtml += `<span class="ruler-mark" style="left:${pct(t)}%">${minToTime(t)}</span>`;
-  }
-  ruler.innerHTML = `<div class="ruler-spacer"></div><div class="ruler-track" style="${trackStyle}">${rulerMarksHtml}</div>`;
-  timeline.appendChild(ruler);
-
-  aulas.forEach(aula=>{
     const row = document.createElement('div');
-    row.className = 'room-row';
-    const cap = capacidadDe(aula, sessSet);
-    row.innerHTML = `<div class="room-label"><span class="name">${esc(aula)}</span>${cap!=null?`<span class="cap">${cap} plazas</span>`:''}</div>
-      <div class="room-track" style="${gridBg}${trackStyle}"></div>`;
-    const track = row.querySelector('.room-track');
+    row.className = `occ-row ${tipoClass}` + (isConflict ? ' conflict' : '');
 
-    sessSet.filter(s=>s.aula===aula).forEach(s=>{
-      const blockLo = timeToMin(s.inicio), blockHi = timeToMin(s.fin);
-      const left = pct(blockLo), width = Math.max(pct(blockHi)-left, 0.4);
-      const tipoClass = s.tipo==='Simposio' ? 'tipo-simposio' : (s.tipo==='Plenaria' ? 'tipo-plenaria' : 'tipo-mesa');
+    const label = document.createElement('div');
+    label.className = 'occ-label';
+    label.title = `${s.inicio}–${s.fin} · ${s.tipo} · ${s.sesion}` +
+      (isConflict ? '\n⚠ Solape de horario con otra sesión en esta aula' : '');
+    label.innerHTML = `
+      <span class="name">${esc(s.aula)}</span>
+      <span class="meta"><span class="tipo-tag">${esc(s.tipo)}</span>${esc(s.inicio)}–${esc(s.fin)}${s.capacidad!=null?` · ${s.capacidad}p`:''}</span>
+    `;
+    label.addEventListener('click', ()=> openSesionDetail(s, isConflict));
+    row.appendChild(label);
 
-      const ligadas = trabajos.filter(t=>t.sesionCodigo===s.codigo);
-      ligadas.sort((a,b)=>{
-        const oa = a.orden!=null && a.orden!=='' ? Number(a.orden) : (timeToMin(a.inicio) ?? 9999);
-        const ob = b.orden!=null && b.orden!=='' ? Number(b.orden) : (timeToMin(b.inicio) ?? 9999);
-        return oa-ob;
-      });
-
-      const segs = [];
-      ligadas.forEach(t=>{
-        let ts = timeToMin(t.inicio); let te = timeToMin(t.fin);
-        if(ts==null) ts = blockLo;
-        if(te==null) te = ts;
-        const outOfRange = ts < blockLo || te > blockHi;
-        const cts = Math.min(Math.max(ts, blockLo), blockHi);
-        let cte = Math.min(Math.max(te, blockLo), blockHi);
-        if(cte <= cts) cte = Math.min(cts+1, blockHi);
-        const warn = !!(t.avisoAulaDiscrepante || t.avisoDiaDiscrepante || t.avisoHoraFueraDeSesion || t.avisoSinSesion || outOfRange);
+    for(let i=0; i<maxCells; i++){
+      const cell = document.createElement('div');
+      if(i < ligadas.length){
+        const t = ligadas[i];
+        const warn = !!(t.avisoAulaDiscrepante || t.avisoDiaDiscrepante || t.avisoHoraFueraDeSesion || t.avisoSinSesion);
         if(warn) warningCount++;
-        segs.push({startMin:cts, endMin:cte, trabajo:t, warn, retirado: t.estadoTrabajo==='Retirado'});
-      });
-      segs.sort((a,b)=>a.startMin-b.startMin);
-
-      const lastEnd = segs.length ? Math.max(...segs.map(x=>x.endMin)) : blockLo;
-      if(blockHi - lastEnd >= 4){
-        segs.push({startMin:lastEnd, endMin:blockHi, debate:true});
+        const retirado = t.estadoTrabajo === 'Retirado';
+        cell.className = 'occ-cell filled' + (retirado ? ' is-retirado' : '') + (warn ? ' is-warning' : '');
+        let tip = `${t.codigo} · ${t.titulo||''}\n${t.autor||''}\n${t.inicio||'?'}–${t.fin||'?'}`;
+        if(retirado) tip += '\n(Retirado)';
+        if(warn) tip += '\n⚠ Incoherencia marcada en Notion (aula/día/hora)';
+        cell.title = tip;
+        cell.innerHTML = `<span class="cell-label">${esc(t.codigo)}</span>`;
+        cell.addEventListener('click', ()=> openTrabajoDetail(t, s));
+      } else if(i === ligadas.length){
+        cell.className = 'occ-cell filled debate';
+        cell.title = 'Debate' + (s.debateMin ? ` · ${s.debateMin} min` : '');
+        cell.innerHTML = '<span class="cell-label">Debate</span>';
+        cell.addEventListener('click', ()=> openSesionDetail(s, isConflict));
+      } else {
+        cell.className = 'occ-cell gap';
+        cell.title = `${s.sesion}: no llega a tantas comunicaciones como la sesión más larga de ${day}.`;
       }
+      row.appendChild(cell);
+    }
 
-      const block = document.createElement('div');
-      block.className = 'session-block ' + tipoClass + (conflictCodes.has(s.codigo) ? ' conflict' : '');
-      block.style.left = left + '%';
-      block.style.width = width + '%';
-      block.dataset.codigo = s.codigo;
-      block.title = `${s.inicio}–${s.fin} · ${s.tipo} · ${s.sesion}\nAula: ${s.aula}` + (conflictCodes.has(s.codigo) ? '\n⚠ Solape de horario con otra sesión en esta aula' : '');
-
-      // Casillas de ancho IGUAL entre sí (no proporcional a la duración real
-      // de cada comunicación): con la densidad de píxeles ya garantizada
-      // arriba, cada casilla tiene sitio de sobra para su código completo.
-      // El orden sigue siendo el real (por "Orden en sesión" u hora), solo
-      // el ANCHO deja de representar la duración exacta -- esa hora exacta
-      // sigue disponible en el tooltip y en el detalle al hacer clic.
-      const segWidth = 100 / segs.length;
-
-      segs.forEach((seg,i)=>{
-        const segLeft = i * segWidth;
-        const div = document.createElement('div');
-        div.className = 'seg' + (seg.debate?' debate':'') + (seg.retirado?' is-retirado':'') + (seg.warn?' is-warning':'');
-        div.style.left = segLeft+'%';
-        div.style.width = segWidth+'%';
-        if(seg.debate){
-          div.title = `Debate · ${minToTime(seg.startMin)}–${minToTime(seg.endMin)}`;
-          div.innerHTML = '<span class="seg-label">Debate</span>';
-        } else {
-          const t = seg.trabajo;
-          let tip = `${t.codigo} · ${t.titulo||''}\n${t.autor||''}\n${t.inicio||'?'}–${t.fin||'?'}`;
-          if(seg.retirado) tip += '\n(Retirado)';
-          if(seg.warn) tip += '\n⚠ Incoherencia marcada en Notion (aula/día/hora)';
-          div.title = tip;
-          div.dataset.trabajoCodigo = t.codigo;
-          div.innerHTML = `<span class="seg-label">${esc(t.codigo)}</span>`;
-        }
-        block.appendChild(div);
-      });
-
-      block.addEventListener('click', (ev)=>{
-        const segEl = ev.target.closest('.seg');
-        if(segEl && segEl.dataset.trabajoCodigo && s.tipo!=='Plenaria'){
-          const t = trabajos.find(x=>x.codigo===segEl.dataset.trabajoCodigo);
-          if(t) openTrabajoDetail(t, s);
-        } else {
-          openSesionDetail(s, conflictCodes.has(s.codigo));
-        }
-        ev.stopPropagation();
-      });
-
-      track.appendChild(block);
-    });
-
-    timeline.appendChild(row);
+    grid.appendChild(row);
   });
 
   const scroller = document.createElement('div');
-  scroller.className = 'timeline-scroll';
-  scroller.appendChild(timeline);
+  scroller.className = 'grid-scroll';
+  scroller.appendChild(grid);
   container.appendChild(scroller);
 
   const banner = document.getElementById('warnings-banner');
-  const totalWarn = warningCount + conflictCodes.size;
-  if(totalWarn>0){
+  if(warningCount>0 || conflictCodes.size>0){
     document.getElementById('warnings-count').textContent =
       `⚠ ${warningCount} comunicación(es) con incoherencia marcada en Notion` +
-      (conflictCodes.size ? ` y ${conflictCodes.size/2 >= 1 ? Math.ceil(conflictCodes.size/2) : conflictCodes.size} solape(s) de horario en la misma aula` : '') +
+      (conflictCodes.size ? ` y ${Math.ceil(conflictCodes.size/2)} solape(s) de horario en la misma aula` : '') +
       ` — ${day}.`;
     banner.classList.add('visible');
   } else {
