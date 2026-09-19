@@ -157,12 +157,13 @@
 
   .seg{
     position:absolute; top:0; bottom:0; border-right:1px solid rgba(255,255,255,.75);
-    cursor:pointer; display:flex; align-items:center; padding:0 4px;
+    cursor:pointer; display:flex; align-items:center; justify-content:center; padding:0 1px; overflow:hidden;
   }
   .seg:last-child{border-right:none;}
   .seg:hover{filter:brightness(0.93);}
   .seg .seg-label{
-    font-size:.6rem; font-weight:700; color:inherit; white-space:nowrap; overflow:hidden; text-overflow:clip;
+    display:block; max-width:100%; font-size:.6rem; font-weight:700; color:inherit;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   }
   .seg.debate{background:var(--seg-debate-bg); color:#6c7b85; font-style:italic;}
   .seg.is-retirado{background-image:repeating-linear-gradient(45deg, rgba(0,0,0,.14) 0 5px, transparent 5px 10px);}
@@ -481,13 +482,17 @@ function renderDay(day){
       segs.forEach(seg=>{
         const segLeft = (seg.startMin-blockLo)/(blockHi-blockLo)*100;
         const segWidth = Math.max((seg.endMin-seg.startMin)/(blockHi-blockLo)*100, 0.5);
+        // Ancho real en pantalla (% del timeline completo, no del bloque) --
+        // es lo que de verdad decide si el texto cabe o hay que ocultarlo.
+        const absWidthPct = width * segWidth / 100;
         const div = document.createElement('div');
         div.className = 'seg' + (seg.debate?' debate':'') + (seg.retirado?' is-retirado':'') + (seg.warn?' is-warning':'');
         div.style.left = segLeft+'%';
         div.style.width = segWidth+'%';
         if(seg.debate){
           div.title = `Debate · ${minToTime(seg.startMin)}–${minToTime(seg.endMin)}`;
-          if(segWidth>=4) div.innerHTML = '<span class="seg-label">Debate</span>';
+          if(absWidthPct>=4.5) div.innerHTML = '<span class="seg-label">Debate</span>';
+          else if(absWidthPct>=1.8) div.innerHTML = '<span class="seg-label">D</span>';
         } else {
           const t = seg.trabajo;
           let tip = `${t.codigo} · ${t.titulo||''}\n${t.autor||''}\n${t.inicio||'?'}–${t.fin||'?'}`;
@@ -495,7 +500,12 @@ function renderDay(day){
           if(seg.warn) tip += '\n⚠ Incoherencia marcada en Notion (aula/día/hora)';
           div.title = tip;
           div.dataset.trabajoCodigo = t.codigo;
-          if(segWidth>=5) div.innerHTML = `<span class="seg-label">${esc(t.codigo)}</span>`;
+          // Con poco sitio se muestra solo el número (más corto, cabe mejor
+          // y no se puede confundir con otro código al recortarse) -- el
+          // código completo siempre está en el tooltip y en el detalle.
+          const soloNumero = t.codigo.replace(/^\D+/, '');
+          if(absWidthPct>=5.5) div.innerHTML = `<span class="seg-label">${esc(t.codigo)}</span>`;
+          else if(absWidthPct>=2.2) div.innerHTML = `<span class="seg-label">${esc(soloNumero)}</span>`;
         }
         block.appendChild(div);
       });
