@@ -33,6 +33,21 @@ PERSONAS_DS_ID = "f641f884-26d8-4f70-8818-57b1e519a766"
 
 DAY_ORDER = {"Miércoles 25": 0, "Jueves 26": 1, "Viernes 27": 2, None: 99}
 
+# Capacidad de cada aula (base ESPACIOS de Notion). Se mantiene aquí a mano
+# porque este script todavía no consulta esa data source (no se conoce su
+# data_source_id) y la capacidad de un aula física apenas cambia durante el
+# congreso. Volcado el 2026-09-19 desde el export ZIP de Notion. Si Eugenio
+# añade/quita un aula o corrige un aforo, hay que actualizar esta lista a
+# mano (o, mejor, sustituir esto por una query real en cuanto se tenga el
+# data_source_id de ESPACIOS).
+ESPACIOS_CAPACIDAD = {
+    "Aula 0.16": 66, "Aula 0.04": 80, "Aula 0.10": 66, "Aula 2.05": 80,
+    "Aula 0.09": 66, "Salón de actos": 272, "Aula 0.01": 66,
+    "Sala de grados": 90, "Aula 0.08": 66, "Aula 1.17": 32, "Aula 0.07": 66,
+    "Aula 1.05": 70, "Aula 1.07": 30, "Aula 0.02": None, "Aula 0.12": 64,
+    "Aula 1.03": 86, "Aula 2.25": 60, "Aula 0.11": None,
+}
+
 # Nombres de país que aparecen, de forma inconsistente, entre paréntesis
 # dentro del valor real de "Institución" en Notion (p. ej. "Universidad de
 # Málaga (España)" junto a "Universidad de Zaragoza" sin nada parecido; o,
@@ -122,6 +137,10 @@ def extract(prop):
     if t == "date":
         d = prop.get("date")
         return d.get("start") if d else None
+    if t == "checkbox":
+        return prop.get("checkbox")
+    if t == "boolean":
+        return prop.get("boolean")
     if t == "formula":
         f = prop.get("formula") or {}
         return extract({"type": f.get("type"), f.get("type"): f.get(f.get("type"))})
@@ -205,7 +224,7 @@ def titulo_con_cursiva_html(titulo, cursiva_bruto):
     return "".join(partes)
 
 
-def build_trabajos(personas_map):
+def build_trabajos(personas_map, sesiones_map):
     pages = query_data_source(TRABAJOS_DS_ID)
     out = []
     for pg in pages:
@@ -218,19 +237,28 @@ def build_trabajos(personas_map):
         autor_ids = extract_relation_ids((pg.get("properties") or {}).get("Autores"))
         autores = join_names([personas_map.get(pid) for pid in autor_ids])
         titulo = prop(pg, "Título")
+        sesion_ids = extract_relation_ids((pg.get("properties") or {}).get("Sesión"))
+        sesion_codigo = sesiones_map.get(sesion_ids[0]) if sesion_ids else None
         item = {
             "codigo": codigo,
             "titulo": titulo,
             "tituloHtml": titulo_con_cursiva_html(titulo, prop(pg, "Cursiva")),
             "autor": autores or prop(pg, "Primera autoría"),
             "dia": prop(pg, "Día (real)"),
-            "inicio": prop(pg, "Hora intervención"),
-            "fin": prop(pg, "Fin intervención"),
+            "inicio": prop(pg, "Hora intervención") or prop(pg, "Inicio (auto)"),
+            "fin": prop(pg, "Fin intervención") or prop(pg, "Fin (auto)"),
             "aula": prop(pg, "Aula (real)"),
             "eje": prop(pg, "Eje / Panel"),
             "tipo": prop(pg, "Tipo"),
             "estado": estado,
             "orden": prop(pg, "Orden en sesión"),
+            # Añadidos para el dashboard de ocupación de aulas (visor_aulas.html):
+            "sesionCodigo": sesion_codigo,
+            "estadoTrabajo": prop(pg, "Estado"),
+            "avisoAulaDiscrepante": bool(prop(pg, "⚠️ Aula discrepante")),
+            "avisoDiaDiscrepante": bool(prop(pg, "⚠️ Día discrepante")),
+            "avisoHoraFueraDeSesion": bool(prop(pg, "⚠️ Hora fuera de sesión")),
+            "avisoSinSesion": bool(prop(pg, "⚠️ Sin sesión")),
         }
         out.append(item)
 
@@ -269,13 +297,17 @@ def build_sesiones(personas_map):
             "moderacion": moderacion,
             "ponente": prop(pg, "Ponente"),
             "participantes": participantes,
+            # Añadido para el dashboard de ocupación de aulas (visor_aulas.html):
+            "debateMin": prop(pg, "Debate (min)"),
+            "capacidad": ESPACIOS_CAPACIDAD.get(prop(pg, "Aula / espacio")),
         })
     out.sort(key=lambda s: (
         DAY_ORDER.get(s.get("dia"), 99),
         s.get("inicio") or "99:99",
         s.get("aula") or "",
     ))
-    return out
+    id_a_codigo = {pg["id"]: prop(pg, "Código") for pg in pages if prop(pg, "Código")}
+    return out, id_a_codigo
 
 
 def main():
@@ -284,9 +316,11 @@ def main():
 
     import datetime
     personas_map = build_personas_map()
+    sesiones, sesiones_map = build_sesiones(personas_map)
     data = {
-        "trabajos": build_trabajos(personas_map),
-        "sesiones": build_sesiones(personas_map),
+        "trabajos": build_trabajos(personas_map, sesiones_map),
+        "sesiones": sesiones,
+        "aulasCapacidad": {k: v for k, v in ESPACIOS_CAPACIDAD.items() if v is not None},
         "generado": datetime.datetime.now(datetime.timezone.utc).isoformat(),
     }
 
