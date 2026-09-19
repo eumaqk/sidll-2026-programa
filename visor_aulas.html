@@ -153,6 +153,7 @@
   .occ-row.tipo-simposio .tipo-tag{background:var(--type-simposio-bg); border-color:var(--type-simposio-border); color:var(--type-simposio-text);}
   .occ-row.conflict .occ-label{background:var(--danger-bg);}
   .occ-row.conflict .occ-label .name::after{content:' ⚠ solape'; color:var(--danger); font-weight:700;}
+  .occ-row.franja-nueva > .occ-label, .occ-row.franja-nueva > .occ-cell{border-top:3px solid var(--uma-navy);}
 
   .occ-cell{
     width:96px; min-height:46px; padding:0 6px; box-sizing:border-box;
@@ -437,13 +438,19 @@ function renderDay(day){
   grid.className = 'occ-grid';
   grid.style.gridTemplateColumns = `230px repeat(${maxCells}, 96px)`;
 
+  let franjaAnterior = null;
   sessSet.forEach(s=>{
     const ligadas = ligadasPorSesion[s.codigo];
     const tipoClass = s.tipo === 'Simposio' ? 'tipo-simposio' : 'tipo-mesa';
     const isConflict = conflictCodes.has(s.codigo);
+    // Línea gruesa cada vez que empieza una franja horaria nueva (un grupo
+    // de sesiones con la misma hora de inicio), para separar visualmente
+    // un bloque del congreso del siguiente.
+    const esNuevaFranja = franjaAnterior !== null && s.inicio !== franjaAnterior;
+    franjaAnterior = s.inicio;
 
     const row = document.createElement('div');
-    row.className = `occ-row ${tipoClass}` + (isConflict ? ' conflict' : '');
+    row.className = `occ-row ${tipoClass}` + (isConflict ? ' conflict' : '') + (esNuevaFranja ? ' franja-nueva' : '');
 
     const label = document.createElement('div');
     label.className = 'occ-label';
