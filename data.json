@@ -301,26 +301,6 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-161",
-"titulo": "Planificar con IA sin delegar la escritura: el prompt como analizador cognitivo en ELE",
-"tituloHtml": "Planificar con IA sin delegar la escritura: el <i>prompt</i> como analizador cognitivo en ELE",
-"autor": "Lorena Sánchez Troussel (Ludwig-Maximilians-Universität München)",
-"dia": "Miércoles 25",
-"inicio": "11:54",
-"fin": "12:06",
-"aula": "Aula 0.16",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3,
-"sesionCodigo": "SES-001",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
 "codigo": "COM-149",
 "titulo": "Proceso de escritura y creatividad en educación primaria",
 "tituloHtml": null,
@@ -4501,5 +4481,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-20T03:30:40.688966+00:00"
+"generado": "2026-09-20T10:40:00.953710+00:00"
 }
