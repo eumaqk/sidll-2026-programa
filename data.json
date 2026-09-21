@@ -161,15 +161,15 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-98",
-"titulo": "El estado transicional en la formación de primeros lectores desde la mirada de la mediación escolar",
+"codigo": "COM-123",
+"titulo": "La educación literaria multimodal: un estudio de caso en ESO",
 "tituloHtml": null,
-"autor": "Noemí Manrique Gil (Universidad de Zaragoza)",
+"autor": "Gabriel Núñez Molina (Universidad de Extremadura)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
 "fin": "11:54",
 "aula": "Aula 0.10",
-"eje": "Educación literaria",
+"eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 2,
@@ -1061,6 +1061,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-165",
+"titulo": "Lectura compartida en la formación inicial del profesorado de lenguas: dialogando sobre la multiculturalidad e interculturalidad para la sostenibilidad social",
+"tituloHtml": null,
+"autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
+"dia": "Miércoles 25",
+"inicio": "13:36",
+"fin": "13:48",
+"aula": "Aula 0.07",
+"eje": "Interculturalidad",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 4,
+"sesionCodigo": "SES-015",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-75",
 "titulo": "Nara (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
 "tituloHtml": "<i>Nara</i> (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
@@ -1174,26 +1194,6 @@
 "estado": "Programado",
 "orden": 4,
 "sesionCodigo": "SES-017",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-165",
-"titulo": "Lectura compartida en la formación inicial del profesorado de lenguas: dialogando sobre la multiculturalidad e interculturalidad para la sostenibilidad social",
-"tituloHtml": null,
-"autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
-"dia": "Miércoles 25",
-"inicio": "13:48",
-"fin": "14:00",
-"aula": "Aula 0.07",
-"eje": "Interculturalidad",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5,
-"sesionCodigo": "SES-015",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -1982,7 +1982,7 @@
 },
 {
 "codigo": "COM-24",
-"titulo": "Competencia comunicativa inicial, profundidad del conocimiento léxico y emoción: evidencias desde el aprendizaje de vocabulario en español como lengua extranjera",
+"titulo": "Competencia lingüística, demandas de recuperación y accesibilidad léxica: evidencias desde el aprendizaje de vocabulario en español como lengua extranjera",
 "tituloHtml": null,
 "autor": "Ana Blanco Canales (Universidad de Alcalá de Henares) · Aránzazu Bernardo Jiménez (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
@@ -2241,15 +2241,15 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-123",
-"titulo": "La educación literaria multimodal: un estudio de caso en ESO",
+"codigo": "COM-98",
+"titulo": "El estado transicional en la formación de primeros lectores desde la mirada de la mediación escolar",
 "tituloHtml": null,
-"autor": "Gabriel Núñez Molina (Universidad de Extremadura)",
+"autor": "Noemí Manrique Gil (Universidad de Zaragoza)",
 "dia": "Jueves 26",
 "inicio": "09:00",
 "fin": "09:12",
 "aula": "Aula 2.05",
-"eje": "Multimodalidad",
+"eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 1,
@@ -2442,9 +2442,9 @@
 },
 {
 "codigo": "COM-37",
-"titulo": "The presence of idiomatic expressions in literary works read by students at the beginning of schooling",
-"tituloHtml": "<i>The presence of idiomatic expressions in literary works read by students at the beginning of schooling</i>",
-"autor": "Ana Ćavar (University of Zagreb, Croatia)",
+"titulo": "La presencia de fraseologismos en las obras literarias de los alumnos en las etapas iniciales de su escolarización",
+"tituloHtml": null,
+"autor": "Katarina Aladrović Slovaček (Universidad de Zagreb (Croacia)) · Ana Ćavar (University of Zagreb, Croatia)",
 "dia": "Jueves 26",
 "inicio": "09:24",
 "fin": "09:36",
@@ -3807,7 +3807,7 @@
 "moderacion": "Juan Lucas Onieva López (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 30,
+"debateMin": 18,
 "capacidad": 66
 },
 {
@@ -4461,5 +4461,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-21T19:52:04.838871+00:00"
+"generado": "2026-09-21T23:49:34.942621+00:00"
 }
