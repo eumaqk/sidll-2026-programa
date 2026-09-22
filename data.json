@@ -4059,8 +4059,8 @@
 "aula": "Aula 1.07",
 "tipo": "Mesa",
 "eje": "Didáctica de lenguas, educación literaria e IA",
-"estado": "Revisar",
-"moderacion": null,
+"estado": "Confirmada",
+"moderacion": "Fátima M. Faya Cerqueiro (Universidad de Santiago de Compostela) · Paula Rodríguez-Abruñeiras (Universidad de Santiago de Compostela)",
 "ponente": null,
 "participantes": [],
 "debateMin": 18,
@@ -4301,5 +4301,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-22T16:18:54.915423+00:00"
+"generado": "2026-09-22T20:54:26.066526+00:00"
 }
