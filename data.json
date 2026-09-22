@@ -4052,13 +4052,13 @@
 },
 {
 "codigo": "SES-052",
-"sesion": "Interpanel · Didáctica de lenguas, educación literaria e IA",
+"sesion": "Mesa — Didáctica de lenguas, educación literaria e IA",
 "dia": "Jueves 26",
 "inicio": "09:00",
 "fin": "10:30",
 "aula": "Aula 1.07",
 "tipo": "Mesa",
-"eje": "Interpanel (carga equilibrada del jueves)",
+"eje": "Didáctica de lenguas, educación literaria e IA",
 "estado": "Revisar",
 "moderacion": null,
 "ponente": null,
@@ -4204,13 +4204,13 @@
 },
 {
 "codigo": "SES-032",
-"sesion": "Interpanel · IA, lenguas e interculturalidad",
+"sesion": "Mesa — IA, lenguas e interculturalidad",
 "dia": "Viernes 27",
 "inicio": "09:30",
 "fin": "11:00",
 "aula": "Aula 0.16",
 "tipo": "Mesa",
-"eje": "Interpanel · IA, lenguas e interculturalidad",
+"eje": "IA, lenguas e interculturalidad",
 "estado": "Confirmada",
 "moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
 "ponente": null,
@@ -4301,5 +4301,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-22T00:55:24.586675+00:00"
+"generado": "2026-09-22T01:00:27.745132+00:00"
 }
