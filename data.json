@@ -3604,7 +3604,7 @@
 "sesiones": [
 {
 "codigo": "SES-048",
-"sesion": "Conferencia plenaria",
+"sesion": "Inteligencia artificial e inteligencia natural en Didáctica de la Lengua y la Literatura: luces, sombras y perspectivas de futuro",
 "dia": "Miércoles 25",
 "inicio": "10:00",
 "fin": "11:00",
@@ -4268,7 +4268,7 @@
 },
 {
 "codigo": "SES-049",
-"sesion": "Conferencia plenaria",
+"sesion": "Nombrando un mundo más sostenible: prácticas docentes para acompañar el desarrollo comunicativo en la infancia",
 "dia": "Viernes 27",
 "inicio": "11:30",
 "fin": "12:30",
@@ -4301,5 +4301,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-22T00:15:40.394530+00:00"
+"generado": "2026-09-22T00:40:12.643180+00:00"
 }
