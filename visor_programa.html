@@ -632,7 +632,8 @@ function sesionMatches(s, exclude){
   if(exclude!=='eje' && state.eje && s.eje !== state.eje) return false;
   if(exclude!=='tipo' && state.tipo && s.tipo !== state.tipo) return false;
   if(state.q){
-    const hay = norm(s.sesion)+' '+norm(s.codigo)+' '+norm(s.aula);
+    const hay = norm(s.sesion)+' '+norm(s.codigo)+' '+norm(s.aula)+' '+
+      norm(s.ponente)+' '+norm(s.moderacion)+' '+norm(s.participantes);
     if(!hay.includes(norm(state.q))) return false;
   }
   return true;
@@ -702,7 +703,7 @@ function renderPrograma(){
         </div>
         <div class="tags">
           ${t.aula ? `<span class="pill aula">${t.aula}</span>` : ''}
-          <span class="pill">${t.tipo}</span>
+          ${t.tipo ? `<span class="pill">${t.tipo}</span>` : ''}
           ${borrador ? `<span class="pill borrador">Propuesta / borrador</span>` : ''}
         </div>`;
       group.appendChild(card);

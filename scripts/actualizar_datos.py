@@ -224,7 +224,7 @@ def titulo_con_cursiva_html(titulo, cursiva_bruto):
     return "".join(partes)
 
 
-def build_trabajos(personas_map, sesiones_map):
+def build_trabajos(personas_map, sesiones_map, sesiones_sin_comunicaciones_visibles):
     pages = query_data_source(TRABAJOS_DS_ID)
     out = []
     for pg in pages:
@@ -234,10 +234,22 @@ def build_trabajos(personas_map, sesiones_map):
         estado = prop(pg, "Estado programa")
         if estado == "No aplica":
             continue
+        sesion_ids = extract_relation_ids((pg.get("properties") or {}).get("Sesión"))
+        if sesion_ids and sesion_ids[0] in sesiones_sin_comunicaciones_visibles:
+            # Trabajo-ancla de una Conferencia plenaria o una Mesa redonda
+            # (ver build_sesiones): existe en Notion solo para que la sesión
+            # tenga al menos una comunicación real vinculada y así entre en
+            # el Programa, nunca para mostrarse como una charla propia. La
+            # plantilla .docx de SIDLL_GENERADOR ya la oculta con el mismo
+            # criterio (sesion.tipo == "Plenaria" o sesion.participantes no
+            # vacío); el Visor tiene su propia extracción independiente y no
+            # aplicaba esa regla, así que esta comunicación-ancla aparecía
+            # como una charla real con "Tipo" vacío (detectado 2026-09-22:
+            # tarjeta "Conferencia plenaria" con la etiqueta "null").
+            continue
         autor_ids = extract_relation_ids((pg.get("properties") or {}).get("Autores"))
         autores = join_names([personas_map.get(pid) for pid in autor_ids])
         titulo = prop(pg, "Título")
-        sesion_ids = extract_relation_ids((pg.get("properties") or {}).get("Sesión"))
         sesion_codigo = sesiones_map.get(sesion_ids[0]) if sesion_ids else None
         item = {
             "codigo": codigo,
@@ -273,6 +285,7 @@ def build_trabajos(personas_map, sesiones_map):
 def build_sesiones(personas_map):
     pages = query_data_source(SESIONES_DS_ID)
     out = []
+    sesiones_sin_comunicaciones_visibles = set()
     for pg in pages:
         codigo = prop(pg, "Código")
         if not codigo:
@@ -284,6 +297,16 @@ def build_sesiones(personas_map):
             (linea.strip() for linea in (participantes_bruto or "").splitlines() if linea.strip()),
             key=str.casefold,
         )
+        tipo = prop(pg, "Tipo")
+        if tipo == "Plenaria" or participantes:
+            # Mismo criterio que SIDLL_GENERADOR/src/sidll/renderers al
+            # ocultar la lista de comunicaciones en el .docx: una
+            # Conferencia plenaria o una Mesa redonda (Tipo="Mesa" con
+            # "Participantes" relleno) presenta a su Ponente/Participantes,
+            # no una lista de comunicaciones -- sus "Trabajos" vinculados en
+            # Notion son solo anclas de inclusión, nunca comunicaciones
+            # reales que deban aparecer en el Programa del Visor.
+            sesiones_sin_comunicaciones_visibles.add(pg["id"])
         out.append({
             "codigo": codigo,
             "sesion": prop(pg, "Sesión"),
@@ -307,7 +330,7 @@ def build_sesiones(personas_map):
         s.get("aula") or "",
     ))
     id_a_codigo = {pg["id"]: prop(pg, "Código") for pg in pages if prop(pg, "Código")}
-    return out, id_a_codigo
+    return out, id_a_codigo, sesiones_sin_comunicaciones_visibles
 
 
 def main():
@@ -316,9 +339,9 @@ def main():
 
     import datetime
     personas_map = build_personas_map()
-    sesiones, sesiones_map = build_sesiones(personas_map)
+    sesiones, sesiones_map, sesiones_sin_comunicaciones_visibles = build_sesiones(personas_map)
     data = {
-        "trabajos": build_trabajos(personas_map, sesiones_map),
+        "trabajos": build_trabajos(personas_map, sesiones_map, sesiones_sin_comunicaciones_visibles),
         "sesiones": sesiones,
         "aulasCapacidad": {k: v for k, v in ESPACIOS_CAPACIDAD.items() if v is not None},
         "generado": datetime.datetime.now(datetime.timezone.utc).isoformat(),
