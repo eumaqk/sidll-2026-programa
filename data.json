@@ -481,6 +481,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-198",
+"titulo": "La formación de lectores literarios en educación secundaria: tensiones entre el marco curricular y planes de lectura domiciliaria",
+"tituloHtml": null,
+"autor": "Carolina Margarita González Ramírez (Pontificia Universidad Católica de Valparaíso)",
+"dia": "Miércoles 25",
+"inicio": "12:18",
+"fin": "12:30",
+"aula": "Aula 0.10",
+"eje": "Educación literaria",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 5,
+"sesionCodigo": "SES-002",
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-71",
 "titulo": "Vulnerabilidad como competencia en la formación inicial del profesorado de lenguas extranjeras: reflexiones teóricas en torno a la creación de materiales con IA generativa",
 "tituloHtml": null,
@@ -3627,7 +3647,7 @@
 "moderacion": "Juan Lucas Onieva López (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 30,
+"debateMin": 18,
 "capacidad": 66
 },
 {
@@ -4281,5 +4301,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-24T16:24:28.172843+00:00"
+"generado": "2026-09-24T16:50:27.557554+00:00"
 }
