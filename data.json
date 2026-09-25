@@ -104,7 +104,7 @@
 "codigo": "COM-111",
 "titulo": "Educación literaria, IA y formación del profesorado: un proyecto de colaboración entre la universidad y la escuela",
 "tituloHtml": null,
-"autor": "Jeroni Méndez Cabrera (Universidad de Valencia) · Dominika Fajkišová (Universidad de Valencia)",
+"autor": "Jeroni Méndez Cabrera (Universidad de Valencia) · Dominika Fajkišová (Universidad de Valencia) · Josep Ballester Roca (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "11:30",
 "fin": "11:42",
@@ -2024,7 +2024,7 @@
 "codigo": "COM-172",
 "titulo": "Los clásicos a través del entretenimiento interactivo. Una aproximación didáctica",
 "tituloHtml": null,
-"autor": "Matheus Gabriel Silveira Martins (Universitat de València) · Josep Ballester Roca (Universitat de València)",
+"autor": "Matheus Gabriel Silveira Martins (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "17:36",
 "fin": "17:48",
@@ -4301,5 +4301,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-25T11:12:14.552176+00:00"
+"generado": "2026-09-25T12:35:21.399584+00:00"
 }
