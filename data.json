@@ -401,10 +401,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-64",
-"titulo": "Exámenes de lenguas de acceso a la universidad en el mundo",
+"codigo": "COM-71",
+"titulo": "Vulnerabilidad como competencia en la formación inicial del profesorado de lenguas extranjeras: reflexiones teóricas en torno a la creación de materiales con IA generativa",
 "tituloHtml": null,
-"autor": "Jesús García Laborda (Universidad de Alcalá)",
+"autor": "María del Rocío González Torres (Universidad de Málaga) · Cristina Castillo Rodríguez (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "12:06",
 "fin": "12:18",
@@ -495,26 +495,6 @@
 "orden": 5,
 "sesionCodigo": "SES-002",
 "estadoTrabajo": "Aceptado",
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-71",
-"titulo": "Vulnerabilidad como competencia en la formación inicial del profesorado de lenguas extranjeras: reflexiones teóricas en torno a la creación de materiales con IA generativa",
-"tituloHtml": null,
-"autor": "María del Rocío González Torres (Universidad de Málaga) · Cristina Castillo Rodríguez (Universidad de Málaga)",
-"dia": "Miércoles 25",
-"inicio": "12:18",
-"fin": "12:30",
-"aula": "Aula 0.16",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 5,
-"sesionCodigo": "SES-001",
-"estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -3581,6 +3561,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-64",
+"titulo": "Exámenes de lenguas de acceso a la universidad en el mundo",
+"tituloHtml": null,
+"autor": "Jesús García Laborda (Universidad de Alcalá)",
+"dia": "Viernes 27",
+"inicio": "10:30",
+"fin": "10:42",
+"aula": "Sala de grados",
+"eje": "Inteligencia artificial y tecnologías emergentes",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 6,
+"sesionCodigo": "SES-042",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-56",
 "titulo": "La generación del 27 en manuales de bachillerato y antologías poéticas en el contexto de la LOMLOE",
 "tituloHtml": null,
@@ -4247,7 +4247,7 @@
 "moderacion": "Rocío Escudero Sánchez (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 30,
+"debateMin": 18,
 "capacidad": 90
 },
 {
@@ -4301,5 +4301,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-09-29T12:10:15.964949+00:00"
+"generado": "2026-09-29T15:52:16.399284+00:00"
 }
