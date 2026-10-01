@@ -1261,10 +1261,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-39",
-"titulo": "Memoria democrática y literatura juvenil: la guerra civil y el franquismo en la narrativa española contemporánea para adolescentes",
+"codigo": "COM-101",
+"titulo": "Lectura crítica y educación literaria en la era de la inteligencia artificial generativa: cosmicismo lovecraftiano y alfabetización interpretativa en entornos mediados por IA",
 "tituloHtml": null,
-"autor": "Amal Conesa Erragbaoui (Universidad de Murcia)",
+"autor": "Manuel Jesús Martín González (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
 "fin": "16:12",
@@ -1381,10 +1381,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-101",
-"titulo": "Lectura crítica y educación literaria en la era de la inteligencia artificial generativa: cosmicismo lovecraftiano y alfabetización interpretativa en entornos mediados por IA",
+"codigo": "COM-175",
+"titulo": "Cuando los clásicos salen a la calle",
 "tituloHtml": null,
-"autor": "Manuel Jesús Martín González (Universidad de Málaga)",
+"autor": "Ana María Sosa Cedrani (CODICEN/ANEP | CFE/IINN) · Mariela Inés Silva González (CODICEN/ANEP)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
 "fin": "16:24",
@@ -1394,7 +1394,7 @@
 "estado": "Programado",
 "orden": 2,
 "sesionCodigo": "SES-010",
-"estadoTrabajo": null,
+"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -1501,10 +1501,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-175",
-"titulo": "Cuando los clásicos salen a la calle",
+"codigo": "COM-157",
+"titulo": "Leer para calmar. Diseño de un rincón de la calma literario en educación infantil",
 "tituloHtml": null,
-"autor": "Ana María Sosa Cedrani (CODICEN/ANEP | CFE/IINN) · Mariela Inés Silva González (CODICEN/ANEP)",
+"autor": "María Sánchez Carvajal (Centro Universitario de Antequera María Inmaculada, adscrito a la Universidad de Málaga) · María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
 "fin": "16:36",
@@ -1514,7 +1514,7 @@
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-010",
-"estadoTrabajo": "Revisar",
+"estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -1594,26 +1594,6 @@
 "estado": "Programado",
 "orden": 4,
 "sesionCodigo": "SES-044",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-157",
-"titulo": "Leer para calmar. Diseño de un rincón de la calma literario en educación infantil",
-"tituloHtml": null,
-"autor": "María Sánchez Carvajal (Centro Universitario de Antequera María Inmaculada, adscrito a la Universidad de Málaga) · María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
-"dia": "Miércoles 25",
-"inicio": "16:36",
-"fin": "16:48",
-"aula": "Sala de grados",
-"eje": "Educación literaria",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 4,
-"sesionCodigo": "SES-010",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -3903,7 +3883,7 @@
 "moderacion": "María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
 "ponente": null,
 "participantes": [],
-"debateMin": 12,
+"debateMin": 24,
 "capacidad": 90
 },
 {
@@ -4301,5 +4281,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-01T20:07:14.220982+00:00"
+"generado": "2026-10-01T22:32:44.220029+00:00"
 }
