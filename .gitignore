@@ -22,3 +22,6 @@ dist/
 backups/
 exports/
 *.sidll-backup.json
+
+# Bytecode de Python (lo genera scripts/actualizar_datos.py al ejecutarse).
+__pycache__/
