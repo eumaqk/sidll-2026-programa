@@ -353,6 +353,39 @@ def main():
 
     print(f"OK: {len(data['trabajos'])} trabajos, {len(data['sesiones'])} sesiones -> {out_path}")
 
+    actualizar_copia_respaldo(data)
+
+
+def actualizar_copia_respaldo(data):
+    """Refresca la copia de respaldo de los datos incrustada en visor_programa.html.
+
+    El visor solo la usa si data.json no carga (p. ej. al abrir el HTML suelto
+    desde el disco). Si no se refrescara, se quedaría con datos viejos (ya
+    mostró a una moderadora retirada). Un fallo aquí NO debe impedir que
+    data.json se publique, por eso solo avisa.
+    """
+    html_path = os.path.join(os.path.dirname(__file__), "..", "visor_programa.html")
+    patron = re.compile(
+        r'(<script id="fallback-data" type="application/json">)(.*?)(</script>)', re.S
+    )
+    try:
+        with open(html_path, encoding="utf-8") as f:
+            contenido = f.read()
+        if not patron.search(contenido):
+            print("AVISO: no se encontró la copia de respaldo en visor_programa.html; no se actualiza.")
+            return
+        copia = {k: data[k] for k in ("trabajos", "sesiones", "generado")}
+        texto = json.dumps(copia, ensure_ascii=False, separators=(",", ":"))
+        if "</script" in texto.lower():
+            print("AVISO: los datos contienen '</script'; no se actualiza la copia de respaldo.")
+            return
+        nuevo = patron.sub(lambda m: m.group(1) + texto + m.group(3), contenido, count=1)
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(nuevo)
+        print("OK: copia de respaldo de visor_programa.html actualizada.")
+    except OSError as e:
+        print(f"AVISO: no se pudo actualizar la copia de respaldo de visor_programa.html: {e}")
+
 
 if __name__ == "__main__":
     main()
