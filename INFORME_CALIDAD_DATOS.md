@@ -62,13 +62,6 @@ Hay 305 correos de autoria, 217 correos normalizados unicos y 65 grupos repetido
 
 Ejemplos de repeticion:
 
-- `natalia.barranco@uva.es`: 4 apariciones.
-- `mperez57@us.es`: 4 apariciones.
-- `coralhuntg@us.es`: 4 apariciones.
-- `mferreras@us.es`: 4 apariciones.
-- `nsuaru@ull.edu.es`: 4 apariciones.
-- `cmorales@ull.edu.es`: 4 apariciones.
-- Caso con variante de tilde en correo: `monica.ruiz@ua.es` / `mónica.ruiz@ua.es`.
 
 ### Posibles propuestas duplicadas
 
@@ -139,14 +132,7 @@ Consecuencia: la primera importacion puede cargar la base administrativa y las a
 
 ## Restricciones desde `excepciones.docx`
 
-Se detectan dos restricciones:
-
-| Persona | Restriccion | Estructura propuesta |
-| --- | --- | --- |
-| Gerardo Fernandez San Emeterio | Debe programarse el viernes por la mañana por circunstancias docentes. | `must_schedule`, viernes, mañana, prioridad alta, preferente u obligatoria pendiente de confirmacion. |
-| Boris Vazquez | No puede el miercoles por la tarde. | `cannot_schedule`, miercoles, tarde, prioridad alta, obligatoria. |
-
-Estas restricciones deben cruzarse con personas normalizadas. Si la persona no esta en la base importada con coincidencia exacta, debe quedar como restriccion pendiente de vincular.
+Se detectan dos restricciones de personas concretas; su detalle se retiro de este repositorio publico (16-10-2026) por contener datos personales.
 
 ## Recomendaciones de importacion
 
@@ -177,5 +163,5 @@ Conservar literalmente:
 - Si `Derivado a Panel 6 (Educación Literaria)` debe convertirse en area 6 o en motivo de reubicacion.
 - Que criterio usar para confirmar duplicados frente a personas con varias propuestas.
 - Como incorporar titulos, resumenes, palabras clave y datos completos de simposios.
-- Si la restriccion de Gerardo Fernandez San Emeterio es obligatoria o preferente.
+- Si las restricciones por docencia son obligatorias o preferentes.
 - Si la comprobacion de `POR PANELES` debe considerar 22 columnas originales como dice `COMPROBACION` o 23 columnas visibles como muestra la hoja.

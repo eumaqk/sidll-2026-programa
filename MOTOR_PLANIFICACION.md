@@ -150,15 +150,15 @@ Si se elimina Aula 11 de la primera franja:
 5. Si no caben todas las sesiones, propone mover la sesion a otra franja compatible o compactar/repartir segun el perfil del escenario.
 6. La explicacion debe indicar que el movimiento se debe a perdida de disponibilidad del Aula 11.
 
-### Caso B. Boris Vazquez-Calvo no puede el miercoles por la tarde
+### Caso B. Una persona no puede el miercoles por la tarde
 
-1. Se registra restriccion de indisponibilidad obligatoria o pendiente de confirmacion para Boris.
-2. Se vincula a `SIDLL26-127` y a la persona Boris Vazquez-Calvo.
+1. Se registra restriccion de indisponibilidad obligatoria o pendiente de confirmacion para la persona.
+2. Se vincula a la propuesta afectada y a la persona.
 3. Si ya estaba asignado miercoles tarde, el escenario queda con conflicto duro.
-4. El motor propone mover su simposio o actividad a otra franja donde Boris este disponible.
+4. El motor propone mover su simposio o actividad a otra franja donde la persona este disponible.
 5. Si el simposio no admite division, se mueve unido.
 
-### Caso C. Gerardo Fernandez San Emeterio solicita viernes por la mañana
+### Caso C. Una persona solicita viernes por la mañana
 
 1. Se registra como preferencia de prioridad alta pendiente de confirmacion.
 2. No se convierte en obligatoria sin confirmacion.

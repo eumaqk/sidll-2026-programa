@@ -197,18 +197,7 @@ Consecuencias para el modelo:
 
 ## Restricciones horarias consolidadas
 
-El detalle completo se mantiene en `RESTRICCIONES_HORARIAS_CONSOLIDADAS.md`.
-
-Resumen detectado:
-
-| Persona o grupo | Propuesta vinculada | Dia/franja | Tipo | Caracter | Fuente |
-| --- | --- | --- | --- | --- | --- |
-| Gerardo Fernandez San Emeterio | `SIDLL26-027` | Viernes mañana | Preferencia/disponibilidad | Preferente con posible obligatoriedad | `excepciones.docx`; `solicitudes varias.docx` |
-| Boris Vazquez-Calvo | `SIDLL26-127` | No miercoles tarde | Indisponibilidad | Obligatoria pendiente de confirmacion | `excepciones.docx` |
-| Ana M. Sanchez Catena | `SIDLL26-011` | Jueves 26 | Preferencia/disponibilidad | Preferente | `PETICIONES HORARIAS PARA COMUNICACIONES.docx` |
-| Marta Larragueta Arribas y simposio ELLIJ | `SIDLL26-063` | Viernes mañana | Preferencia/coordinacion | Preferente | `solicitudes varias.docx` |
-| Miguel Angel Martin-Hervas / comunicacion vinculada a Gerardo | `SIDLL26-027` | Viernes mañana | Preferencia/coordinacion | Preferente | `solicitudes varias.docx` |
-| Diana Nastasescu, Fernando Medina Martinez y Cristian V. Pico Herraiz | `SIDLL26-129` y `SIDLL26-147` | Mismo dia; posible viernes | Coordinacion | Preferente | `solicitudes varias.docx` |
+Las restricciones horarias de personas concretas se retiraron de este repositorio publico (16-10-2026) por contener datos personales. Se gestionan fuera del repositorio.
 
 ## Normalizacion y conservacion
 
