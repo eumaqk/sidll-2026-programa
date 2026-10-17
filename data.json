@@ -401,26 +401,6 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-199",
-"titulo": "Qué aprende y qué deja de aprender quien escribe una novela con IA: el caso de más de 60 autores y cómo evaluar ese trabajo",
-"tituloHtml": null,
-"autor": "Ray Bolívar Sosa (Escuela de Escritura Ray Bolívar Sosa)",
-"dia": "Miércoles 25",
-"inicio": "12:06",
-"fin": "12:18",
-"aula": "Aula 0.16",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 4,
-"sesionCodigo": "SES-001",
-"estadoTrabajo": "Aceptado",
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
 "codigo": "COM-87",
 "titulo": "Incidencia de dos métodos de enseñanza de escritura académica en la calidad textual del ensayo argumentativo: un estudio para apoyar la formación inicial docente",
 "tituloHtml": null,
@@ -3481,6 +3461,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-200",
+"titulo": "Literatura oral y movimiento en la primera infancia: vínculo afectivo y adquisición de la lengua materna en el aula de 0 a 6 años",
+"tituloHtml": null,
+"autor": "Marta Urea Herrador (Universidad de Jaén)",
+"dia": "Viernes 27",
+"inicio": "10:30",
+"fin": "10:42",
+"aula": "Aula 0.09",
+"eje": "Multimodalidad",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 6,
+"sesionCodigo": "SES-046",
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-9",
 "titulo": "Creer para aprender: autoeficacia y léxico en la formación docente",
 "tituloHtml": null,
@@ -3555,6 +3555,26 @@
 "orden": 6,
 "sesionCodigo": "SES-031",
 "estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
+"codigo": "COM-199",
+"titulo": "¿Cuánto de su novela escribe la inteligencia artificial? Lo que revelan 3.184 peticiones de 111 escritores",
+"tituloHtml": null,
+"autor": "Ray Bolívar Sosa (Escuela de Escritura Ray Bolívar Sosa)",
+"dia": null,
+"inicio": null,
+"fin": null,
+"aula": null,
+"eje": "Inteligencia artificial y tecnologías emergentes",
+"tipo": "Comunicación",
+"estado": "Sin programar",
+"orden": null,
+"sesionCodigo": null,
+"estadoTrabajo": "Aceptado",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -4159,7 +4179,7 @@
 "moderacion": "Boris Vázquez-Calvo (Universidad de Sevilla)",
 "ponente": null,
 "participantes": [],
-"debateMin": 30,
+"debateMin": 18,
 "capacidad": 66
 },
 {
@@ -4261,5 +4281,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-17T17:50:10.909329+00:00"
+"generado": "2026-10-17T20:09:08.247676+00:00"
 }
