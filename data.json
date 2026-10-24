@@ -3339,6 +3339,26 @@
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
 "avisoSinSesion": false
+},
+{
+"codigo": "COM-202",
+"titulo": "Literatura infantil y juvenil e inteligencia artificial generativa en el aula: protocolo de revisión de alcance",
+"tituloHtml": null,
+"autor": "Jesús Dueñas Ramos (Universidad Nebrija, Madrid)",
+"dia": null,
+"inicio": null,
+"fin": null,
+"aula": null,
+"eje": "Inteligencia artificial y tecnologías emergentes",
+"tipo": "Comunicación",
+"estado": "Sin programar",
+"orden": null,
+"sesionCodigo": null,
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
 }
 ],
 "sesiones": [
@@ -4041,5 +4061,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-23T21:00:28.451420+00:00"
+"generado": "2026-10-24T03:22:40.981723+00:00"
 }
