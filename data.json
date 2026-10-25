@@ -2748,7 +2748,7 @@
 "dia": "Viernes 27",
 "inicio": "09:30",
 "fin": "09:42",
-"aula": "Aula 1.05",
+"aula": "Aula 2.12",
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
@@ -2868,7 +2868,7 @@
 "dia": "Viernes 27",
 "inicio": "09:42",
 "fin": "09:54",
-"aula": "Aula 1.05",
+"aula": "Aula 2.12",
 "eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
@@ -2988,7 +2988,7 @@
 "dia": "Viernes 27",
 "inicio": "09:54",
 "fin": "10:06",
-"aula": "Aula 1.05",
+"aula": "Aula 2.12",
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
@@ -3108,7 +3108,7 @@
 "dia": "Viernes 27",
 "inicio": "10:06",
 "fin": "10:18",
-"aula": "Aula 1.05",
+"aula": "Aula 2.12",
 "eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
@@ -3228,7 +3228,7 @@
 "dia": "Viernes 27",
 "inicio": "10:18",
 "fin": "10:30",
-"aula": "Aula 1.05",
+"aula": "Aula 2.12",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "tipo": "Comunicación",
 "estado": "Programado",
@@ -3308,7 +3308,7 @@
 "dia": "Viernes 27",
 "inicio": "10:30",
 "fin": "10:42",
-"aula": "Aula 1.05",
+"aula": "Aula 2.12",
 "eje": "Educación bilingüe",
 "tipo": "Comunicación",
 "estado": "Programado",
@@ -3984,7 +3984,7 @@
 "dia": "Viernes 27",
 "inicio": "09:30",
 "fin": "11:00",
-"aula": "Aula 1.05",
+"aula": "Aula 2.12",
 "tipo": "Mesa",
 "eje": "Interculturalidad",
 "estado": "Confirmada",
@@ -3992,7 +3992,7 @@
 "ponente": null,
 "participantes": [],
 "debateMin": 18,
-"capacidad": 70
+"capacidad": null
 },
 {
 "codigo": "SES-042",
@@ -4061,5 +4061,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-25T15:35:06.388858+00:00"
+"generado": "2026-10-25T20:24:10.450959+00:00"
 }
