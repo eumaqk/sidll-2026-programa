@@ -181,15 +181,15 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-7",
-"titulo": "Femicuentos como mediación lectora crítica: identidad lectora, literacidad de género y agencia comunicativa en diversificación curricular",
+"codigo": "COM-85",
+"titulo": "Creación colaborativa de pódcast con apoyo de inteligencia artificial en la enseñanza de literatura dramática en educación superior artística",
 "tituloHtml": null,
-"autor": "María Esther Aguilera Pérez (Universidad de Málaga)",
+"autor": "Nílofer Khan (Universidad de Málaga) · Eugenio Maqueda Cuenca (Universidad de Málaga) · Juan Zagalaz (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "11:42",
 "fin": "11:54",
 "aula": "Aula 2.25",
-"eje": "Multimodalidad",
+"eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 2,
@@ -1521,10 +1521,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-85",
-"titulo": "Creación colaborativa de pódcast con apoyo de inteligencia artificial en la enseñanza de literatura dramática en educación superior artística",
-"tituloHtml": null,
-"autor": "Nílofer Khan (Universidad de Málaga) · Eugenio Maqueda Cuenca (Universidad de Málaga) · Juan Zagalaz (Universidad de Málaga)",
+"codigo": "COM-168",
+"titulo": "Artificial intelligence in EFL pre-service teachers’ development of higher-order thinking skills in AI-assisted learning tasks",
+"tituloHtml": "<i>Artificial intelligence in EFL pre-service teachers’ development of higher-order thinking skills in AI-assisted learning tasks</i>",
+"autor": "Ariadna Serón Navas (Universidad de Málaga) · Cristina Vereda Alonso (Universidad de Málaga) · Anna Grazyna Szczesniak (Universidad de Málaga) · Cristina Castillo Rodríguez (Universidad de Málaga)",
 "dia": "Miércoles 25",
 "inicio": "17:00",
 "fin": "17:12",
@@ -1641,10 +1641,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-168",
-"titulo": "Artificial intelligence in EFL pre-service teachers’ development of higher-order thinking skills in AI-assisted learning tasks",
-"tituloHtml": "<i>Artificial intelligence in EFL pre-service teachers’ development of higher-order thinking skills in AI-assisted learning tasks</i>",
-"autor": "Ariadna Serón Navas (Universidad de Málaga) · Cristina Vereda Alonso (Universidad de Málaga) · Anna Grazyna Szczesniak (Universidad de Málaga) · Cristina Castillo Rodríguez (Universidad de Málaga)",
+"codigo": "COM-83",
+"titulo": "Un modelo de retroalimentación formativa asistida por GPT para ensayos académicos: apoyo a docentes y estudiantes del programa LEAFID",
+"tituloHtml": null,
+"autor": "Marcela Jarpa Azagra (Pontificia Universidad Católica de Valparaíso) · Mónica Tapia Ladino (Universidad Católica de la Santísima Concepción) · Florencia Alcaino Muñoz (Pontificia Universidad Católica de Valparaíso)",
 "dia": "Miércoles 25",
 "inicio": "17:12",
 "fin": "17:24",
@@ -1754,26 +1754,6 @@
 "estado": "Programado",
 "orden": 2,
 "sesionCodigo": "SES-012",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-83",
-"titulo": "Un modelo de retroalimentación formativa asistida por GPT para ensayos académicos: apoyo a docentes y estudiantes del programa LEAFID",
-"tituloHtml": null,
-"autor": "Marcela Jarpa Azagra (Pontificia Universidad Católica de Valparaíso) · Mónica Tapia Ladino (Universidad Católica de la Santísima Concepción) · Florencia Alcaino Muñoz (Pontificia Universidad Católica de Valparaíso)",
-"dia": "Miércoles 25",
-"inicio": "17:24",
-"fin": "17:36",
-"aula": "Aula 0.01",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3,
-"sesionCodigo": "SES-045",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -2494,6 +2474,26 @@
 "estado": "Programado",
 "orden": 5,
 "sesionCodigo": "SES-025",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
+"codigo": "COM-7",
+"titulo": "Femicuentos como mediación lectora crítica: identidad lectora, literacidad de género y agencia comunicativa en diversificación curricular",
+"tituloHtml": null,
+"autor": "María Esther Aguilera Pérez (Universidad de Málaga)",
+"dia": "Jueves 26",
+"inicio": "09:48",
+"fin": "10:00",
+"aula": "Aula 0.04",
+"eje": "Multimodalidad",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 5,
+"sesionCodigo": "SES-027",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -3695,7 +3695,7 @@
 "moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 24,
+"debateMin": 36,
 "capacidad": 66
 },
 {
@@ -3807,7 +3807,7 @@
 "moderacion": "María Eugenia Acedo Tapia (Centro Universitario de Antequera M.ª Inmaculada)",
 "ponente": null,
 "participantes": [],
-"debateMin": 42,
+"debateMin": 30,
 "capacidad": 80
 },
 {
@@ -4061,5 +4061,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-28T12:09:08.823279+00:00"
+"generado": "2026-10-28T20:05:03.753697+00:00"
 }
