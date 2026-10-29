@@ -3341,6 +3341,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-203",
+"titulo": "Learner-centred beliefs among teachers of Spanish as a foreign language: the importance of teacher education",
+"tituloHtml": null,
+"autor": "Rosa Morey Rodríguez (Universidad de Granada) · José Luis Ortega Martín (Universidad de Granada) · Carolina Fernández Jiménez (Universidad de Granada)",
+"dia": null,
+"inicio": null,
+"fin": null,
+"aula": null,
+"eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
+"tipo": "Comunicación",
+"estado": "Sin programar",
+"orden": null,
+"sesionCodigo": null,
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-202",
 "titulo": "Literatura infantil y juvenil e inteligencia artificial generativa en el aula: protocolo de revisión de alcance",
 "tituloHtml": null,
@@ -4061,5 +4081,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-29T09:22:23.648356+00:00"
+"generado": "2026-10-29T18:02:21.707403+00:00"
 }
