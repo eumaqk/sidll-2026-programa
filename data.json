@@ -3341,6 +3341,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-204",
+"titulo": "Aprender a gestionar el aula: modelado pedagógico y voz del alumnado en la co-construcción del clima de aprendizaje en la formación inicial de maestros de inglés",
+"tituloHtml": null,
+"autor": "M.ª del Pilar Montijano Cabrera (Universidad de Málaga)",
+"dia": null,
+"inicio": null,
+"fin": null,
+"aula": null,
+"eje": null,
+"tipo": "Comunicación",
+"estado": "Sin programar",
+"orden": null,
+"sesionCodigo": null,
+"estadoTrabajo": "Aceptado",
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-203",
 "titulo": "Learner-centred beliefs among teachers of Spanish as a foreign language: the importance of teacher education",
 "tituloHtml": null,
@@ -4081,5 +4101,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-31T04:09:58.800008+00:00"
+"generado": "2026-10-31T11:42:59.462692+00:00"
 }
