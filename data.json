@@ -1341,15 +1341,15 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-58",
-"titulo": "Narrar sense paraules, educar per al futur: el potencial ecosocial de l’àlbum il·lustrat",
+"codigo": "COM-100",
+"titulo": "Competencia literaria y pruebas EBAU en la Comunidad Valenciana",
 "tituloHtml": null,
-"autor": "Maria Elora Flordelís Esteve (Universitat de València)",
+"autor": "Fernando Marín Martí (IES Sucro)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
 "fin": "16:24",
 "aula": "Salón de actos",
-"eje": "Multimodalidad",
+"eje": "Educación literaria",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 2,
@@ -1461,20 +1461,20 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-100",
-"titulo": "Competencia literaria y pruebas EBAU en la Comunidad Valenciana",
+"codigo": "COM-127",
+"titulo": "Des-versando el aula: una propuesta multimodal de investigación-acción para reconectar con la poesía",
 "tituloHtml": null,
-"autor": "Fernando Marín Martí (IES Sucro)",
+"autor": "Coral Palomero Seijas (Universidad de Valencia)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
 "fin": "16:36",
 "aula": "Salón de actos",
-"eje": "Educación literaria",
+"eje": "Multimodalidad",
 "tipo": "Comunicación de simposio",
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-036",
-"estadoTrabajo": "Revisar",
+"estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -1501,10 +1501,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-127",
-"titulo": "Des-versando el aula: una propuesta multimodal de investigación-acción para reconectar con la poesía",
+"codigo": "COM-58",
+"titulo": "Narrar sense paraules, educar per al futur: el potencial ecosocial de l’àlbum il·lustrat",
 "tituloHtml": null,
-"autor": "Coral Palomero Seijas (Universidad de Valencia)",
+"autor": "Maria Elora Flordelís Esteve (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "16:36",
 "fin": "16:48",
@@ -1514,7 +1514,7 @@
 "estado": "Programado",
 "orden": 4,
 "sesionCodigo": "SES-036",
-"estadoTrabajo": null,
+"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -4101,5 +4101,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-10-31T20:59:55.743419+00:00"
+"generado": "2026-11-01T00:00:22.428976+00:00"
 }
