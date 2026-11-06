@@ -284,6 +284,10 @@ def build_trabajos(personas_map, sesiones_map, sesiones_sin_comunicaciones_visib
 
 def build_sesiones(personas_map):
     pages = query_data_source(SESIONES_DS_ID)
+    # Una sesión con Estado = "Cerrada" (mesa de reserva sin comunicaciones)
+    # se conserva en Notion pero no se publica en el Visor. Para volver a
+    # usarla basta con poner su Estado = "Confirmada".
+    pages = [pg for pg in pages if prop(pg, "Estado") != "Cerrada"]
     out = []
     sesiones_sin_comunicaciones_visibles = set()
     for pg in pages:
