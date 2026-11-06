@@ -1181,26 +1181,6 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-164",
-"titulo": "Espacios para la comunicación oral en las aulas universitarias: retos y oportunidades en la formación inicial del profesorado",
-"tituloHtml": null,
-"autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
-"dia": "Miércoles 25",
-"inicio": "16:00",
-"fin": "16:12",
-"aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 1,
-"sesionCodigo": "SES-044",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
 "codigo": "COM-39",
 "titulo": "Memoria democrática y literatura juvenil: la guerra civil y el franquismo en la narrativa española contemporánea para adolescentes",
 "tituloHtml": null,
@@ -1301,26 +1281,6 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-16",
-"titulo": "El teatro como herramienta para la mejora de competencias lingüísticas y sociales en el marco de los ODS",
-"tituloHtml": null,
-"autor": "Óscar Barros González (Universidad de Cantabria) · María Adelina Calvo Salvador (Universidad de Cantabria)",
-"dia": "Miércoles 25",
-"inicio": "16:12",
-"fin": "16:24",
-"aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 2,
-"sesionCodigo": "SES-044",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
 "codigo": "COM-101",
 "titulo": "Lectura crítica y educación literaria en la era de la inteligencia artificial generativa: cosmicismo lovecraftiano y alfabetización interpretativa en entornos mediados por IA",
 "tituloHtml": null,
@@ -1381,6 +1341,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-164",
+"titulo": "Espacios para la comunicación oral en las aulas universitarias: retos y oportunidades en la formación inicial del profesorado",
+"tituloHtml": null,
+"autor": "Maite Santiago-Garabieta (Universidad del País Vasco (EHU))",
+"dia": "Miércoles 25",
+"inicio": "16:24",
+"fin": "16:36",
+"aula": "Aula 0.04",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 3,
+"sesionCodigo": "SES-016",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-29",
 "titulo": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de Huelga en el puerto",
 "tituloHtml": "Leer desde el conflicto social: recursos tecnológicos, motivación lectora y revisión del canon en educación secundaria a través de <i>Huelga en el puerto</i>",
@@ -1434,6 +1414,26 @@
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-036",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
+"codigo": "COM-16",
+"titulo": "El teatro como herramienta para la mejora de competencias lingüísticas y sociales en el marco de los ODS",
+"tituloHtml": null,
+"autor": "Óscar Barros González (Universidad de Cantabria) · María Adelina Calvo Salvador (Universidad de Cantabria)",
+"dia": "Miércoles 25",
+"inicio": "16:36",
+"fin": "16:48",
+"aula": "Aula 0.04",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 4,
+"sesionCodigo": "SES-016",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -3655,7 +3655,7 @@
 "moderacion": "M.ª del Pilar Montijano Cabrera (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 36,
+"debateMin": 12,
 "capacidad": 80
 },
 {
@@ -3673,22 +3673,6 @@
 "participantes": [],
 "debateMin": 12,
 "capacidad": 66
-},
-{
-"codigo": "SES-044",
-"sesion": "Mesa P3 — Objetivos de Desarrollo Sostenible",
-"dia": "Miércoles 25",
-"inicio": "16:00",
-"fin": "17:00",
-"aula": "Aula 0.12",
-"tipo": "Mesa",
-"eje": "Objetivos de Desarrollo Sostenible",
-"estado": "Confirmada",
-"moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
-"ponente": null,
-"participantes": [],
-"debateMin": 36,
-"capacidad": 64
 },
 {
 "codigo": "SES-010",
@@ -4101,5 +4085,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-06T18:15:57.634159+00:00"
+"generado": "2026-11-06T18:26:44.559823+00:00"
 }
