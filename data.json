@@ -1301,10 +1301,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-53",
-"titulo": "Ecocrítica y didáctica literaria: hacia una pedagogía de la conciencia ecológica",
+"codigo": "COM-16",
+"titulo": "El teatro como herramienta para la mejora de competencias lingüísticas y sociales en el marco de los ODS",
 "tituloHtml": null,
-"autor": "Andrea Felipe Morales (Universidad de Málaga) · María Aurora García Ruiz (Universidad de Málaga)",
+"autor": "Óscar Barros González (Universidad de Cantabria) · María Adelina Calvo Salvador (Universidad de Cantabria)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
 "fin": "16:24",
@@ -1395,26 +1395,6 @@
 "orden": 3,
 "sesionCodigo": "SES-047",
 "estadoTrabajo": "Revisar",
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-16",
-"titulo": "El teatro como herramienta para la mejora de competencias lingüísticas y sociales en el marco de los ODS",
-"tituloHtml": null,
-"autor": "Óscar Barros González (Universidad de Cantabria) · María Adelina Calvo Salvador (Universidad de Cantabria)",
-"dia": "Miércoles 25",
-"inicio": "16:24",
-"fin": "16:36",
-"aula": "Aula 0.12",
-"eje": "Objetivos de Desarrollo Sostenible",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 3,
-"sesionCodigo": "SES-044",
-"estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -3361,6 +3341,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-53",
+"titulo": "Ecocrítica y didáctica literaria: hacia una pedagogía de la conciencia ecológica",
+"tituloHtml": null,
+"autor": "Andrea Felipe Morales (Universidad de Málaga) · María Aurora García Ruiz (Universidad de Málaga)",
+"dia": "Viernes 27",
+"inicio": "10:30",
+"fin": "10:42",
+"aula": "Aula 0.16",
+"eje": "Objetivos de Desarrollo Sostenible",
+"tipo": "Comunicación",
+"estado": "Programado",
+"orden": 6,
+"sesionCodigo": "SES-032",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-94",
 "titulo": "Formación inicial docente y revitalización lingüística: una propuesta desde la educación infantil en Galicia",
 "tituloHtml": null,
@@ -3687,7 +3687,7 @@
 "moderacion": "Gabriel Núñez Molina (Universidad de Extremadura)",
 "ponente": null,
 "participantes": [],
-"debateMin": 24,
+"debateMin": 36,
 "capacidad": 64
 },
 {
@@ -4015,7 +4015,7 @@
 "moderacion": "Ariadna Serón Navas (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 30,
+"debateMin": 18,
 "capacidad": 66
 },
 {
@@ -4101,5 +4101,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-06T16:46:40.851902+00:00"
+"generado": "2026-11-06T18:15:57.634159+00:00"
 }
