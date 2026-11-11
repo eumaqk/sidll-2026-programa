@@ -3499,7 +3499,7 @@
 "sesion": "Mesa P4 — Educación bilingüe",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Aula 0.07",
 "tipo": "Mesa",
 "eje": "Educación bilingüe",
@@ -3507,7 +3507,7 @@
 "moderacion": "María Remedios Fernández Ruiz (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 15,
+"debateMin": 12,
 "capacidad": 66
 },
 {
@@ -3515,7 +3515,7 @@
 "sesion": "Mesa P6 — Educación literaria",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Aula 0.10",
 "tipo": "Mesa",
 "eje": "Educación literaria",
@@ -3523,7 +3523,7 @@
 "moderacion": "J. Alejandro Rodríguez Ayllón (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 15,
+"debateMin": 12,
 "capacidad": 66
 },
 {
@@ -3531,7 +3531,7 @@
 "sesion": "Mesa P6 — Educación literaria",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Aula 0.11",
 "tipo": "Mesa",
 "eje": "Educación literaria",
@@ -3539,7 +3539,7 @@
 "moderacion": "Nieves Muriel García (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 30,
+"debateMin": 12,
 "capacidad": null
 },
 {
@@ -3547,7 +3547,7 @@
 "sesion": "Mesa P5 — Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Aula 0.16",
 "tipo": "Mesa",
 "eje": "Didáctica de la Lengua y la Literatura en lenguas extranjeras o segundas lenguas",
@@ -3555,7 +3555,7 @@
 "moderacion": "Cristina Navas Romero (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 18,
+"debateMin": 12,
 "capacidad": 66
 },
 {
@@ -3563,7 +3563,7 @@
 "sesion": "SIMPOSIO · Documentación científica de prácticas para el aprendizaje de la lengua implementadas en centros educativos rurales de León. Resultados preliminares",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Aula 2.25",
 "tipo": "Simposio",
 "eje": "Objetivos de Desarrollo Sostenible",
@@ -3571,7 +3571,7 @@
 "moderacion": "Juan Lucas Onieva López (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 42,
+"debateMin": 12,
 "capacidad": 60
 },
 {
@@ -3579,7 +3579,7 @@
 "sesion": "SIMPOSIO · El vídeo como mediador de la reflexión y del desarrollo profesional docente en contextos plurilingües",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Sala de grados",
 "tipo": "Simposio",
 "eje": "Multimodalidad",
@@ -3587,7 +3587,7 @@
 "moderacion": "Alícia Martí-Climent (Universitat de València)",
 "ponente": null,
 "participantes": [],
-"debateMin": 42,
+"debateMin": 12,
 "capacidad": 90
 },
 {
@@ -3595,7 +3595,7 @@
 "sesion": "SIMPOSIO · Didáctica de la lengua y la literatura en contextos universitarios\nSimposio Elcis 4: Proyecto del Ministerio de Ciencia e Innovación, ref. PID2022-139640NB-I00 y Proyecto I+D+I de la Conselleria d’Educació, Universitats i Ocupació de la Generalitat Valenciana, ref. CIAICO/2023/104",
 "dia": "Miércoles 25",
 "inicio": "13:00",
-"fin": "14:30",
+"fin": "14:00",
 "aula": "Salón de actos",
 "tipo": "Simposio",
 "eje": "Educación literaria",
@@ -3603,7 +3603,7 @@
 "moderacion": "Josep Ballester Roca (Universitat de València)",
 "ponente": null,
 "participantes": [],
-"debateMin": 24,
+"debateMin": 12,
 "capacidad": 272
 },
 {
@@ -4024,7 +4024,7 @@
 "tipo": "Simposio",
 "eje": "Educación literaria",
 "estado": "Confirmada",
-"moderacion": "Marta Larragueta Arribas (Universidad Complutense de Madrid)",
+"moderacion": "Miguel Ángel Martín-Hervás (Universidad Complutense de Madrid)",
 "ponente": null,
 "participantes": [],
 "debateMin": 42,
@@ -4065,5 +4065,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-11T13:36:05.365404+00:00"
+"generado": "2026-11-11T21:44:14.804972+00:00"
 }
