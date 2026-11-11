@@ -3161,10 +3161,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-69",
-"titulo": "La retroalimentación digital en la escritura académica: usos, percepciones y sugerencias de estudiantes y docentes en la formación inicial de profesores",
+"codigo": "COM-130",
+"titulo": "Uso de chatbots conversacionales para desarrollar la competencia comunicativa con alumnado de ELE",
 "tituloHtml": null,
-"autor": "Emmy González Lillo (Universidad de O’Higgins) · María Teresa Mateo-Girona (Universidad Complutense de Madrid)",
+"autor": "Aída Bárbara Parrales Rodríguez (Universidá d’Uviéu) · Concepción Francos Maldonado (Universidá d’Uviéu)",
 "dia": "Viernes 27",
 "inicio": "10:06",
 "fin": "10:18",
@@ -3281,10 +3281,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-130",
-"titulo": "Uso de chatbots conversacionales para desarrollar la competencia comunicativa con alumnado de ELE",
+"codigo": "COM-64",
+"titulo": "Exámenes de lenguas de acceso a la universidad en el mundo",
 "tituloHtml": null,
-"autor": "Aída Bárbara Parrales Rodríguez (Universidá d’Uviéu) · Concepción Francos Maldonado (Universidá d’Uviéu)",
+"autor": "Jesús García Laborda (Universidad de Alcalá)",
 "dia": "Viernes 27",
 "inicio": "10:18",
 "fin": "10:30",
@@ -3374,26 +3374,6 @@
 "estado": "Programado",
 "orden": 6,
 "sesionCodigo": "SES-039",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
-"codigo": "COM-64",
-"titulo": "Exámenes de lenguas de acceso a la universidad en el mundo",
-"tituloHtml": null,
-"autor": "Jesús García Laborda (Universidad de Alcalá)",
-"dia": "Viernes 27",
-"inicio": "10:30",
-"fin": "10:42",
-"aula": "Sala de grados",
-"eje": "Inteligencia artificial y tecnologías emergentes",
-"tipo": "Comunicación",
-"estado": "Programado",
-"orden": 6,
-"sesionCodigo": "SES-042",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -4031,7 +4011,7 @@
 "moderacion": "Rocío Escudero Sánchez (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
-"debateMin": 18,
+"debateMin": 30,
 "capacidad": 90
 },
 {
@@ -4085,5 +4065,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-11T04:47:46.032228+00:00"
+"generado": "2026-11-11T13:36:05.365404+00:00"
 }
