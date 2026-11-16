@@ -2361,20 +2361,20 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-84",
-"titulo": "La voz de Raquel Lanseros en las aulas de secundaria: situaciones de aprendizaje para un canon escolar más justo",
+"codigo": "COM-102",
+"titulo": "Desarrollo de la interculturalidad en narrativas visuales sobre el colonialismo inglés en Chile",
 "tituloHtml": null,
-"autor": "Víctor Abel Jiménez Jódar (Universidad de Almería)",
+"autor": "Francisco Antonio Martínez-Carratalá (Universitat d’Alacant) · Mónica Ruiz-Bañuls (Universitat d’Alacant)",
 "dia": "Jueves 26",
 "inicio": "09:24",
 "fin": "09:36",
 "aula": "Sala de grados",
-"eje": "Educación literaria",
+"eje": "Interculturalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-028",
-"estadoTrabajo": "Revisar",
+"estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -2681,20 +2681,20 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-102",
-"titulo": "Desarrollo de la interculturalidad en narrativas visuales sobre el colonialismo inglés en Chile",
+"codigo": "COM-84",
+"titulo": "La voz de Raquel Lanseros en las aulas de secundaria: situaciones de aprendizaje para un canon escolar más justo",
 "tituloHtml": null,
-"autor": "Francisco Antonio Martínez-Carratalá (Universitat d’Alacant) · Mónica Ruiz-Bañuls (Universitat d’Alacant)",
+"autor": "Víctor Abel Jiménez Jódar (Universidad de Almería)",
 "dia": "Jueves 26",
 "inicio": "10:00",
 "fin": "10:12",
 "aula": "Aula 0.04",
-"eje": "Interculturalidad",
+"eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 6,
 "sesionCodigo": "SES-027",
-"estadoTrabajo": null,
+"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -4372,5 +4372,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-16T21:39:43.306384+00:00"
+"generado": "2026-11-16T23:07:44.602886+00:00"
 }
