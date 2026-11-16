@@ -3551,12 +3551,12 @@
 "moderacion": null,
 "ponente": null,
 "participantes": [
-"D. Eugenio Maqueda Cuenca, presidente del XXVII Congreso Internacional de la SIDLL",
-"D. Josep Ballester Roca, presidente de la Sociedad Internacional de Didáctica de la Lengua y la Literatura (SIDLL)",
 "D. Pedro Jesús Maireles Torres, vicerrector de Investigación y Divulgación Científica de la Universidad de Málaga",
+"D.ª María Jesús Vera Carrillo, secretaria general provincial de Universidad, Investigación e Innovación de la Junta de Andalucía en Málaga",
 "D.ª Carmen Vaquero Cañestro, decana de la Facultad de Ciencias de la Educación de la Universidad de Málaga",
-"D.ª Inmaculada Clotilde Santos Díaz, presidenta del XXVII Congreso Internacional de la SIDLL",
-"D.ª María Jesús Vera Carrillo, secretaria general provincial de Universidad, Investigación e Innovación de la Junta de Andalucía en Málaga"
+"D. Josep Ballester Roca, presidente de la Sociedad Internacional de Didáctica de la Lengua y la Literatura (SIDLL)",
+"D. Eugenio Maqueda Cuenca, presidente del XXVII Congreso Internacional de la SIDLL",
+"D.ª Inmaculada Clotilde Santos Díaz, presidenta del XXVII Congreso Internacional de la SIDLL"
 ],
 "debateMin": null,
 "capacidad": 272
@@ -4372,5 +4372,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-16T18:57:13.151641+00:00"
+"generado": "2026-11-16T19:11:12.366433+00:00"
 }

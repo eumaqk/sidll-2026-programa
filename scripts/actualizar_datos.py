@@ -301,11 +301,13 @@ def build_sesiones(personas_map):
         moderacion_ids = extract_relation_ids((pg.get("properties") or {}).get("Moderación / coordinación"))
         moderacion = join_names([personas_map.get(pid) for pid in moderacion_ids])
         participantes_bruto = prop(pg, "Participantes")
-        participantes = sorted(
-            (linea.strip() for linea in (participantes_bruto or "").splitlines() if linea.strip()),
-            key=str.casefold,
-        )
         tipo = prop(pg, "Tipo")
+        participantes = [linea.strip() for linea in (participantes_bruto or "").splitlines() if linea.strip()]
+        # Mismo criterio que SIDLL_GENERADOR (models/session.py): orden
+        # alfabético en las mesas redondas; en los actos institucionales
+        # (p. ej. la inauguración), el orden de protocolo escrito en Notion.
+        if tipo != "Institucional":
+            participantes.sort(key=str.casefold)
         if tipo == "Plenaria" or participantes:
             # Mismo criterio que SIDLL_GENERADOR/src/sidll/renderers al
             # ocultar la lista de comunicaciones en el .docx: una
