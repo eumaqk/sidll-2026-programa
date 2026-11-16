@@ -21,26 +21,6 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-206",
-"titulo": "Acto de inauguración",
-"tituloHtml": null,
-"autor": null,
-"dia": "Miércoles 25",
-"inicio": "09:15",
-"fin": "09:45",
-"aula": "Salón de actos",
-"eje": null,
-"tipo": "Otro",
-"estado": "Programado",
-"orden": null,
-"sesionCodigo": "SES-054",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
-},
-{
 "codigo": "COM-207",
 "titulo": "Intervención literario-musical",
 "tituloHtml": null,
@@ -1188,7 +1168,7 @@
 "dia": "Miércoles 25",
 "inicio": "14:00",
 "fin": "14:30",
-"aula": "Salón de actos",
+"aula": "Sala de grados",
 "eje": null,
 "tipo": "Otro",
 "estado": "Programado",
@@ -3508,7 +3488,7 @@
 "dia": "Viernes 27",
 "inicio": "12:30",
 "fin": "13:30",
-"aula": "Salón de actos",
+"aula": "Sala de grados",
 "eje": null,
 "tipo": "Otro",
 "estado": "Programado",
@@ -3528,7 +3508,7 @@
 "dia": "Viernes 27",
 "inicio": "13:30",
 "fin": "14:00",
-"aula": "Salón de actos",
+"aula": "Sala de grados",
 "eje": null,
 "tipo": "Otro",
 "estado": "Programado",
@@ -3570,7 +3550,14 @@
 "estado": "Confirmada",
 "moderacion": null,
 "ponente": null,
-"participantes": [],
+"participantes": [
+"D. Eugenio Maqueda Cuenca, presidente del XXVII Congreso Internacional de la SIDLL",
+"D. Josep Ballester Roca, presidente de la Sociedad Internacional de Didáctica de la Lengua y la Literatura (SIDLL)",
+"D. Pedro Jesús Maireles Torres, vicerrector de Investigación y Divulgación Científica de la Universidad de Málaga",
+"D.ª Carmen Vaquero Cañestro, decana de la Facultad de Ciencias de la Educación de la Universidad de Málaga",
+"D.ª Inmaculada Clotilde Santos Díaz, presidenta del XXVII Congreso Internacional de la SIDLL",
+"D.ª María Jesús Vera Carrillo, secretaria general provincial de Universidad, Investigación e Innovación de la Junta de Andalucía en Málaga"
+],
 "debateMin": null,
 "capacidad": 272
 },
@@ -3820,7 +3807,7 @@
 "dia": "Miércoles 25",
 "inicio": "14:00",
 "fin": "14:30",
-"aula": "Salón de actos",
+"aula": "Sala de grados",
 "tipo": "Institucional",
 "eje": null,
 "estado": "Confirmada",
@@ -3828,7 +3815,7 @@
 "ponente": null,
 "participantes": [],
 "debateMin": null,
-"capacidad": 272
+"capacidad": 90
 },
 {
 "codigo": "SES-043",
@@ -4340,7 +4327,7 @@
 "dia": "Viernes 27",
 "inicio": "12:30",
 "fin": "13:30",
-"aula": "Salón de actos",
+"aula": "Sala de grados",
 "tipo": "Institucional",
 "eje": null,
 "estado": "Confirmada",
@@ -4348,7 +4335,7 @@
 "ponente": null,
 "participantes": [],
 "debateMin": null,
-"capacidad": 272
+"capacidad": 90
 },
 {
 "codigo": "SES-062",
@@ -4356,7 +4343,7 @@
 "dia": "Viernes 27",
 "inicio": "13:30",
 "fin": "14:00",
-"aula": "Salón de actos",
+"aula": "Sala de grados",
 "tipo": "Institucional",
 "eje": null,
 "estado": "Confirmada",
@@ -4364,7 +4351,7 @@
 "ponente": null,
 "participantes": [],
 "debateMin": null,
-"capacidad": 272
+"capacidad": 90
 }
 ],
 "aulasCapacidad": {
@@ -4385,5 +4372,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-16T16:26:15.694197+00:00"
+"generado": "2026-11-16T18:57:13.151641+00:00"
 }
