@@ -621,10 +621,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-49",
-"titulo": "Educación literaria comunitaria, mediación lectora y memoria cultural en los proyectos de promoción lectora de Velia Vidal",
+"codigo": "COM-1",
+"titulo": "De la explicación a la interpretación: expansión narrativa y competencia lectoliteraria en la enseñanza de la poesía",
 "tituloHtml": null,
-"autor": "Janneth Español Casallas (Universidad de Jaén)",
+"autor": "Leonel Abarzúa (Universitat de Barcelona) · Alba Ambrós-Pallarés (Universitat de Barcelona)",
 "dia": "Miércoles 25",
 "inicio": "13:00",
 "fin": "13:12",
@@ -781,10 +781,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-1",
-"titulo": "De la explicación a la interpretación: expansión narrativa y competencia lectoliteraria en la enseñanza de la poesía",
+"codigo": "COM-49",
+"titulo": "Educación literaria comunitaria, mediación lectora y memoria cultural en los proyectos de promoción lectora de Velia Vidal",
 "tituloHtml": null,
-"autor": "Leonel Abarzúa (Universitat de Barcelona) · Alba Ambrós-Pallarés (Universitat de Barcelona)",
+"autor": "Janneth Español Casallas (Universidad de Jaén)",
 "dia": "Miércoles 25",
 "inicio": "13:12",
 "fin": "13:24",
@@ -921,15 +921,15 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-2",
-"titulo": "Lectura crítica y pensamiento histórico ante la desinformación: un enfoque interdisciplinar en la formación de maestros",
-"tituloHtml": null,
-"autor": "Leonel Abarzúa (Universitat de Barcelona) · Concha Fuentes-Moreno (Universitat de Barcelona)",
+"codigo": "COM-75",
+"titulo": "Nara (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
+"tituloHtml": "<i>Nara</i> (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
+"autor": "Jesús Guzmán Mora (Universidad de Castilla-La Mancha)",
 "dia": "Miércoles 25",
 "inicio": "13:24",
 "fin": "13:36",
 "aula": "Aula 0.11",
-"eje": "Objetivos de Desarrollo Sostenible",
+"eje": "Educación literaria",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 3,
@@ -1041,15 +1041,15 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-75",
-"titulo": "Nara (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
-"tituloHtml": "<i>Nara</i> (Mónica Rodríguez, 2026): la guerra civil a través de la mirada de una niña",
-"autor": "Jesús Guzmán Mora (Universidad de Castilla-La Mancha)",
+"codigo": "COM-2",
+"titulo": "Lectura crítica y pensamiento histórico ante la desinformación: un enfoque interdisciplinar en la formación de maestros",
+"tituloHtml": null,
+"autor": "Leonel Abarzúa (Universitat de Barcelona) · Concha Fuentes-Moreno (Universitat de Barcelona)",
 "dia": "Miércoles 25",
 "inicio": "13:36",
 "fin": "13:48",
 "aula": "Aula 0.10",
-"eje": "Educación literaria",
+"eje": "Objetivos de Desarrollo Sostenible",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 4,
@@ -4372,5 +4372,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-18T02:43:59.322541+00:00"
+"generado": "2026-11-18T10:07:23.461146+00:00"
 }
