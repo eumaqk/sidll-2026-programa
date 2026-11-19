@@ -2981,20 +2981,20 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-61",
-"titulo": "La agencia del alumnado en la escritura académica en euskera: un estudio con estudiantes de educación en contextos de IA generativa",
+"codigo": "COM-92",
+"titulo": "Cuando el proyecto lingüístico de centro tumba fronteras: el caso de “Aquí tamén se fala”",
 "tituloHtml": null,
-"autor": "Ane Gabikagogeaskoa Pagonabarraga (Euskal Herriko Unibertsitatea) · Mari Mar Boillos Pereira (Euskal Herriko Unibertsitatea) · Asier Romero Andonegi (Euskal Herriko Unibertsitatea)",
+"autor": "Zósimo López Pena (Universidade de Santiago de Compostela)",
 "dia": "Viernes 27",
 "inicio": "09:42",
 "fin": "09:54",
 "aula": "Aula 0.16",
-"eje": "Inteligencia artificial y tecnologías emergentes",
+"eje": "Multimodalidad",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 2,
 "sesionCodigo": "SES-032",
-"estadoTrabajo": "Revisar",
+"estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -3081,20 +3081,20 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-92",
-"titulo": "Cuando el proyecto lingüístico de centro tumba fronteras: el caso de “Aquí tamén se fala”",
+"codigo": "COM-61",
+"titulo": "La agencia del alumnado en la escritura académica en euskera: un estudio con estudiantes de educación en contextos de IA generativa",
 "tituloHtml": null,
-"autor": "Zósimo López Pena (Universidade de Santiago de Compostela)",
+"autor": "Ane Gabikagogeaskoa Pagonabarraga (Euskal Herriko Unibertsitatea) · Mari Mar Boillos Pereira (Euskal Herriko Unibertsitatea) · Asier Romero Andonegi (Euskal Herriko Unibertsitatea)",
 "dia": "Viernes 27",
 "inicio": "09:54",
 "fin": "10:06",
 "aula": "Aula 0.09",
-"eje": "Multimodalidad",
+"eje": "Inteligencia artificial y tecnologías emergentes",
 "tipo": "Comunicación",
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-046",
-"estadoTrabajo": null,
+"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -4372,5 +4372,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-19T11:08:39.977886+00:00"
+"generado": "2026-11-19T11:18:39.675584+00:00"
 }
