@@ -1181,10 +1181,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-46",
-"titulo": "Más allá del imperativo: las formas verbales de obligación en los decálogos escolares del Corp-Egramint",
+"codigo": "COM-215",
+"titulo": "CORP-EGRAMINT: instrumento de investigación en educación lingüística y formación del profesorado en contextos multilingües",
 "tituloHtml": null,
-"autor": "Carme Durán Rivas (Universitat Autònoma de Barcelona) · Alícia Martí-Climent (Universitat de València)",
+"autor": "María Dolores García-Pastor (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "16:00",
 "fin": "16:12",
@@ -1194,7 +1194,7 @@
 "estado": "Programado",
 "orden": 1,
 "sesionCodigo": "SES-043",
-"estadoTrabajo": null,
+"estadoTrabajo": "Aceptado",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -1281,10 +1281,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-65",
-"titulo": "La influencia de variables pedagógicas en la escritura escolar: el uso de los adjetivos en inglés en Corp-Egramint",
+"codigo": "COM-46",
+"titulo": "Más allá del imperativo: las formas verbales de obligación en los decálogos escolares del Corp-Egramint",
 "tituloHtml": null,
-"autor": "María Dolores García-Pastor (Universitat de València) · Mar Martínez Celda (Universitat de València)",
+"autor": "Carme Durán Rivas (Universitat Autònoma de Barcelona) · Alícia Martí-Climent (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "16:12",
 "fin": "16:24",
@@ -1294,7 +1294,7 @@
 "estado": "Programado",
 "orden": 2,
 "sesionCodigo": "SES-043",
-"estadoTrabajo": "Revisar",
+"estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -1381,10 +1381,10 @@
 "avisoSinSesion": false
 },
 {
-"codigo": "COM-135",
-"titulo": "Las recetas disparatadas producidas por alumnado de secundaria: uso de formas verbales, conectores y otros recursos discursivos",
+"codigo": "COM-65",
+"titulo": "La influencia de variables pedagógicas en la escritura escolar: el uso de los adjetivos en inglés en Corp-Egramint",
 "tituloHtml": null,
-"autor": "Montserrat Pérez-Giménez (Universitat de València - GIEL) · Raquel Sanz-Moreno (Universitat de València)",
+"autor": "María Dolores García-Pastor (Universitat de València) · Mar Martínez Celda (Universitat de València)",
 "dia": "Miércoles 25",
 "inicio": "16:24",
 "fin": "16:36",
@@ -1394,7 +1394,7 @@
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-043",
-"estadoTrabajo": null,
+"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -1474,6 +1474,26 @@
 "estado": "Programado",
 "orden": 3,
 "sesionCodigo": "SES-036",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
+"codigo": "COM-135",
+"titulo": "Las recetas disparatadas producidas por alumnado de secundaria: uso de formas verbales, conectores y otros recursos discursivos",
+"tituloHtml": null,
+"autor": "Montserrat Pérez-Giménez (Universitat de València - GIEL) · Raquel Sanz-Moreno (Universitat de València)",
+"dia": "Miércoles 25",
+"inicio": "16:36",
+"fin": "16:48",
+"aula": "Aula 0.01",
+"eje": "Educación bilingüe",
+"tipo": "Comunicación de simposio",
+"estado": "Programado",
+"orden": 4,
+"sesionCodigo": "SES-043",
 "estadoTrabajo": null,
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
@@ -4356,5 +4376,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-20T09:49:44.470614+00:00"
+"generado": "2026-11-20T10:46:36.391702+00:00"
 }
