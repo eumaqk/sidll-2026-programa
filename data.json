@@ -3499,26 +3499,6 @@
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
 "avisoSinSesion": false
-},
-{
-"codigo": "COM-214",
-"titulo": "Clausura",
-"tituloHtml": null,
-"autor": null,
-"dia": "Viernes 27",
-"inicio": "13:30",
-"fin": "14:00",
-"aula": "Sala de grados",
-"eje": null,
-"tipo": "Otro",
-"estado": "Programado",
-"orden": null,
-"sesionCodigo": "SES-062",
-"estadoTrabajo": null,
-"avisoAulaDiscrepante": false,
-"avisoDiaDiscrepante": false,
-"avisoHoraFueraDeSesion": false,
-"avisoSinSesion": false
 }
 ],
 "sesiones": [
@@ -3552,7 +3532,7 @@
 "ponente": null,
 "participantes": [
 "D. Pedro Jesús Maireles Torres, vicerrector de Investigación y Divulgación Científica de la Universidad de Málaga",
-"D.ª María Jesús Vera Carrillo, secretaria general provincial de Universidad, Investigación e Innovación de la Junta de Andalucía en Málaga",
+"D. Jesús González Pastor, secretario general provincial de Universidad, Industria, Energía e Innovación de la Junta de Andalucía",
 "D.ª Carmen Vaquero Cañestro, decana de la Facultad de Ciencias de la Educación de la Universidad de Málaga",
 "D. Josep Ballester Roca, presidente de la Sociedad Internacional de Didáctica de la Lengua y la Literatura (SIDLL)",
 "D. Eugenio Maqueda Cuenca, presidente del XXVII Congreso Internacional de la SIDLL",
@@ -3811,7 +3791,7 @@
 "tipo": "Institucional",
 "eje": null,
 "estado": "Confirmada",
-"moderacion": null,
+"moderacion": "María Remedios Fernández Ruiz (Universidad de Málaga)",
 "ponente": null,
 "participantes": [],
 "debateMin": null,
@@ -4349,7 +4329,11 @@
 "estado": "Confirmada",
 "moderacion": null,
 "ponente": null,
-"participantes": [],
+"participantes": [
+"D. Josep Ballester Roca, presidente de la Sociedad Internacional de Didáctica de la Lengua y la Literatura (SIDLL)",
+"D. Eugenio Maqueda Cuenca, presidente del Congreso SIDLL",
+"D.ª Inmaculada Clotilde Santos Díaz, presidenta del Congreso SIDLL"
+],
 "debateMin": null,
 "capacidad": 90
 }
@@ -4372,5 +4356,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-20T02:01:12.928425+00:00"
+"generado": "2026-11-20T09:49:44.470614+00:00"
 }
