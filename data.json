@@ -3421,6 +3421,26 @@
 "avisoSinSesion": false
 },
 {
+"codigo": "COM-143",
+"titulo": "Laboratorio de lectura Roelibros",
+"tituloHtml": null,
+"autor": "Begoña Regueiro Salgado (Universidad Complutense de Madrid)",
+"dia": "Viernes 27",
+"inicio": "10:18",
+"fin": "10:30",
+"aula": "Salón de actos",
+"eje": "Educación literaria",
+"tipo": "Comunicación de simposio",
+"estado": "Programado",
+"orden": 5,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
 "codigo": "COM-78",
 "titulo": "Lectura dialógica y competencia narrativa oral en aulas hospitalarias",
 "tituloHtml": null,
@@ -3495,6 +3515,26 @@
 "orden": 6,
 "sesionCodigo": "SES-039",
 "estadoTrabajo": null,
+"avisoAulaDiscrepante": false,
+"avisoDiaDiscrepante": false,
+"avisoHoraFueraDeSesion": false,
+"avisoSinSesion": false
+},
+{
+"codigo": "COM-144",
+"titulo": "Tropos, biblioteca de escritura creativa digital para la enseñanza de la literatura",
+"tituloHtml": null,
+"autor": "Begoña Regueiro Salgado (Universidad Complutense de Madrid)",
+"dia": "Viernes 27",
+"inicio": "10:30",
+"fin": "10:42",
+"aula": "Salón de actos",
+"eje": "Educación literaria",
+"tipo": "Comunicación de simposio",
+"estado": "Programado",
+"orden": 6,
+"sesionCodigo": "SES-031",
+"estadoTrabajo": "Revisar",
 "avisoAulaDiscrepante": false,
 "avisoDiaDiscrepante": false,
 "avisoHoraFueraDeSesion": false,
@@ -4302,7 +4342,7 @@
 "moderacion": "Miguel Ángel Martín-Hervás (Universidad Complutense de Madrid)",
 "ponente": null,
 "participantes": [],
-"debateMin": 42,
+"debateMin": 18,
 "capacidad": 272
 },
 {
@@ -4376,5 +4416,5 @@
 "Aula 1.03": 86,
 "Aula 2.25": 60
 },
-"generado": "2026-11-21T10:39:25.455929+00:00"
+"generado": "2026-11-21T15:34:19.840335+00:00"
 }
